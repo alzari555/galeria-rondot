@@ -14,3 +14,14 @@ export const hashString = (str: string): number => {
   for (let i = 0; i < str.length; i++) h = ((h << 5) - h + str.charCodeAt(i)) | 0;
   return Math.abs(h);
 };
+
+export const resolveArtworkUrl = (url: string): string => {
+  if (!url) return "";
+  if (url.startsWith("http://") || url.startsWith("https://") || url.startsWith("data:")) {
+    return url;
+  }
+  if (url.startsWith("/")) {
+    return `.${url}`;
+  }
+  return url;
+};

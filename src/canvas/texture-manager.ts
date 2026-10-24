@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { resolveArtworkUrl } from "~/src/utils";
 import type { ArtworkItem } from "./types";
 
 const textureCache = new Map<string, THREE.Texture>();
@@ -11,7 +12,8 @@ const isTextureLoaded = (tex: THREE.Texture): boolean => {
 };
 
 export const getTexture = (item: ArtworkItem, onLoad?: (texture: THREE.Texture) => void): THREE.Texture => {
-  const key = item.url;
+  const resolvedUrl = resolveArtworkUrl(item.url);
+  const key = resolvedUrl;
   const existing = textureCache.get(key);
 
   if (existing) {

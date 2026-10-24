@@ -1,6 +1,7 @@
 import { ArrowDown, ArrowLeft, ArrowUp, Check, Copy, Mail, MessageCircle } from "lucide-react";
 import * as React from "react";
 import type { ArtworkStatus, FocusedTarget } from "~/src/canvas/types";
+import { resolveArtworkUrl } from "~/src/utils";
 import styles from "./style.module.css";
 
 const STATUS_CONFIG: Record<
@@ -215,7 +216,7 @@ export function EditorialView({
 
               <div className={styles.artworkPreviewCard}>
                 <img
-                  src={artwork.url}
+                  src={resolveArtworkUrl(artwork.url)}
                   alt={artwork.title}
                   className={styles.artworkPreviewImg}
                   loading="lazy"

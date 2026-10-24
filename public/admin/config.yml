@@ -4,7 +4,7 @@ backend:
   branch: main
 
 media_folder: "public/artworks"
-public_folder: "./artworks"
+public_folder: "/artworks"
 
 locale: "es"
 

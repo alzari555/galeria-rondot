@@ -1,6 +1,7 @@
 import { Search, Sparkles, X } from "lucide-react";
 import * as React from "react";
 import type { ArtworkItem } from "~/src/canvas/types";
+import { resolveArtworkUrl } from "~/src/utils";
 import styles from "./style.module.css";
 
 const normalizeText = (str: string) =>
@@ -146,7 +147,12 @@ export function SearchModal({
                       onClose();
                     }}
                   >
-                    <img src={item.url} alt={item.title} className={styles.resultThumb} loading="lazy" />
+                    <img
+                      src={resolveArtworkUrl(item.url)}
+                      alt={item.title}
+                      className={styles.resultThumb}
+                      loading="lazy"
+                    />
                     <div className={styles.resultInfo}>
                       <div className={styles.resultTitle}>{item.title}</div>
                       <div className={styles.resultMeta}>
