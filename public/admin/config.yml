@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: miguelrondot/galeria-rondot
+  repo: alzari555/galeria-rondot
   branch: main
 
 media_folder: "public/artworks"
