@@ -1,0 +1,454 @@
+/* Header & Floating Chrome (Kugiri aesthetic) */
+.header {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px clamp(16px, 4vw, 36px);
+  pointer-events: none;
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.headerHidden {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+.brandCluster {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 0.86);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-border);
+}
+
+.brandTitle {
+  margin: 0;
+  font: 500 16px / 1.2 var(--sans);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.brandSub {
+  font: 12px / 1.2 var(--mono);
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .brandSub {
+    display: none;
+  }
+}
+
+.actionsCluster {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coordsChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 0.84);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-border);
+  font: 12px / 1.2 var(--mono);
+  color: var(--ink-soft);
+}
+
+@media (max-width: 720px) {
+  .coordsChip {
+    display: none;
+  }
+}
+
+.searchButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-border);
+  font: 500 13px / 1.2 var(--sans);
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    box-shadow 150ms ease-out,
+    transform 150ms ease-out,
+    background-color 150ms ease-out;
+}
+
+.searchButton:hover {
+  background: var(--plate);
+  box-shadow: var(--shadow-border-hover);
+  transform: translateY(-1px);
+}
+
+.searchButton:active {
+  transform: scale(0.97);
+}
+
+.searchKbd {
+  padding: 2px 6px;
+  border-radius: 5px;
+  background: var(--fill);
+  font: 11px / 1.1 var(--mono);
+  color: var(--muted);
+}
+
+/* Gaze / Dwell Reticle */
+.gazeContainer {
+  position: fixed;
+  inset: 0;
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 180ms ease-out;
+}
+
+.gazeVisible {
+  opacity: 1;
+}
+
+.gazePill {
+  margin-top: 220px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-card);
+  font: 500 13px / 1.2 var(--sans);
+  color: var(--ink);
+}
+
+.gazeRingSvg {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-90deg);
+}
+
+.gazeRingTrack {
+  fill: none;
+  stroke: var(--rule);
+  stroke-width: 2.5;
+}
+
+.gazeRingFill {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 60ms linear;
+}
+
+/* Bottom Controls Guide */
+.controlsFooter {
+  position: fixed;
+  bottom: 18px;
+  inset-inline: 0;
+  z-index: 14;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  pointer-events: none;
+  transition: opacity 250ms ease-out;
+}
+
+.controlsFooterHidden {
+  opacity: 0;
+}
+
+.controlsBar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-border);
+  font: 12px / 1.3 var(--mono);
+  color: var(--muted);
+}
+
+.controlsBar b {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* Search & Vibes Modal */
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgb(22 24 31 / 0.28);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: grid;
+  place-items: start center;
+  padding: clamp(24px, 8vh, 84px) 16px 24px;
+  animation: fadeIn 160ms ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modalCard {
+  width: 100%;
+  max-width: 660px;
+  max-height: 82dvh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: var(--plate);
+  box-shadow:
+    0 0 0 1px rgb(0 0 0 / 0.08),
+    0 12px 32px -4px rgb(0 0 0 / 0.14),
+    0 4px 12px 0 rgb(0 0 0 / 0.06);
+  overflow: hidden;
+}
+
+.searchHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.searchIcon {
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.searchInput {
+  flex: 1;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font: 16px / 1.4 var(--sans);
+  color: var(--ink);
+}
+
+.searchInput::placeholder {
+  color: var(--muted);
+}
+
+.closeModalBtn {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--fill);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.closeModalBtn:hover {
+  color: var(--ink);
+}
+
+.modalBody {
+  padding: 18px 20px;
+  overflow-y: auto;
+  display: grid;
+  gap: 22px;
+}
+
+.vibesSection {
+  display: grid;
+  gap: 10px;
+}
+
+.modalSectionTitle {
+  margin: 0;
+  font: 500 11px / 1.3 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.vibeChipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vibeChipBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--paper);
+  box-shadow: var(--shadow-border);
+  font: 12px / 1.3 var(--mono);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition:
+    background-color 140ms ease-out,
+    color 140ms ease-out,
+    transform 140ms ease-out;
+}
+
+.vibeChipBtn:hover,
+.vibeChipBtnActive {
+  background: var(--fill-accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.resultsList {
+  display: grid;
+  gap: 8px;
+}
+
+.resultItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: var(--shadow-border);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background-color 140ms ease-out,
+    transform 140ms ease-out,
+    box-shadow 140ms ease-out;
+}
+
+.resultItem:hover {
+  background: var(--plate);
+  box-shadow: var(--shadow-border-hover);
+  transform: translateX(2px);
+}
+
+.resultThumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--fill);
+  flex-shrink: 0;
+}
+
+.resultInfo {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.resultTitle {
+  font: 500 14px / 1.3 var(--sans);
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resultMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font: 11px / 1.3 var(--mono);
+  color: var(--muted);
+}
+
+.resultFlyLabel {
+  font: 11px / 1.2 var(--mono);
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.emptyState {
+  padding: 24px 12px;
+  text-align: center;
+  font: 14px / 1.5 var(--sans);
+  color: var(--muted);
+}
+
+/* Page Loader */
+.loaderOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--paper, #fafafc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  transition: opacity 400ms ease-out;
+}
+
+.loaderHidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loaderBrand {
+  font: 500 15px / 1.2 var(--sans);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.loaderTrack {
+  width: 180px;
+  height: 2px;
+  background: var(--rule);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.loaderFill {
+  width: 100%;
+  height: 100%;
+  background: var(--ink);
+  transform-origin: left center;
+  transition: transform 100ms ease-out;
+}

@@ -1,0 +1,485 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+  scroll-behavior: smooth;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 420ms cubic-bezier(0.22, 1, 0.36, 1);
+  background: linear-gradient(
+    to bottom,
+    rgb(250 250 252 / 0) 0%,
+    rgb(250 250 252 / 0.02) 65vh,
+    var(--paper, #fafafc) 92vh,
+    var(--paper, #fafafc) 100%
+  );
+}
+
+.overlayVisible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.topBar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px clamp(16px, 4vw, 40px);
+  pointer-events: none;
+}
+
+.backPill {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-border);
+  font: 500 13px / 1.2 var(--sans);
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    transform 150ms ease-out,
+    box-shadow 150ms ease-out,
+    background-color 150ms ease-out;
+}
+
+.backPill:hover {
+  background: var(--plate);
+  box-shadow: var(--shadow-border-hover);
+  transform: translateY(-1px);
+}
+
+.backPill:active {
+  transform: scale(0.97);
+}
+
+.kbdHint {
+  padding: 2px 6px;
+  border-radius: 5px;
+  background: var(--fill);
+  font: 11px / 1.2 var(--mono);
+  color: var(--muted);
+}
+
+/* First screen: frames the 3D centered painting with bottom scroll invitation */
+.heroStage {
+  min-height: calc(100dvh - 76px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 clamp(16px, 4vw, 40px) 36px;
+  pointer-events: none;
+}
+
+.scrollPrompt {
+  pointer-events: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border: 0;
+  border-radius: 16px;
+  background: rgb(255 255 255 / 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  color: var(--ink);
+  transition:
+    transform 200ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 200ms ease-out;
+}
+
+.scrollPrompt:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-border-hover);
+}
+
+.scrollPromptMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font: 12px / 1.4 var(--mono);
+  color: var(--muted);
+}
+
+.scrollPromptTitle {
+  font: 500 16px / 1.25 var(--sans);
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.scrollPromptAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: 12px / 1.3 var(--mono);
+  color: var(--accent);
+}
+
+/* Editorial Content Sheet (Kugiri aesthetic) */
+.editorialSheet {
+  position: relative;
+  background: var(--paper, #fafafc);
+  border-top: 1px solid var(--rule, #e2e3ea);
+  padding: clamp(48px, 8vw, 96px) clamp(16px, 4vw, 40px) 140px;
+}
+
+.editorialContainer {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  gap: 56px;
+}
+
+.masthead {
+  display: grid;
+  gap: 20px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 40px;
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.catalogChip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--plate);
+  box-shadow: var(--shadow-border);
+  font: 12px / 1.4 var(--mono);
+  color: var(--ink-soft);
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--plate);
+  box-shadow: var(--shadow-border);
+  font: 500 12px / 1.4 var(--sans);
+  color: var(--ink);
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.statusAvailable {
+  background: var(--ok, #1a7f4b);
+  box-shadow: 0 0 0 3px rgb(26 127 75 / 0.16);
+}
+
+.statusReserved {
+  background: #d97706;
+  box-shadow: 0 0 0 3px rgb(217 119 6 / 0.16);
+}
+
+.statusPrivate {
+  background: var(--muted, #6b6f7b);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.06;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.artistLine {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.artistLine strong {
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+/* Two-column Kugiri layout on desktop */
+.contentGrid {
+  display: grid;
+  gap: 48px;
+}
+
+@media (min-width: 900px) {
+  .contentGrid {
+    grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.85fr);
+    align-items: start;
+  }
+}
+
+.storyColumn {
+  display: grid;
+  gap: 28px;
+}
+
+.sectionLabel {
+  margin: 0;
+  font: 500 11px / 1.4 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.lede {
+  margin: 0;
+  font-size: clamp(18px, 2vw, 21px);
+  line-height: 1.55;
+  color: var(--ink);
+  text-wrap: pretty;
+  max-width: 62ch;
+}
+
+.curatorialNote {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--muted);
+  text-wrap: pretty;
+  max-width: 62ch;
+}
+
+.artworkPreviewCard {
+  margin-top: 8px;
+  padding: 20px;
+  border-radius: 14px;
+  background: var(--plate);
+  box-shadow: var(--shadow-border);
+  display: grid;
+  gap: 14px;
+}
+
+.artworkPreviewImg {
+  width: 100%;
+  max-height: 460px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.artworkPreviewCaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 12px / 1.4 var(--mono);
+  color: var(--muted);
+}
+
+/* Specs & Commercial Column */
+.specsColumn {
+  display: grid;
+  gap: 24px;
+}
+
+.specsCard {
+  padding: 24px;
+  border-radius: 14px;
+  background: var(--plate);
+  box-shadow: var(--shadow-card);
+  display: grid;
+  gap: 20px;
+}
+
+.specList {
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.specItem {
+  display: grid;
+  gap: 4px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.specItem:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.specTerm {
+  font: 11px / 1.3 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.specDesc {
+  margin: 0;
+  font: 500 15px / 1.4 var(--sans);
+  color: var(--ink);
+}
+
+.specDescMono {
+  margin: 0;
+  font: 500 14px / 1.4 var(--mono);
+  color: var(--ink);
+}
+
+.vibesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.vibePill {
+  padding: 5px 11px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--fill);
+  font: 12px / 1.3 var(--mono);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition:
+    background-color 150ms ease-out,
+    color 150ms ease-out,
+    transform 150ms ease-out;
+}
+
+.vibePill:hover {
+  background: var(--fill-accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* Commercial CTA actions */
+.ctaGroup {
+  display: grid;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.primaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 13px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--plate);
+  font: 500 14px / 1.3 var(--sans);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 150ms ease-out,
+    transform 150ms ease-out;
+}
+
+.primaryButton:hover {
+  background: var(--ink-soft);
+  transform: translateY(-1px);
+}
+
+.primaryButton:active {
+  transform: scale(0.98);
+}
+
+.secondaryActions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+}
+
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: var(--shadow-border);
+  color: var(--ink-soft);
+  font: 500 13px / 1.3 var(--sans);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 150ms ease-out,
+    box-shadow 150ms ease-out;
+}
+
+.secondaryButton:hover {
+  background: var(--fill);
+  box-shadow: var(--shadow-border-hover);
+}
+
+/* Bottom accessible Return to 3D section */
+.bottomReturnSection {
+  margin-top: 24px;
+  padding-top: 40px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.bottomReturnHint {
+  margin: 0;
+  font: 13px / 1.5 var(--mono);
+  color: var(--muted);
+}
+
+.return3DButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--plate);
+  font: 500 15px / 1.2 var(--sans);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  transition:
+    transform 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 150ms ease-out;
+}
+
+.return3DButton:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+}
+
+.return3DButton:active {
+  transform: scale(0.97);
+}

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Geist-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Geist-VariableItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/GeistMono-Variable.woff2") format("woff2");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #16181f;
+  --ink-soft: #3b3e49;
+  --muted: #6b6f7b;
+  --rule: #e2e3ea;
+  --fill: #ebecf4;
+  --fill-accent: #e6e2f7;
+  --accent: #5b3fd6;
+  --paper: #fafafc;
+  --plate: #ffffff;
+  --ok: #1a7f4b;
+  --fail: #b42318;
+
+  --shadow-border:
+    0 0 0 1px rgb(0 0 0 / 0.06),
+    0 1px 2px -1px rgb(0 0 0 / 0.06),
+    0 2px 4px 0 rgb(0 0 0 / 0.04);
+  --shadow-border-hover:
+    0 0 0 1px rgb(0 0 0 / 0.09),
+    0 2px 5px -1px rgb(0 0 0 / 0.08),
+    0 4px 8px 0 rgb(0 0 0 / 0.05);
+  --shadow-card:
+    0 0 0 1px rgb(0 0 0 / 0.05),
+    0 2px 6px -1px rgb(0 0 0 / 0.07),
+    0 8px 20px 0 rgb(0 0 0 / 0.04);
+
+  --sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
