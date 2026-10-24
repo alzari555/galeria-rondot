@@ -10,10 +10,10 @@ import {
   CHUNK_SIZE,
   DEPTH_FADE_END,
   DEPTH_FADE_START,
-  GAZE_DWELL_SECONDS,
-  GAZE_MAX_DEPTH,
-  GAZE_MIN_DEPTH,
-  GAZE_NDC_RADIUS,
+  GRAVITY_CAPTURE_SECONDS,
+  GRAVITY_MAX_DEPTH,
+  GRAVITY_MIN_DEPTH,
+  GRAVITY_NDC_RADIUS,
   INITIAL_CAMERA_Z,
   INVIS_THRESHOLD,
   KEYBOARD_SPEED,
@@ -66,6 +66,7 @@ type CameraGridState = {
   camZ: number;
   focusBlend: number;
   focusedPlaneId: string | null;
+  exitedPlaneId: string | null;
 };
 
 function MediaPlane({
@@ -114,15 +115,16 @@ function MediaPlane({
 
     const cam = cameraGridRef.current;
     const isFocusedSelf = cam.focusedPlaneId === planeId;
+    const isExitedSelf = cam.exitedPlaneId === planeId;
 
-    if (!isFocusedSelf && state.opacity < INVIS_THRESHOLD && !mesh.visible && state.frame === 0) {
+    if (!isFocusedSelf && !isExitedSelf && state.opacity < INVIS_THRESHOLD && !mesh.visible && state.frame === 0) {
       return;
     }
 
     const dist = Math.max(Math.abs(chunkCx - cam.cx), Math.abs(chunkCy - cam.cy), Math.abs(chunkCz - cam.cz));
     const absDepth = Math.abs(position.z - cam.camZ);
 
-    if (!isFocusedSelf && absDepth > DEPTH_FADE_END + 50) {
+    if (!isFocusedSelf && !isExitedSelf && absDepth > DEPTH_FADE_END + 50) {
       state.opacity = 0;
       material.opacity = 0;
       material.depthWrite = false;
@@ -140,8 +142,8 @@ function MediaPlane({
 
     let target = Math.min(gridFade, depthFade * depthFade);
 
-    // Dissolve background paintings to flat white when focusing a specific artwork
-    if (isFocusedSelf) {
+    // Keep the focused or just-exited artwork fully visible so it never blinks or turns transparent
+    if (isFocusedSelf || isExitedSelf) {
       target = 1;
     } else if (cam.focusBlend > 0.001) {
       target *= Math.max(0, 1 - cam.focusBlend * 1.15);
@@ -330,9 +332,11 @@ type ControllerState = {
   pendingChunk: { cx: number; cy: number; cz: number } | null;
   focusBlend: number;
   editorialSignaled: boolean;
-  gazePlaneId: string | null;
-  gazeDwellTime: number;
-  lastReportedGazeProgress: number;
+  gravityPlaneId: string | null;
+  gravityTime: number;
+  exitedPlaneId: string | null;
+  cooldownPlaneId: string | null;
+  cooldownExitPos: { x: number; y: number; z: number } | null;
   lastCoordsReport: number;
 };
 
@@ -352,9 +356,11 @@ const createInitialState = (camZ: number): ControllerState => ({
   pendingChunk: null,
   focusBlend: 0,
   editorialSignaled: false,
-  gazePlaneId: null,
-  gazeDwellTime: 0,
-  lastReportedGazeProgress: 0,
+  gravityPlaneId: null,
+  gravityTime: 0,
+  exitedPlaneId: null,
+  cooldownPlaneId: null,
+  cooldownExitPos: null,
   lastCoordsReport: 0,
 });
 
@@ -391,6 +397,7 @@ function SceneController({
     camZ: camera.position.z,
     focusBlend: 0,
     focusedPlaneId: null,
+    exitedPlaneId: null,
   });
 
   const [chunks, setChunks] = React.useState<ChunkData[]>([]);
@@ -407,17 +414,33 @@ function SceneController({
     }
   }, [progress, onTextureProgress]);
 
+  const prevFocusedTargetRef = React.useRef<FocusedTarget | null>(null);
+
   React.useEffect(() => {
     if (!focusedTarget) {
       state.current.editorialSignaled = false;
       onEditorialReadyChange(false);
+
+      // If user just exited an artwork, protect it from background-fade and set cooldown
+      if (prevFocusedTargetRef.current) {
+        state.current.exitedPlaneId = prevFocusedTargetRef.current.planeId;
+        state.current.cooldownPlaneId = prevFocusedTargetRef.current.planeId;
+        state.current.cooldownExitPos = {
+          x: state.current.basePos.x,
+          y: state.current.basePos.y,
+          z: state.current.basePos.z,
+        };
+        state.current.gravityPlaneId = null;
+        state.current.gravityTime = 0;
+      }
     } else {
-      // Clear any gaze charging indicator when focused
-      state.current.gazePlaneId = null;
-      state.current.gazeDwellTime = 0;
-      state.current.lastReportedGazeProgress = 0;
+      state.current.exitedPlaneId = null;
+      state.current.gravityPlaneId = null;
+      state.current.gravityTime = 0;
       onGazeUpdate?.({ planeId: null, artwork: null, progress: 0 });
     }
+
+    prevFocusedTargetRef.current = focusedTarget;
   }, [focusedTarget, onEditorialReadyChange, onGazeUpdate]);
 
   React.useEffect(() => {
@@ -531,6 +554,8 @@ function SceneController({
     const now = performance.now();
     const dt = Math.min(delta, 0.1);
 
+    const keys = getKeys();
+
     if (focusedTarget) {
       // Smoothly center the focused artwork and dissolve surrounding 3D world to flat white
       const aspect = window.innerWidth / Math.max(window.innerHeight, 1);
@@ -578,7 +603,7 @@ function SceneController({
       // Free 3D flight navigation
       s.focusBlend = lerp(s.focusBlend, 0, 1 - Math.exp(-6.0 * dt));
 
-      const { forward, backward, left, right, up, down } = getKeys();
+      const { forward, backward, left, right, up, down } = keys;
       if (forward) s.targetVel.z -= KEYBOARD_SPEED;
       if (backward) s.targetVel.z += KEYBOARD_SPEED;
       if (left) s.targetVel.x -= KEYBOARD_SPEED;
@@ -627,6 +652,10 @@ function SceneController({
     const cy = Math.floor(s.basePos.y / CHUNK_SIZE);
     const cz = Math.floor(s.basePos.z / CHUNK_SIZE);
 
+    if (s.focusBlend < 0.005) {
+      s.exitedPlaneId = null;
+    }
+
     cameraGridRef.current = {
       cx,
       cy,
@@ -634,6 +663,7 @@ function SceneController({
       camZ: s.basePos.z,
       focusBlend: s.focusBlend,
       focusedPlaneId: focusedTarget?.planeId ?? null,
+      exitedPlaneId: s.exitedPlaneId,
     };
 
     if (now - s.lastCoordsReport > 140) {
@@ -645,29 +675,57 @@ function SceneController({
       });
     }
 
-    // Gaze / Dwell detection when in free flight and camera is calm
-    if (!focusedTarget && !s.isDragging && media.length > 0) {
-      const speed = Math.hypot(s.velocity.x, s.velocity.y, s.velocity.z);
+    // Diegetic Gravitational Field: when user is looking near an artwork at low speed,
+    // gently pull and center the image as if caught in a gravitational orbit
+    const isActivelySteering =
+      s.isDragging ||
+      keys.forward ||
+      keys.backward ||
+      keys.left ||
+      keys.right ||
+      keys.up ||
+      keys.down ||
+      Math.abs(s.scrollAccum) > 0.08;
+
+    // Clear cooldown once the user has moved away from the exit position
+    if (s.cooldownPlaneId && s.cooldownExitPos) {
+      const distFromExit = Math.hypot(
+        s.basePos.x - s.cooldownExitPos.x,
+        s.basePos.y - s.cooldownExitPos.y,
+        s.basePos.z - s.cooldownExitPos.z
+      );
+      if (distFromExit > 14) {
+        s.cooldownPlaneId = null;
+        s.cooldownExitPos = null;
+      }
+    }
+
+    if (isActivelySteering) {
+      s.gravityPlaneId = null;
+      s.gravityTime = 0;
+    } else if (!focusedTarget && media.length > 0) {
       let candidatePlane: PlaneData | null = null;
-      let candidateDist = GAZE_NDC_RADIUS;
+      let candidateDist = GRAVITY_NDC_RADIUS;
 
-      if (speed < 0.32) {
-        for (let dx = -1; dx <= 1; dx++) {
-          for (let dy = -1; dy <= 1; dy++) {
-            for (let dz = -1; dz <= 1; dz++) {
-              const planes = generateChunkPlanesCached(cx + dx, cy + dy, cz + dz);
-              for (const plane of planes) {
-                const depthInFront = camera.position.z - plane.position.z;
-                if (depthInFront < GAZE_MIN_DEPTH || depthInFront > GAZE_MAX_DEPTH) {
-                  continue;
-                }
+      for (let dx = -1; dx <= 1; dx++) {
+        for (let dy = -1; dy <= 1; dy++) {
+          for (let dz = -1; dz <= 1; dz++) {
+            const planes = generateChunkPlanesCached(cx + dx, cy + dy, cz + dz);
+            for (const plane of planes) {
+              if (plane.id === s.cooldownPlaneId) {
+                continue;
+              }
 
-                tempProjectVec.copy(plane.position).project(camera);
-                const ndcDist = Math.hypot(tempProjectVec.x, tempProjectVec.y);
-                if (ndcDist < candidateDist) {
-                  candidateDist = ndcDist;
-                  candidatePlane = plane;
-                }
+              const depthInFront = camera.position.z - plane.position.z;
+              if (depthInFront < GRAVITY_MIN_DEPTH || depthInFront > GRAVITY_MAX_DEPTH) {
+                continue;
+              }
+
+              tempProjectVec.copy(plane.position).project(camera);
+              const ndcDist = Math.hypot(tempProjectVec.x, tempProjectVec.y);
+              if (ndcDist < candidateDist) {
+                candidateDist = ndcDist;
+                candidatePlane = plane;
               }
             }
           }
@@ -675,55 +733,66 @@ function SceneController({
       }
 
       if (candidatePlane) {
-        if (s.gazePlaneId === candidatePlane.id) {
-          s.gazeDwellTime += dt;
-        } else {
-          s.gazePlaneId = candidatePlane.id;
-          s.gazeDwellTime = dt * 0.5;
-        }
-
-        const gazeProgress = clamp(s.gazeDwellTime / GAZE_DWELL_SECONDS, 0, 1);
         const artwork = media[candidatePlane.mediaIndex % media.length] ?? null;
 
-        if (Math.abs(gazeProgress - s.lastReportedGazeProgress) > 0.025 || gazeProgress >= 1) {
-          s.lastReportedGazeProgress = gazeProgress;
-          onGazeUpdate?.({
-            planeId: candidatePlane.id,
-            artwork,
-            progress: gazeProgress,
-          });
-        }
+        if (artwork) {
+          if (s.gravityPlaneId === candidatePlane.id) {
+            s.gravityTime += dt;
+          } else {
+            s.gravityPlaneId = candidatePlane.id;
+            s.gravityTime = dt * 0.4;
+          }
 
-        if (gazeProgress >= 1 && artwork) {
+          const aspect = window.innerWidth / Math.max(window.innerHeight, 1);
+          const vFovRad = (cameraFov * Math.PI) / 180;
+          const halfTan = Math.tan(vFovRad / 2);
           const displayScale = calculateDisplayScale(artwork, candidatePlane.scale);
-          s.gazePlaneId = null;
-          s.gazeDwellTime = 0;
-          s.lastReportedGazeProgress = 0;
-          onFocusArtwork({
-            planeId: candidatePlane.id,
-            artwork,
-            position: {
-              x: candidatePlane.position.x,
-              y: candidatePlane.position.y,
-              z: candidatePlane.position.z,
-            },
-            displayScale: {
-              x: displayScale.x,
-              y: displayScale.y,
-            },
-          });
+          const distForHeight = displayScale.y / 2 / (halfTan * 0.56);
+          const distForWidth = displayScale.x / 2 / (halfTan * aspect * 0.72);
+          const idealDistZ = Math.max(distForHeight, distForWidth, 14);
+
+          const targetX = candidatePlane.position.x;
+          const targetY = candidatePlane.position.y;
+          const targetZ = candidatePlane.position.z + idealDistZ;
+
+          const proximity = Math.pow(1 - clamp(candidateDist / GRAVITY_NDC_RADIUS, 0, 1), 1.2);
+          const timeStrength = clamp(s.gravityTime / GRAVITY_CAPTURE_SECONDS, 0, 1);
+          const pull = (0.28 + 0.72 * timeStrength) * (0.35 + 0.65 * proximity);
+
+          // Diegetic magnetic alignment toward artwork center
+          const pullRate = 1 - Math.exp(-3.2 * pull * dt);
+          s.basePos.x = lerp(s.basePos.x, targetX, pullRate);
+          s.basePos.y = lerp(s.basePos.y, targetY, pullRate);
+          s.basePos.z = lerp(s.basePos.z, targetZ, pullRate * 0.65);
+          s.drift.x = lerp(s.drift.x, 0, pullRate * 2.0);
+          s.drift.y = lerp(s.drift.y, 0, pullRate * 2.0);
+
+          s.velocity.x *= 1 - 0.22 * pull;
+          s.velocity.y *= 1 - 0.22 * pull;
+          s.velocity.z *= 1 - 0.22 * pull;
+
+          // Gravitational capture complete: locks into focused artwork
+          if (s.gravityTime >= GRAVITY_CAPTURE_SECONDS || (candidateDist < 0.075 && s.gravityTime > 0.65)) {
+            s.gravityPlaneId = null;
+            s.gravityTime = 0;
+            onFocusArtwork({
+              planeId: candidatePlane.id,
+              artwork,
+              position: {
+                x: candidatePlane.position.x,
+                y: candidatePlane.position.y,
+                z: candidatePlane.position.z,
+              },
+              displayScale: {
+                x: displayScale.x,
+                y: displayScale.y,
+              },
+            });
+          }
         }
-      } else if (s.gazeDwellTime > 0) {
-        s.gazeDwellTime = Math.max(0, s.gazeDwellTime - dt * 2.2);
-        const gazeProgress = clamp(s.gazeDwellTime / GAZE_DWELL_SECONDS, 0, 1);
-        if (gazeProgress === 0 && s.lastReportedGazeProgress !== 0) {
-          s.gazePlaneId = null;
-          s.lastReportedGazeProgress = 0;
-          onGazeUpdate?.({ planeId: null, artwork: null, progress: 0 });
-        } else if (Math.abs(gazeProgress - s.lastReportedGazeProgress) > 0.04) {
-          s.lastReportedGazeProgress = gazeProgress;
-          onGazeUpdate?.({ planeId: s.gazePlaneId, artwork: null, progress: gazeProgress });
-        }
+      } else if (s.gravityTime > 0) {
+        s.gravityPlaneId = null;
+        s.gravityTime = Math.max(0, s.gravityTime - dt * 2.5);
       }
     }
 

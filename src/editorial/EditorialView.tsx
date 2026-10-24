@@ -41,7 +41,11 @@ export function EditorialView({
   const touchStartYRef = React.useRef<number | null>(null);
   const [copied, setCopied] = React.useState(false);
 
-  const artwork = target?.artwork ?? null;
+  const lastArtworkRef = React.useRef(target?.artwork ?? null);
+  if (target?.artwork) {
+    lastArtworkRef.current = target.artwork;
+  }
+  const artwork = target?.artwork ?? lastArtworkRef.current;
 
   React.useEffect(() => {
     if (visible && containerRef.current) {

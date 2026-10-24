@@ -1,12 +1,11 @@
 import * as React from "react";
 import { INITIAL_CAMERA_Z } from "~/src/canvas/constants";
 import { InfiniteCanvas } from "~/src/canvas/index";
-import type { ArtworkItem, FocusedTarget, GazeStatus } from "~/src/canvas/types";
+import type { ArtworkItem, FocusedTarget } from "~/src/canvas/types";
 import { findClosestPlaneForArtwork } from "~/src/canvas/utils";
 import artworksData from "~/src/data/artworks.json";
 import { EditorialView } from "~/src/editorial/EditorialView";
 import { ControlsGuide } from "~/src/ui/ControlsGuide";
-import { GazeReticle } from "~/src/ui/GazeReticle";
 import { Header } from "~/src/ui/Header";
 import { PageLoader } from "~/src/ui/Loader";
 import { SearchModal } from "~/src/ui/SearchModal";
@@ -19,7 +18,6 @@ export function App() {
   const [textureProgress, setTextureProgress] = React.useState(0);
   const [focusedTarget, setFocusedTarget] = React.useState<FocusedTarget | null>(null);
   const [isEditorialReady, setIsEditorialReady] = React.useState(false);
-  const [gaze, setGaze] = React.useState<GazeStatus>({ planeId: null, artwork: null, progress: 0 });
   const [coords, setCoords] = React.useState({ x: 0, y: 0, z: INITIAL_CAMERA_Z });
   const [searchOpen, setSearchOpen] = React.useState(false);
   const [initialVibe, setInitialVibe] = React.useState<string | null>(null);
@@ -85,15 +83,12 @@ export function App() {
         }}
       />
 
-      <GazeReticle gaze={gaze} />
-
       <InfiniteCanvas
         media={media}
         focusedTarget={focusedTarget}
         isEditorialReady={isEditorialReady}
         onFocusArtwork={handleFocusArtwork}
         onEditorialReadyChange={setIsEditorialReady}
-        onGazeUpdate={setGaze}
         onCoordsUpdate={setCoords}
         onTextureProgress={setTextureProgress}
       />

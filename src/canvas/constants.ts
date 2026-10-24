@@ -12,11 +12,11 @@ export const VELOCITY_LERP = 0.16;
 export const VELOCITY_DECAY = 0.9;
 export const INITIAL_CAMERA_Z = 50;
 
-// Gaze / Dwell focus parameters
-export const GAZE_DWELL_SECONDS = 1.65;
-export const GAZE_NDC_RADIUS = 0.24;
-export const GAZE_MIN_DEPTH = 6;
-export const GAZE_MAX_DEPTH = 48;
+// Gravitational Field parameters (Diegetic centering without UI)
+export const GRAVITY_NDC_RADIUS = 0.34;
+export const GRAVITY_MIN_DEPTH = 6;
+export const GRAVITY_MAX_DEPTH = 52;
+export const GRAVITY_CAPTURE_SECONDS = 1.35;
 
 export type ChunkOffset = {
   dx: number;

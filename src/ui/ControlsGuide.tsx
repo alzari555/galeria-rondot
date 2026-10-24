@@ -18,7 +18,7 @@ export function ControlsGuide({ hidden }: { hidden: boolean }) {
             </span>
             <span>·</span>
             <span>
-              <b>Tap o Mirar fijo</b> Abrir ficha de obra
+              <b>Aproximarse o Tap</b> Foco gravitacional
             </span>
           </>
         ) : (
@@ -28,11 +28,11 @@ export function ControlsGuide({ hidden }: { hidden: boolean }) {
             </span>
             <span>·</span>
             <span>
-              <b>Rueda / Pellizco Trackpad</b> Zoom
+              <b>Rueda / Pellizco</b> Zoom
             </span>
             <span>·</span>
             <span>
-              <b>Clic o Mirar fijo</b> Enfocar obra
+              <b>Aproximarse o Clic</b> Foco gravitacional
             </span>
           </>
         )}
