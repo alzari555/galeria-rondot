@@ -238,7 +238,6 @@ export function EditorialView({
         <button type="button" className={styles.backPill} onClick={handleScrollUpAndReturn}>
           <ArrowLeft size={15} />
           <span>Volver al espacio 3D</span>
-          <span className={styles.kbdHint}>Esc</span>
         </button>
       </div>
 
