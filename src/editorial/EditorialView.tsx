@@ -79,7 +79,7 @@ export function EditorialView({
         }
       }
 
-      // Wait for the 420ms fade-in transition to settle before nudging
+      // Wait for the entrance to settle and user to take in the artwork before nudging
       let returnTimer: ReturnType<typeof setTimeout> | null = null;
       const peekTimer = setTimeout(() => {
         if (!el || userInteractedRef.current || el.scrollTop > 15) return;
@@ -87,7 +87,7 @@ export function EditorialView({
         isAutoScrollingRef.current = true;
         el.scrollTo({ top: 285, behavior: "smooth" });
 
-        // Pause to let the user see the sheet peeking up, then gently return to top
+        // Pause with the sheet peeked so user has ample time to notice the content below
         returnTimer = setTimeout(() => {
           if (!el || userInteractedRef.current || el.scrollTop > 340) {
             isAutoScrollingRef.current = false;
@@ -98,9 +98,9 @@ export function EditorialView({
 
           setTimeout(() => {
             isAutoScrollingRef.current = false;
-          }, 550);
-        }, 900);
-      }, 500);
+          }, 600);
+        }, 1500);
+      }, 900);
 
       return () => {
         clearTimeout(peekTimer);
