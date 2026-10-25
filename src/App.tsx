@@ -9,7 +9,6 @@ import { BrowserWarningBanner } from "~/src/ui/BrowserWarningBanner";
 import { Header } from "~/src/ui/Header";
 import { PageLoader } from "~/src/ui/Loader";
 import { SearchModal } from "~/src/ui/SearchModal";
-import { hasSeenTutorial, TutorialModal } from "~/src/ui/TutorialModal";
 
 export function App() {
   const [media] = React.useState<ArtworkItem[]>(() => getArtworks());
@@ -19,17 +18,6 @@ export function App() {
   const [coords, setCoords] = React.useState({ x: 0, y: 0, z: INITIAL_CAMERA_Z });
   const [searchOpen, setSearchOpen] = React.useState(false);
   const [initialVibe, setInitialVibe] = React.useState<string | null>(null);
-  const [tutorialOpen, setTutorialOpen] = React.useState(false);
-
-  // Automatically show tutorial on first visit once initial loading fades
-  React.useEffect(() => {
-    if (!hasSeenTutorial()) {
-      const timer = setTimeout(() => {
-        setTutorialOpen(true);
-      }, 1200);
-      return () => clearTimeout(timer);
-    }
-  }, []);
 
   // Global keyboard shortcut Cmd+K / Ctrl+K or '/' to open search
   React.useEffect(() => {
@@ -41,19 +29,16 @@ export function App() {
         e.preventDefault();
         setInitialVibe(null);
         setSearchOpen((prev) => !prev);
-      } else if (!isInput && e.key === "/" && !searchOpen && !tutorialOpen) {
+      } else if (!isInput && e.key === "/" && !searchOpen) {
         e.preventDefault();
         setInitialVibe(null);
         setSearchOpen(true);
-      } else if (e.key === "?" && !isInput && !searchOpen) {
-        e.preventDefault();
-        setTutorialOpen(true);
       }
     };
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [searchOpen, tutorialOpen]);
+  }, [searchOpen]);
 
   const handleFocusArtwork = React.useCallback((target: FocusedTarget) => {
     setFocusedTarget(target);
@@ -94,7 +79,6 @@ export function App() {
           setInitialVibe(null);
           setSearchOpen(true);
         }}
-        onOpenTutorial={() => setTutorialOpen(true)}
       />
 
       <InfiniteCanvas
@@ -120,11 +104,6 @@ export function App() {
         initialVibe={initialVibe}
         onClose={() => setSearchOpen(false)}
         onSelectArtworkIndex={handleSelectArtworkIndex}
-      />
-
-      <TutorialModal
-        open={tutorialOpen}
-        onClose={() => setTutorialOpen(false)}
       />
     </>
   );
