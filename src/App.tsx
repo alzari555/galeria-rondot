@@ -5,7 +5,6 @@ import type { ArtworkItem, FocusedTarget } from "~/src/canvas/types";
 import { findClosestPlaneForArtwork } from "~/src/canvas/utils";
 import { getArtworks } from "~/src/data/index";
 import { EditorialView } from "~/src/editorial/EditorialView";
-import { ControlsGuide } from "~/src/ui/ControlsGuide";
 import { Header } from "~/src/ui/Header";
 import { PageLoader } from "~/src/ui/Loader";
 import { SearchModal } from "~/src/ui/SearchModal";
@@ -96,8 +95,6 @@ export function App() {
         onReturnTo3D={handleReturnTo3D}
         onSelectVibe={handleSelectVibeFromEditorial}
       />
-
-      <ControlsGuide hidden={isFocusedMode} />
 
       <SearchModal
         open={searchOpen}
