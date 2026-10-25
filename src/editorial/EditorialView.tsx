@@ -85,11 +85,11 @@ export function EditorialView({
         if (!el || userInteractedRef.current || el.scrollTop > 15) return;
 
         isAutoScrollingRef.current = true;
-        el.scrollTo({ top: 185, behavior: "smooth" });
+        el.scrollTo({ top: 285, behavior: "smooth" });
 
         // Pause to let the user see the sheet peeking up, then gently return to top
         returnTimer = setTimeout(() => {
-          if (!el || userInteractedRef.current || el.scrollTop > 240) {
+          if (!el || userInteractedRef.current || el.scrollTop > 340) {
             isAutoScrollingRef.current = false;
             return;
           }
@@ -98,8 +98,8 @@ export function EditorialView({
 
           setTimeout(() => {
             isAutoScrollingRef.current = false;
-          }, 500);
-        }, 850);
+          }, 550);
+        }, 900);
       }, 500);
 
       return () => {
