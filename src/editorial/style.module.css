@@ -291,13 +291,6 @@
   background: var(--paper);
 }
 
-.artworkPreviewCaption {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font: 12px / 1.4 var(--mono);
-  color: var(--muted);
-}
 
 /* Specs & Commercial Column */
 .specsColumn {
@@ -455,11 +448,6 @@
   text-align: center;
 }
 
-.bottomReturnHint {
-  margin: 0;
-  font: 13px / 1.5 var(--mono);
-  color: var(--muted);
-}
 
 .return3DButton {
   display: inline-flex;

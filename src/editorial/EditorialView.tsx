@@ -294,12 +294,6 @@ export function EditorialView({
                   className={styles.artworkPreviewImg}
                   loading="lazy"
                 />
-                <div className={styles.artworkPreviewCaption}>
-                  <span>Vista completa sin recorte</span>
-                  <span>
-                    {artwork.width} × {artwork.height} px (proporción original)
-                  </span>
-                </div>
               </div>
             </div>
 
@@ -382,9 +376,6 @@ export function EditorialView({
 
           {/* Bottom accessibility button to scroll back up and return to the 3D gallery */}
           <div className={styles.bottomReturnSection}>
-            <p className={styles.bottomReturnHint}>
-              Fin de la ficha de obra · Haz scroll hacia arriba o usa el botón para reanudar el vuelo
-            </p>
             <button
               type="button"
               className={styles.return3DButton}
