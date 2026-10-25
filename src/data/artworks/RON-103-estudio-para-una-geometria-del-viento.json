@@ -1,7 +1,7 @@
 {
   "id": "obra-03",
   "catalogCode": "RON-103",
-  "url": "./artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg",
+  "url": "/artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg",
   "title": "Estudio para una Geometría del Viento",
   "artist": "Miguel Rondot",
   "year": "2024",
@@ -25,5 +25,6 @@
   ],
   "story": "Las corrientes invisibles del aire dejan su rastro sobre las formas orgánicas. Esta obra captura el instante exacto en que la tensión atmosférica cede paso a la serenidad después de la tormenta.",
   "width": 512,
-  "height": 361
+  "height": 361,
+  "image": "/artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg"
 }

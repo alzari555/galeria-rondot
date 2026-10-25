@@ -12,7 +12,9 @@ export const getArtworks = (): ArtworkItem[] => {
   for (const path in artworkModules) {
     const mod = artworkModules[path];
     if (mod) {
-      const item = "default" in mod ? mod.default : mod;
+      const item = { ...("default" in mod ? mod.default : mod) };
+      if (!item.url && item.image) item.url = item.image;
+      if (!item.image && item.url) item.image = item.url;
       list.push(item);
     }
   }

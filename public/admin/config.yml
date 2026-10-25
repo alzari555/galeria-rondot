@@ -21,6 +21,10 @@ collections:
     extension: "json"
     slug: "{{catalogCode}}-{{slug}}"
     summary: "{{catalogCode}} — {{title}} ({{status}})"
+    thumbnail: "image"
+    editor:
+      preview: true
+      thumbnail: "image"
     sortable_fields:
       fields: ["catalogCode", "title", "year", "status"]
       default:
@@ -54,9 +58,9 @@ collections:
         hint: "Nombre principal de la pieza"
 
       - label: "Fotografía de la Obra"
-        name: "url"
+        name: "image"
         widget: "image"
-        hint: "Imagen de alta resolución de la obra (se guardará en public/artworks)"
+        hint: "Imagen de alta resolución de la obra (se mostrará en la miniatura de la tarjeta)"
 
       - label: "Disponibilidad Comercial"
         name: "status"

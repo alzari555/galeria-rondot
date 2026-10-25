@@ -1,7 +1,7 @@
 {
   "id": "obra-23",
   "catalogCode": "RON-123",
-  "url": "./artworks/1865cfaa-51b3-8916-56eb-6b57cf95c772.jpg",
+  "url": "/artworks/1865cfaa-51b3-8916-56eb-6b57cf95c772.jpg",
   "title": "Preludio de Tormenta en la Pampa (Serie II · N° 11)",
   "artist": "Miguel Rondot",
   "year": "2025",
@@ -26,5 +26,6 @@
   ],
   "story": "En la llanura infinita el cielo ocupa cuatro quintas partes del universo visual. Esta obra de gran formato registra el momento sobrecogedor en que el frente de tormenta avanza sobre el pastizal.",
   "width": 512,
-  "height": 664
+  "height": 664,
+  "image": "/artworks/1865cfaa-51b3-8916-56eb-6b57cf95c772.jpg"
 }

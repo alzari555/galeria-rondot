@@ -1,7 +1,7 @@
 {
   "id": "obra-04",
   "catalogCode": "RON-104",
-  "url": "./artworks/086f1a92-1a07-1805-3321-d238009fcda0.jpg",
+  "url": "/artworks/086f1a92-1a07-1805-3321-d238009fcda0.jpg",
   "title": "El Molino de Agua y la Niebla",
   "artist": "Miguel Rondot",
   "year": "2024",
@@ -26,5 +26,6 @@
   ],
   "story": "El sonido constante del agua corriendo bajo la estructura de madera se traduce aquí en pinceladas densas y matéricas. Los tonos rojizos de la cubierta dialogan con los verdes profundos del musgo húmedo.",
   "width": 512,
-  "height": 631
+  "height": 631,
+  "image": "/artworks/086f1a92-1a07-1805-3321-d238009fcda0.jpg"
 }

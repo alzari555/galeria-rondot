@@ -1,7 +1,7 @@
 {
   "id": "obra-22",
   "catalogCode": "RON-122",
-  "url": "./artworks/15a87438-df7b-8fe1-203f-e0b4d36236a0.jpg",
+  "url": "/artworks/15a87438-df7b-8fe1-203f-e0b4d36236a0.jpg",
   "title": "Crónica de la Luz Oblicua (Serie II · N° 10)",
   "artist": "Miguel Rondot",
   "year": "2023",
@@ -25,5 +25,6 @@
   ],
   "story": "El instante efímero de las cinco de la tarde en que un rayo de sol proyecta geometrías cálidas sobre los muros encalados de una habitación silenciosa.",
   "width": 512,
-  "height": 507
+  "height": 507,
+  "image": "/artworks/15a87438-df7b-8fe1-203f-e0b4d36236a0.jpg"
 }

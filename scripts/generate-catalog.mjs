@@ -161,7 +161,7 @@ const catalog = copiedFiles.map((filename, idx) => {
   return {
     id: `obra-${String(idx + 1).padStart(2, "0")}`,
     catalogCode: `RON-${String(101 + idx)}`,
-    url: `./artworks/${filename}`,
+    url: `/artworks/${filename}`,
     title: `${meta.title}${suffix}`,
     artist: meta.artist,
     year: meta.year,

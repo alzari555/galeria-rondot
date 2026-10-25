@@ -1,7 +1,7 @@
 {
   "id": "obra-24",
   "catalogCode": "RON-124",
-  "url": "./artworks/18adfd19-6c76-989e-36ae-1343aa15701b.jpg",
+  "url": "/artworks/18adfd19-6c76-989e-36ae-1343aa15701b.jpg",
   "title": "variaciones sobre el Azul de Prusia (Serie II · N° 12)",
   "artist": "Miguel Rondot",
   "year": "2024",
@@ -25,5 +25,6 @@
   ],
   "story": "Un viaje cromático hacia las profundidades del pigmento Azul de Prusia, donde las variaciones de saturación e impasto generan una topografía cambiante según el ángulo del observador.",
   "width": 512,
-  "height": 670
+  "height": 670,
+  "image": "/artworks/18adfd19-6c76-989e-36ae-1343aa15701b.jpg"
 }

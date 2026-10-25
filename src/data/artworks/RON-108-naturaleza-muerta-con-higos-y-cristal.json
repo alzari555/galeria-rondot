@@ -1,7 +1,7 @@
 {
   "id": "obra-08",
   "catalogCode": "RON-108",
-  "url": "./artworks/09820b6f-dc56-87e8-649d-874c0b0fa0db.jpg",
+  "url": "/artworks/09820b6f-dc56-87e8-649d-874c0b0fa0db.jpg",
   "title": "Naturaleza Muerta con Higos y Cristal",
   "artist": "Miguel Rondot",
   "year": "2024",
@@ -25,5 +25,6 @@
   ],
   "story": "Los objetos cotidianos dispuestos sobre una mesa de madera cobran una presencia casi sagrada cuando la luz lateral atraviesa el cristal tallado y acaricia la piel de los frutos.",
   "width": 512,
-  "height": 655
+  "height": 655,
+  "image": "/artworks/09820b6f-dc56-87e8-649d-874c0b0fa0db.jpg"
 }

@@ -1,7 +1,7 @@
 {
   "id": "obra-06",
   "catalogCode": "RON-106",
-  "url": "./artworks/0905c8a0-b2f1-b534-fa37-0f1aa016bec5.jpg",
+  "url": "/artworks/0905c8a0-b2f1-b534-fa37-0f1aa016bec5.jpg",
   "title": "Retrato del Eco",
   "artist": "Miguel Rondot",
   "year": "2025",
@@ -25,5 +25,6 @@
   ],
   "story": "Un estudio íntimo de la mirada humana donde la mitad del rostro emerge de la penumbra mientras la otra se funde con el fondo, sugiriendo que toda identidad guarda una zona de misterio inaccesible.",
   "width": 512,
-  "height": 644
+  "height": 644,
+  "image": "/artworks/0905c8a0-b2f1-b534-fa37-0f1aa016bec5.jpg"
 }

@@ -3,7 +3,7 @@
     {
       "id": "obra-01",
       "catalogCode": "RON-101",
-      "url": "./artworks/02f89de9-0b05-fb1c-fc15-bc48787debfb.jpg",
+      "url": "/artworks/02f89de9-0b05-fb1c-fc15-bc48787debfb.jpg",
       "title": "Silencio en el Valle de Cobre",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -28,12 +28,13 @@
       ],
       "story": "Una meditación sobre la quietud crepuscular cuando los últimos rayos oblicuos del sol transforman la bruma de la montaña en una lámina de oro envejecido. La superposición de veladuras al óleo permite que la luz parezca emanar desde el interior mismo de la trama del lino.",
       "width": 512,
-      "height": 393
+      "height": 393,
+      "image": "/artworks/02f89de9-0b05-fb1c-fc15-bc48787debfb.jpg"
     },
     {
       "id": "obra-02",
       "catalogCode": "RON-102",
-      "url": "./artworks/06f3c07e-c180-00ef-1f0e-5f1325461459.jpg",
+      "url": "/artworks/06f3c07e-c180-00ef-1f0e-5f1325461459.jpg",
       "title": "Vigilia Nocturna I",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -57,12 +58,13 @@
       ],
       "story": "Inspirada en la tradición tenebrista pero ejecutada con una sensibilidad contemporánea, esta pieza explora el umbral entre la vigilia y el sueño. El contraste dramático invita al espectador a detenerse y habitar el silencio de la escena.",
       "width": 512,
-      "height": 419
+      "height": 419,
+      "image": "/artworks/06f3c07e-c180-00ef-1f0e-5f1325461459.jpg"
     },
     {
       "id": "obra-03",
       "catalogCode": "RON-103",
-      "url": "./artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg",
+      "url": "/artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg",
       "title": "Estudio para una Geometría del Viento",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -86,12 +88,13 @@
       ],
       "story": "Las corrientes invisibles del aire dejan su rastro sobre las formas orgánicas. Esta obra captura el instante exacto en que la tensión atmosférica cede paso a la serenidad después de la tormenta.",
       "width": 512,
-      "height": 361
+      "height": 361,
+      "image": "/artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg"
     },
     {
       "id": "obra-04",
       "catalogCode": "RON-104",
-      "url": "./artworks/086f1a92-1a07-1805-3321-d238009fcda0.jpg",
+      "url": "/artworks/086f1a92-1a07-1805-3321-d238009fcda0.jpg",
       "title": "El Molino de Agua y la Niebla",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -116,12 +119,13 @@
       ],
       "story": "El sonido constante del agua corriendo bajo la estructura de madera se traduce aquí en pinceladas densas y matéricas. Los tonos rojizos de la cubierta dialogan con los verdes profundos del musgo húmedo.",
       "width": 512,
-      "height": 631
+      "height": 631,
+      "image": "/artworks/086f1a92-1a07-1805-3321-d238009fcda0.jpg"
     },
     {
       "id": "obra-05",
       "catalogCode": "RON-105",
-      "url": "./artworks/0893821b-474d-c87c-b528-a059919089e7.jpg",
+      "url": "/artworks/0893821b-474d-c87c-b528-a059919089e7.jpg",
       "title": "Arquitectura de la Memoria",
       "artist": "Miguel Rondot",
       "year": "2023",
@@ -145,12 +149,13 @@
       ],
       "story": "Los vestigios arquitectónicos funcionan como metáfora de la memoria humana: aquello que permanece en pie frente a la erosión del tiempo adquiere una dignidad irrepetible.",
       "width": 512,
-      "height": 630
+      "height": 630,
+      "image": "/artworks/0893821b-474d-c87c-b528-a059919089e7.jpg"
     },
     {
       "id": "obra-06",
       "catalogCode": "RON-106",
-      "url": "./artworks/0905c8a0-b2f1-b534-fa37-0f1aa016bec5.jpg",
+      "url": "/artworks/0905c8a0-b2f1-b534-fa37-0f1aa016bec5.jpg",
       "title": "Retrato del Eco",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -174,12 +179,13 @@
       ],
       "story": "Un estudio íntimo de la mirada humana donde la mitad del rostro emerge de la penumbra mientras la otra se funde con el fondo, sugiriendo que toda identidad guarda una zona de misterio inaccesible.",
       "width": 512,
-      "height": 644
+      "height": 644,
+      "image": "/artworks/0905c8a0-b2f1-b534-fa37-0f1aa016bec5.jpg"
     },
     {
       "id": "obra-07",
       "catalogCode": "RON-107",
-      "url": "./artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg",
+      "url": "/artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg",
       "title": "Horizonte Atlántico en Invierno",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -204,12 +210,13 @@
       ],
       "story": "La línea del horizonte divide dos inmensidades de plomo y plata. Concebida durante los meses de invierno frente a la costa, la obra busca transmitir la fuerza hipnótica de la marea alta.",
       "width": 512,
-      "height": 414
+      "height": 414,
+      "image": "/artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg"
     },
     {
       "id": "obra-08",
       "catalogCode": "RON-108",
-      "url": "./artworks/09820b6f-dc56-87e8-649d-874c0b0fa0db.jpg",
+      "url": "/artworks/09820b6f-dc56-87e8-649d-874c0b0fa0db.jpg",
       "title": "Naturaleza Muerta con Higos y Cristal",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -233,12 +240,13 @@
       ],
       "story": "Los objetos cotidianos dispuestos sobre una mesa de madera cobran una presencia casi sagrada cuando la luz lateral atraviesa el cristal tallado y acaricia la piel de los frutos.",
       "width": 512,
-      "height": 655
+      "height": 655,
+      "image": "/artworks/09820b6f-dc56-87e8-649d-874c0b0fa0db.jpg"
     },
     {
       "id": "obra-09",
       "catalogCode": "RON-109",
-      "url": "./artworks/0a991ed0-5816-1fbe-33d2-a12c384334ab.jpg",
+      "url": "/artworks/0a991ed0-5816-1fbe-33d2-a12c384334ab.jpg",
       "title": "Fragmento de un Jardín Secreto",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -262,12 +270,13 @@
       ],
       "story": "Una inmersión en el follaje silvestre donde la escala invita a perderse entre tallos, hojas y destellos florales que parecen respirar al ritmo de la brisa.",
       "width": 512,
-      "height": 628
+      "height": 628,
+      "image": "/artworks/0a991ed0-5816-1fbe-33d2-a12c384334ab.jpg"
     },
     {
       "id": "obra-10",
       "catalogCode": "RON-110",
-      "url": "./artworks/0b0b5c15-0633-376b-278e-2660f09b582a.jpg",
+      "url": "/artworks/0b0b5c15-0633-376b-278e-2660f09b582a.jpg",
       "title": "Crónica de la Luz Oblicua",
       "artist": "Miguel Rondot",
       "year": "2023",
@@ -291,12 +300,13 @@
       ],
       "story": "El instante efímero de las cinco de la tarde en que un rayo de sol proyecta geometrías cálidas sobre los muros encalados de una habitación silenciosa.",
       "width": 512,
-      "height": 397
+      "height": 397,
+      "image": "/artworks/0b0b5c15-0633-376b-278e-2660f09b582a.jpg"
     },
     {
       "id": "obra-11",
       "catalogCode": "RON-111",
-      "url": "./artworks/0f16b763-7dd4-8c2f-3fde-321729f6c552.jpg",
+      "url": "/artworks/0f16b763-7dd4-8c2f-3fde-321729f6c552.jpg",
       "title": "Preludio de Tormenta en la Pampa",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -321,12 +331,13 @@
       ],
       "story": "En la llanura infinita el cielo ocupa cuatro quintas partes del universo visual. Esta obra de gran formato registra el momento sobrecogedor en que el frente de tormenta avanza sobre el pastizal.",
       "width": 512,
-      "height": 632
+      "height": 632,
+      "image": "/artworks/0f16b763-7dd4-8c2f-3fde-321729f6c552.jpg"
     },
     {
       "id": "obra-12",
       "catalogCode": "RON-112",
-      "url": "./artworks/0f1d3bfb-cbd3-80cb-dfb9-d157e77d1542.jpg",
+      "url": "/artworks/0f1d3bfb-cbd3-80cb-dfb9-d157e77d1542.jpg",
       "title": "variaciones sobre el Azul de Prusia",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -350,12 +361,13 @@
       ],
       "story": "Un viaje cromático hacia las profundidades del pigmento Azul de Prusia, donde las variaciones de saturación e impasto generan una topografía cambiante según el ángulo del observador.",
       "width": 512,
-      "height": 424
+      "height": 424,
+      "image": "/artworks/0f1d3bfb-cbd3-80cb-dfb9-d157e77d1542.jpg"
     },
     {
       "id": "obra-13",
       "catalogCode": "RON-113",
-      "url": "./artworks/0f951635-312c-0829-451b-553f461c5518.jpg",
+      "url": "/artworks/0f951635-312c-0829-451b-553f461c5518.jpg",
       "title": "Silencio en el Valle de Cobre (Serie II · N° 1)",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -380,12 +392,13 @@
       ],
       "story": "Una meditación sobre la quietud crepuscular cuando los últimos rayos oblicuos del sol transforman la bruma de la montaña en una lámina de oro envejecido. La superposición de veladuras al óleo permite que la luz parezca emanar desde el interior mismo de la trama del lino.",
       "width": 512,
-      "height": 717
+      "height": 717,
+      "image": "/artworks/0f951635-312c-0829-451b-553f461c5518.jpg"
     },
     {
       "id": "obra-14",
       "catalogCode": "RON-114",
-      "url": "./artworks/10429355-e9c3-c48d-1d2a-6fef025d140e.jpg",
+      "url": "/artworks/10429355-e9c3-c48d-1d2a-6fef025d140e.jpg",
       "title": "Vigilia Nocturna I (Serie II · N° 2)",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -409,12 +422,13 @@
       ],
       "story": "Inspirada en la tradición tenebrista pero ejecutada con una sensibilidad contemporánea, esta pieza explora el umbral entre la vigilia y el sueño. El contraste dramático invita al espectador a detenerse y habitar el silencio de la escena.",
       "width": 512,
-      "height": 358
+      "height": 358,
+      "image": "/artworks/10429355-e9c3-c48d-1d2a-6fef025d140e.jpg"
     },
     {
       "id": "obra-15",
       "catalogCode": "RON-115",
-      "url": "./artworks/107dd824-9ae2-b091-9787-5901d5e300da.jpg",
+      "url": "/artworks/107dd824-9ae2-b091-9787-5901d5e300da.jpg",
       "title": "Estudio para una Geometría del Viento (Serie II · N° 3)",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -438,12 +452,13 @@
       ],
       "story": "Las corrientes invisibles del aire dejan su rastro sobre las formas orgánicas. Esta obra captura el instante exacto en que la tensión atmosférica cede paso a la serenidad después de la tormenta.",
       "width": 512,
-      "height": 677
+      "height": 677,
+      "image": "/artworks/107dd824-9ae2-b091-9787-5901d5e300da.jpg"
     },
     {
       "id": "obra-16",
       "catalogCode": "RON-116",
-      "url": "./artworks/118eacd7-3e92-a96d-7b0e-160eb0c0bf20.jpg",
+      "url": "/artworks/118eacd7-3e92-a96d-7b0e-160eb0c0bf20.jpg",
       "title": "El Molino de Agua y la Niebla (Serie II · N° 4)",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -468,12 +483,13 @@
       ],
       "story": "El sonido constante del agua corriendo bajo la estructura de madera se traduce aquí en pinceladas densas y matéricas. Los tonos rojizos de la cubierta dialogan con los verdes profundos del musgo húmedo.",
       "width": 512,
-      "height": 380
+      "height": 380,
+      "image": "/artworks/118eacd7-3e92-a96d-7b0e-160eb0c0bf20.jpg"
     },
     {
       "id": "obra-17",
       "catalogCode": "RON-117",
-      "url": "./artworks/11f33728-685f-c85c-2326-cd0e42536044.jpg",
+      "url": "/artworks/11f33728-685f-c85c-2326-cd0e42536044.jpg",
       "title": "Arquitectura de la Memoria (Serie II · N° 5)",
       "artist": "Miguel Rondot",
       "year": "2023",
@@ -497,12 +513,13 @@
       ],
       "story": "Los vestigios arquitectónicos funcionan como metáfora de la memoria humana: aquello que permanece en pie frente a la erosión del tiempo adquiere una dignidad irrepetible.",
       "width": 512,
-      "height": 350
+      "height": 350,
+      "image": "/artworks/11f33728-685f-c85c-2326-cd0e42536044.jpg"
     },
     {
       "id": "obra-18",
       "catalogCode": "RON-118",
-      "url": "./artworks/12d3265d-c9fc-ca4c-ca25-59032b3227de.jpg",
+      "url": "/artworks/12d3265d-c9fc-ca4c-ca25-59032b3227de.jpg",
       "title": "Retrato del Eco (Serie II · N° 6)",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -526,12 +543,13 @@
       ],
       "story": "Un estudio íntimo de la mirada humana donde la mitad del rostro emerge de la penumbra mientras la otra se funde con el fondo, sugiriendo que toda identidad guarda una zona de misterio inaccesible.",
       "width": 512,
-      "height": 356
+      "height": 356,
+      "image": "/artworks/12d3265d-c9fc-ca4c-ca25-59032b3227de.jpg"
     },
     {
       "id": "obra-19",
       "catalogCode": "RON-119",
-      "url": "./artworks/140d06a1-7fe1-3672-4d0b-15511b6913e6.jpg",
+      "url": "/artworks/140d06a1-7fe1-3672-4d0b-15511b6913e6.jpg",
       "title": "Horizonte Atlántico en Invierno (Serie II · N° 7)",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -556,12 +574,13 @@
       ],
       "story": "La línea del horizonte divide dos inmensidades de plomo y plata. Concebida durante los meses de invierno frente a la costa, la obra busca transmitir la fuerza hipnótica de la marea alta.",
       "width": 512,
-      "height": 655
+      "height": 655,
+      "image": "/artworks/140d06a1-7fe1-3672-4d0b-15511b6913e6.jpg"
     },
     {
       "id": "obra-20",
       "catalogCode": "RON-120",
-      "url": "./artworks/14dd6a9c-11d0-0ed1-abe5-91444e7715f9.jpg",
+      "url": "/artworks/14dd6a9c-11d0-0ed1-abe5-91444e7715f9.jpg",
       "title": "Naturaleza Muerta con Higos y Cristal (Serie II · N° 8)",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -585,12 +604,13 @@
       ],
       "story": "Los objetos cotidianos dispuestos sobre una mesa de madera cobran una presencia casi sagrada cuando la luz lateral atraviesa el cristal tallado y acaricia la piel de los frutos.",
       "width": 512,
-      "height": 624
+      "height": 624,
+      "image": "/artworks/14dd6a9c-11d0-0ed1-abe5-91444e7715f9.jpg"
     },
     {
       "id": "obra-21",
       "catalogCode": "RON-121",
-      "url": "./artworks/14f54f04-6bf4-f75f-7a85-2317578071fc.jpg",
+      "url": "/artworks/14f54f04-6bf4-f75f-7a85-2317578071fc.jpg",
       "title": "Fragmento de un Jardín Secreto (Serie II · N° 9)",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -614,12 +634,13 @@
       ],
       "story": "Una inmersión en el follaje silvestre donde la escala invita a perderse entre tallos, hojas y destellos florales que parecen respirar al ritmo de la brisa.",
       "width": 512,
-      "height": 656
+      "height": 656,
+      "image": "/artworks/14f54f04-6bf4-f75f-7a85-2317578071fc.jpg"
     },
     {
       "id": "obra-22",
       "catalogCode": "RON-122",
-      "url": "./artworks/15a87438-df7b-8fe1-203f-e0b4d36236a0.jpg",
+      "url": "/artworks/15a87438-df7b-8fe1-203f-e0b4d36236a0.jpg",
       "title": "Crónica de la Luz Oblicua (Serie II · N° 10)",
       "artist": "Miguel Rondot",
       "year": "2023",
@@ -643,12 +664,13 @@
       ],
       "story": "El instante efímero de las cinco de la tarde en que un rayo de sol proyecta geometrías cálidas sobre los muros encalados de una habitación silenciosa.",
       "width": 512,
-      "height": 507
+      "height": 507,
+      "image": "/artworks/15a87438-df7b-8fe1-203f-e0b4d36236a0.jpg"
     },
     {
       "id": "obra-23",
       "catalogCode": "RON-123",
-      "url": "./artworks/1865cfaa-51b3-8916-56eb-6b57cf95c772.jpg",
+      "url": "/artworks/1865cfaa-51b3-8916-56eb-6b57cf95c772.jpg",
       "title": "Preludio de Tormenta en la Pampa (Serie II · N° 11)",
       "artist": "Miguel Rondot",
       "year": "2025",
@@ -673,12 +695,13 @@
       ],
       "story": "En la llanura infinita el cielo ocupa cuatro quintas partes del universo visual. Esta obra de gran formato registra el momento sobrecogedor en que el frente de tormenta avanza sobre el pastizal.",
       "width": 512,
-      "height": 664
+      "height": 664,
+      "image": "/artworks/1865cfaa-51b3-8916-56eb-6b57cf95c772.jpg"
     },
     {
       "id": "obra-24",
       "catalogCode": "RON-124",
-      "url": "./artworks/18adfd19-6c76-989e-36ae-1343aa15701b.jpg",
+      "url": "/artworks/18adfd19-6c76-989e-36ae-1343aa15701b.jpg",
       "title": "variaciones sobre el Azul de Prusia (Serie II · N° 12)",
       "artist": "Miguel Rondot",
       "year": "2024",
@@ -702,7 +725,8 @@
       ],
       "story": "Un viaje cromático hacia las profundidades del pigmento Azul de Prusia, donde las variaciones de saturación e impasto generan una topografía cambiante según el ángulo del observador.",
       "width": 512,
-      "height": 670
+      "height": 670,
+      "image": "/artworks/18adfd19-6c76-989e-36ae-1343aa15701b.jpg"
     }
   ]
 }

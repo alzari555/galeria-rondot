@@ -6,6 +6,7 @@ export type ArtworkItem = {
   id: string;
   catalogCode: string;
   url: string;
+  image?: string;
   title: string;
   artist: string;
   year: string;

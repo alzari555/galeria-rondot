@@ -1,7 +1,7 @@
 {
   "id": "obra-07",
   "catalogCode": "RON-107",
-  "url": "./artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg",
+  "url": "/artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg",
   "title": "Horizonte Atlántico en Invierno",
   "artist": "Miguel Rondot",
   "year": "2025",
@@ -26,5 +26,6 @@
   ],
   "story": "La línea del horizonte divide dos inmensidades de plomo y plata. Concebida durante los meses de invierno frente a la costa, la obra busca transmitir la fuerza hipnótica de la marea alta.",
   "width": 512,
-  "height": 414
+  "height": 414,
+  "image": "/artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg"
 }
