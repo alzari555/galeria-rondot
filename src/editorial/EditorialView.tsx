@@ -40,6 +40,8 @@ export function EditorialView({
   const sheetRef = React.useRef<HTMLElement>(null);
   const hasScrolledDownRef = React.useRef(false);
   const touchStartYRef = React.useRef<number | null>(null);
+  const isAutoScrollingRef = React.useRef(false);
+  const userInteractedRef = React.useRef(false);
   const [copied, setCopied] = React.useState(false);
 
   const lastArtworkRef = React.useRef(target?.artwork ?? null);
@@ -49,9 +51,62 @@ export function EditorialView({
   const artwork = target?.artwork ?? lastArtworkRef.current;
 
   React.useEffect(() => {
-    if (visible && containerRef.current) {
-      containerRef.current.scrollTop = 0;
-      hasScrolledDownRef.current = false;
+    const el = containerRef.current;
+    if (!visible || !el) return;
+
+    el.scrollTop = 0;
+    hasScrolledDownRef.current = false;
+    userInteractedRef.current = false;
+    isAutoScrollingRef.current = false;
+
+    // Check hint counter (show only the first 3 times, or if ?peek=1 is in URL)
+    let hintCount = 0;
+    try {
+      hintCount = parseInt(localStorage.getItem("editorial_scroll_hint_count") || "0", 10);
+    } catch {
+      // Ignore storage errors
+    }
+
+    const forceHint =
+      typeof window !== "undefined" && window.location.search.includes("peek");
+
+    if (hintCount < 3 || forceHint) {
+      if (!forceHint) {
+        try {
+          localStorage.setItem("editorial_scroll_hint_count", String(hintCount + 1));
+        } catch {
+          // Ignore storage errors
+        }
+      }
+
+      // Wait for the 420ms fade-in transition to settle before nudging
+      let returnTimer: ReturnType<typeof setTimeout> | null = null;
+      const peekTimer = setTimeout(() => {
+        if (!el || userInteractedRef.current || el.scrollTop > 15) return;
+
+        isAutoScrollingRef.current = true;
+        el.scrollTo({ top: 85, behavior: "smooth" });
+
+        // Pause to let the user see the sheet peeking up, then gently return to top
+        returnTimer = setTimeout(() => {
+          if (!el || userInteractedRef.current || el.scrollTop > 140) {
+            isAutoScrollingRef.current = false;
+            return;
+          }
+
+          el.scrollTo({ top: 0, behavior: "smooth" });
+
+          setTimeout(() => {
+            isAutoScrollingRef.current = false;
+          }, 450);
+        }, 750);
+      }, 500);
+
+      return () => {
+        clearTimeout(peekTimer);
+        if (returnTimer) clearTimeout(returnTimer);
+        isAutoScrollingRef.current = false;
+      };
     }
   }, [visible, target?.planeId]);
 
@@ -73,6 +128,8 @@ export function EditorialView({
     if (!el || !visible) return;
 
     const onScroll = () => {
+      if (isAutoScrollingRef.current) return;
+
       if (el.scrollTop > 90) {
         hasScrolledDownRef.current = true;
       } else if (hasScrolledDownRef.current && el.scrollTop <= 2) {
@@ -82,12 +139,16 @@ export function EditorialView({
     };
 
     const onWheel = (e: WheelEvent) => {
+      userInteractedRef.current = true;
+      isAutoScrollingRef.current = false;
       if (el.scrollTop <= 2 && e.deltaY < -28) {
         onReturnTo3D();
       }
     };
 
     const onTouchStart = (e: TouchEvent) => {
+      userInteractedRef.current = true;
+      isAutoScrollingRef.current = false;
       if (el.scrollTop <= 2 && e.touches[0]) {
         touchStartYRef.current = e.touches[0].clientY;
       } else {
