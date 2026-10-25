@@ -61,7 +61,7 @@ export function BrowserWarningBanner() {
           Navegador Samsung detectado
         </div>
         <div style={{ color: "#d1d5db", fontSize: "12px" }}>
-          Si ves colores invertidos o grisáceos: tocá <strong>Menú ☰ → Desactivar modo oscuro</strong> para ver los pigmentos y contrastes reales.
+          Para ver las obras con sus colores reales: tocá los <strong>tres puntos verticales (⋮)</strong>, elegí <strong>"Sitios claros"</strong> y recargá la página.
         </div>
       </div>
       <button
