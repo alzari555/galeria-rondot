@@ -1,0 +1,30 @@
+{
+  "id": "obra-07",
+  "catalogCode": "RON-107",
+  "url": "./artworks/09564c4e-7ffd-3e6f-b286-83c04c3e35db.jpg",
+  "title": "Horizonte Atlántico en Invierno",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo sobre lino crudo",
+  "dimensions": "180 × 110 cm",
+  "status": "reservado",
+  "price": "USD 3,400",
+  "vibes": [
+    "Mar",
+    "Calma",
+    "Inmensidad",
+    "Frío"
+  ],
+  "tags": [
+    "mar",
+    "oceano",
+    "horizonte",
+    "invierno",
+    "azul",
+    "gris",
+    "olas"
+  ],
+  "story": "La línea del horizonte divide dos inmensidades de plomo y plata. Concebida durante los meses de invierno frente a la costa, la obra busca transmitir la fuerza hipnótica de la marea alta.",
+  "width": 512,
+  "height": 414
+}

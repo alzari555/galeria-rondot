@@ -1,0 +1,30 @@
+{
+  "id": "obra-11",
+  "catalogCode": "RON-111",
+  "url": "./artworks/0f16b763-7dd4-8c2f-3fde-321729f6c552.jpg",
+  "title": "Preludio de Tormenta en la Pampa",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo sobre lino",
+  "dimensions": "200 × 120 cm",
+  "status": "reservado",
+  "price": "USD 3,900",
+  "vibes": [
+    "Intenso",
+    "Naturaleza",
+    "Inmensidad",
+    "Tierra"
+  ],
+  "tags": [
+    "pampa",
+    "tormenta",
+    "cielo",
+    "llanura",
+    "campo",
+    "nubes",
+    "dramatico"
+  ],
+  "story": "En la llanura infinita el cielo ocupa cuatro quintas partes del universo visual. Esta obra de gran formato registra el momento sobrecogedor en que el frente de tormenta avanza sobre el pastizal.",
+  "width": 512,
+  "height": 632
+}

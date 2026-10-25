@@ -178,4 +178,16 @@ const catalog = copiedFiles.map((filename, idx) => {
 });
 
 fs.writeFileSync("./src/data/artworks.json", JSON.stringify({ items: catalog }, null, 2), "utf8");
-console.log(`Generated ${catalog.length} artworks in src/data/artworks.json`);
+
+fs.mkdirSync("./src/data/artworks", { recursive: true });
+for (const item of catalog) {
+  const safeTitle = item.title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  const filename = `${item.catalogCode}-${safeTitle}.json`;
+  fs.writeFileSync(path.join("./src/data/artworks", filename), JSON.stringify(item, null, 2), "utf8");
+}
+console.log(`Generated ${catalog.length} artworks in src/data/artworks.json and src/data/artworks/`);

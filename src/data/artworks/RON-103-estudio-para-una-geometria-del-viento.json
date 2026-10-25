@@ -1,0 +1,29 @@
+{
+  "id": "obra-03",
+  "catalogCode": "RON-103",
+  "url": "./artworks/084d1143-6073-96e5-433c-6a3bb83a1bbd.jpg",
+  "title": "Estudio para una Geometría del Viento",
+  "artist": "Miguel Rondot",
+  "year": "2024",
+  "technique": "Técnica mixta, acrílico y grafito sobre madera",
+  "dimensions": "120 × 90 cm",
+  "status": "reservado",
+  "price": "USD 1,850",
+  "vibes": [
+    "Movimiento",
+    "Calma",
+    "Efémero",
+    "Aire"
+  ],
+  "tags": [
+    "viento",
+    "geometria",
+    "abstracto",
+    "cielo",
+    "nubes",
+    "movimiento"
+  ],
+  "story": "Las corrientes invisibles del aire dejan su rastro sobre las formas orgánicas. Esta obra captura el instante exacto en que la tensión atmosférica cede paso a la serenidad después de la tormenta.",
+  "width": 512,
+  "height": 361
+}

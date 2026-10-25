@@ -1,0 +1,29 @@
+{
+  "id": "obra-18",
+  "catalogCode": "RON-118",
+  "url": "./artworks/12d3265d-c9fc-ca4c-ca25-59032b3227de.jpg",
+  "title": "Retrato del Eco (Serie II · N° 6)",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo sobre tabla preparada al gesso",
+  "dimensions": "80 × 65 cm",
+  "status": "disponible",
+  "price": "USD 1,500",
+  "vibes": [
+    "Introspección",
+    "Retrato",
+    "Sombra",
+    "Íntimo"
+  ],
+  "tags": [
+    "retrato",
+    "mirada",
+    "rostro",
+    "intimo",
+    "sombra",
+    "luz"
+  ],
+  "story": "Un estudio íntimo de la mirada humana donde la mitad del rostro emerge de la penumbra mientras la otra se funde con el fondo, sugiriendo que toda identidad guarda una zona de misterio inaccesible.",
+  "width": 512,
+  "height": 356
+}

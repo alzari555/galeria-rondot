@@ -1,0 +1,29 @@
+{
+  "id": "obra-12",
+  "catalogCode": "RON-112",
+  "url": "./artworks/0f1d3bfb-cbd3-80cb-dfb9-d157e77d1542.jpg",
+  "title": "variaciones sobre el Azul de Prusia",
+  "artist": "Miguel Rondot",
+  "year": "2024",
+  "technique": "Óleo y pigmento puro sobre tela",
+  "dimensions": "100 × 100 cm",
+  "status": "disponible",
+  "price": "USD 1,950",
+  "vibes": [
+    "Nocturno",
+    "Calma",
+    "Introspección",
+    "Frío"
+  ],
+  "tags": [
+    "azul",
+    "prusia",
+    "monocromo",
+    "noche",
+    "profundidad",
+    "abstracto"
+  ],
+  "story": "Un viaje cromático hacia las profundidades del pigmento Azul de Prusia, donde las variaciones de saturación e impasto generan una topografía cambiante según el ángulo del observador.",
+  "width": 512,
+  "height": 424
+}

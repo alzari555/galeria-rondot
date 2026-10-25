@@ -3,7 +3,7 @@ import { INITIAL_CAMERA_Z } from "~/src/canvas/constants";
 import { InfiniteCanvas } from "~/src/canvas/index";
 import type { ArtworkItem, FocusedTarget } from "~/src/canvas/types";
 import { findClosestPlaneForArtwork } from "~/src/canvas/utils";
-import artworksData from "~/src/data/artworks.json";
+import { getArtworks } from "~/src/data/index";
 import { EditorialView } from "~/src/editorial/EditorialView";
 import { ControlsGuide } from "~/src/ui/ControlsGuide";
 import { Header } from "~/src/ui/Header";
@@ -11,10 +11,7 @@ import { PageLoader } from "~/src/ui/Loader";
 import { SearchModal } from "~/src/ui/SearchModal";
 
 export function App() {
-  const [media] = React.useState<ArtworkItem[]>(() => {
-    const raw = artworksData as ArtworkItem[] | { items?: ArtworkItem[] };
-    return Array.isArray(raw) ? raw : (raw.items ?? []);
-  });
+  const [media] = React.useState<ArtworkItem[]>(() => getArtworks());
   const [textureProgress, setTextureProgress] = React.useState(0);
   const [focusedTarget, setFocusedTarget] = React.useState<FocusedTarget | null>(null);
   const [isEditorialReady, setIsEditorialReady] = React.useState(false);

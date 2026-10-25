@@ -1,0 +1,29 @@
+{
+  "id": "obra-17",
+  "catalogCode": "RON-117",
+  "url": "./artworks/11f33728-685f-c85c-2326-cd0e42536044.jpg",
+  "title": "Arquitectura de la Memoria (Serie II · N° 5)",
+  "artist": "Miguel Rondot",
+  "year": "2023",
+  "technique": "Óleo y encáustica fría sobre tela",
+  "dimensions": "150 × 120 cm",
+  "status": "disponible",
+  "price": "Colección Privada (Buenos Aires)",
+  "vibes": [
+    "Clásico",
+    "Dorados",
+    "Tiempo",
+    "Melancolía"
+  ],
+  "tags": [
+    "arquitectura",
+    "ruinas",
+    "memoria",
+    "tiempo",
+    "clasico",
+    "historia"
+  ],
+  "story": "Los vestigios arquitectónicos funcionan como metáfora de la memoria humana: aquello que permanece en pie frente a la erosión del tiempo adquiere una dignidad irrepetible.",
+  "width": 512,
+  "height": 350
+}

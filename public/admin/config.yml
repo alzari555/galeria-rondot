@@ -7,46 +7,127 @@ media_folder: "public/artworks"
 public_folder: "/artworks"
 
 locale: "es"
+site_url: "/"
+display_url: "/"
 
 collections:
-  - name: "catalogo"
-    label: "Catálogo de Obras"
-    files:
-      - name: "artworks"
-        label: "Listado de Obras en 3D"
-        file: "src/data/artworks.json"
-        format: "json"
-        fields:
-          - label: "Obras"
-            name: "items"
-            widget: "list"
-            summary: "{{fields.catalogCode}} — {{fields.title}} ({{fields.status}})"
-            fields:
-              - { label: "ID Único", name: "id", widget: "string", default: "obra-nueva" }
-              - { label: "Código de Catálogo", name: "catalogCode", widget: "string", default: "RON-125" }
-              - { label: "Imagen de la Obra", name: "url", widget: "image" }
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Artista", name: "artist", widget: "string", default: "Miguel Rondot" }
-              - { label: "Año", name: "year", widget: "string", default: "2026" }
-              - { label: "Técnica y Soporte", name: "technique", widget: "string", default: "Óleo sobre lienzo" }
-              - { label: "Dimensiones (ej. 120 × 90 cm)", name: "dimensions", widget: "string" }
-              - label: "Disponibilidad Comercial"
-                name: "status"
-                widget: "select"
-                options:
-                  - { label: "Disponible para adquisición", value: "disponible" }
-                  - { label: "Reservado", value: "reservado" }
-                  - { label: "En colección privada", value: "coleccion_privada" }
-                default: "disponible"
-              - { label: "Precio / Valor", name: "price", widget: "string", default: "Consultar" }
-              - label: "Vibes (Atmósfera)"
-                name: "vibes"
-                widget: "list"
-                default: ["Calma", "Naturaleza"]
-              - label: "Tags Invisibles (Buscador)"
-                name: "tags"
-                widget: "list"
-                default: ["oleo", "original"]
-              - { label: "Nota Curatorial / Historia", name: "story", widget: "text" }
-              - { label: "Ancho original (px)", name: "width", widget: "number", value_type: "int", default: 1000 }
-              - { label: "Alto original (px)", name: "height", widget: "number", value_type: "int", default: 1000 }
+  - name: "artworks"
+    label: "Obras de la Galería"
+    label_singular: "Obra"
+    folder: "src/data/artworks"
+    create: true
+    delete: true
+    format: "json"
+    extension: "json"
+    slug: "{{catalogCode}}-{{slug}}"
+    summary: "{{catalogCode}} — {{title}} ({{status}})"
+    sortable_fields:
+      fields: ["catalogCode", "title", "year", "status"]
+      default:
+        field: "catalogCode"
+        order: "ascending"
+    view_filters:
+      - label: "🟢 Disponibles"
+        field: "status"
+        pattern: "disponible"
+      - label: "🟡 Reservadas"
+        field: "status"
+        pattern: "reservado"
+      - label: "⚫ Colección Privada"
+        field: "status"
+        pattern: "coleccion_privada"
+    view_groups:
+      - label: "Por Estado de Venta"
+        field: "status"
+      - label: "Por Año"
+        field: "year"
+    fields:
+      - label: "Código de Catálogo"
+        name: "catalogCode"
+        widget: "string"
+        default: "RON-125"
+        hint: "Código único de inventario de la obra (ej: RON-125)"
+
+      - label: "Título de la Obra"
+        name: "title"
+        widget: "string"
+        hint: "Nombre principal de la pieza"
+
+      - label: "Fotografía de la Obra"
+        name: "url"
+        widget: "image"
+        hint: "Imagen de alta resolución de la obra (se guardará en public/artworks)"
+
+      - label: "Disponibilidad Comercial"
+        name: "status"
+        widget: "select"
+        options:
+          - { label: "🟢 Disponible para adquisición", value: "disponible" }
+          - { label: "🟡 Obra reservada", value: "reservado" }
+          - { label: "⚫ En colección privada", value: "coleccion_privada" }
+        default: "disponible"
+
+      - label: "Precio / Valor"
+        name: "price"
+        widget: "string"
+        default: "Consultar"
+        hint: "Precio en USD/moneda o 'Consultar' (ej: USD 2,400)"
+
+      - label: "Dimensiones"
+        name: "dimensions"
+        widget: "string"
+        default: "120 × 90 cm"
+        hint: "Medidas exactas en centímetros (ej: 140 × 110 cm)"
+
+      - label: "Técnica y Soporte"
+        name: "technique"
+        widget: "string"
+        default: "Óleo sobre lienzo"
+        hint: "Ej: Óleo y pigmentos minerales sobre lino belga"
+
+      - label: "Artista"
+        name: "artist"
+        widget: "string"
+        default: "Miguel Rondot"
+
+      - label: "Año de Creación"
+        name: "year"
+        widget: "string"
+        default: "2026"
+
+      - label: "Nota Curatorial / Historia de la Obra"
+        name: "story"
+        widget: "text"
+        hint: "Texto descriptivo de la obra que se mostrará en el scroll editorial"
+
+      - label: "Atmósfera / Vibes (Buscador)"
+        name: "vibes"
+        widget: "list"
+        default: ["Calma", "Naturaleza"]
+        hint: "Sensaciones o estados de ánimo (Calma, Nocturno, Dorados, etc.)"
+
+      - label: "Tags Invisibles (Buscador)"
+        name: "tags"
+        widget: "list"
+        default: ["oleo", "original"]
+        hint: "Palabras clave adicionales que el buscador detectará (paisaje, azul, cielo)"
+
+      - label: "ID Técnico"
+        name: "id"
+        widget: "string"
+        default: "obra-nueva"
+        hint: "Identificador interno único (sin espacios ni acentos)"
+
+      - label: "Ancho original (px)"
+        name: "width"
+        widget: "number"
+        value_type: "int"
+        required: false
+        hint: "Opcional: se detecta automáticamente si se deja vacío"
+
+      - label: "Alto original (px)"
+        name: "height"
+        widget: "number"
+        value_type: "int"
+        required: false
+        hint: "Opcional: se detecta automáticamente si se deja vacío"
