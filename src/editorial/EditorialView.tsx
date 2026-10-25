@@ -98,23 +98,35 @@ export function EditorialView({
     const onTouchMove = (e: TouchEvent) => {
       if (touchStartYRef.current !== null && el.scrollTop <= 2 && e.touches[0]) {
         const pullDelta = e.touches[0].clientY - touchStartYRef.current;
-        if (pullDelta > 65) {
+        // Kill Chrome / mobile pull-to-refresh when dragging down at top of artwork
+        if (pullDelta > 0 && e.cancelable) {
+          e.preventDefault();
+        }
+        if (pullDelta > 45) {
           touchStartYRef.current = null;
           onReturnTo3D();
         }
       }
     };
 
+    const onTouchEnd = () => {
+      touchStartYRef.current = null;
+    };
+
     el.addEventListener("scroll", onScroll, { passive: true });
     el.addEventListener("wheel", onWheel, { passive: true });
     el.addEventListener("touchstart", onTouchStart, { passive: true });
-    el.addEventListener("touchmove", onTouchMove, { passive: true });
+    el.addEventListener("touchmove", onTouchMove, { passive: false });
+    el.addEventListener("touchend", onTouchEnd, { passive: true });
+    el.addEventListener("touchcancel", onTouchEnd, { passive: true });
 
     return () => {
       el.removeEventListener("scroll", onScroll);
       el.removeEventListener("wheel", onWheel);
       el.removeEventListener("touchstart", onTouchStart);
       el.removeEventListener("touchmove", onTouchMove);
+      el.removeEventListener("touchend", onTouchEnd);
+      el.removeEventListener("touchcancel", onTouchEnd);
     };
   }, [visible, onReturnTo3D]);
 

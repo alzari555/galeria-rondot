@@ -2,6 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
 import "./index.css";
+import { setupMobileSafeguards } from "./mobile-guards";
+
+// Initialize mobile and browser gesture/zoom safeguards
+setupMobileSafeguards();
 
 const rootEl = document.getElementById("root");
 

@@ -29,6 +29,11 @@
 }
 
 :root {
+  color-scheme: only light;
+  forced-color-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
   --ink: #16181f;
   --ink-soft: #3b3e49;
   --muted: #6b6f7b;
@@ -59,18 +64,48 @@
 }
 
 html,
-body {
+body,
+#root {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  overscroll-behavior: none;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  touch-action: pan-x pan-y;
   font-family: var(--sans);
   color: var(--ink);
   background: var(--paper);
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Guard against Samsung Internet and Chromium forced dark mode heuristics */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: only light;
+  }
+  html,
+  body,
+  #root {
+    background-color: #fafafc !important;
+    color: #16181f !important;
+  }
+}
+
+/* Protect critical graphics, canvas, and artwork images from auto-inversion filters */
+canvas,
+img,
+svg,
+picture,
+video {
+  color-scheme: only light;
+  forced-color-adjust: none;
+  isolation: isolate;
+  filter: none !important;
 }
 
 :focus-visible {
