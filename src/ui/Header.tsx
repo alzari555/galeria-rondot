@@ -16,7 +16,6 @@ export function Header({
         <button type="button" className={styles.searchButton} onClick={onOpenSearch}>
           <Search size={14} />
           <span>Buscar obra o "vibe"</span>
-          <span className={styles.searchKbd}>⌘K</span>
         </button>
       </div>
     </header>
