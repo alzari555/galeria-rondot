@@ -75,36 +75,39 @@ export function setupMobileSafeguards(): () => void {
 }
 
 /**
- * Checks if the user is running Samsung Internet with its aggressive
- * "Dark mode for websites" feature enabled, which forcibly inverts colors.
+ * Detects if the current browser is Samsung Internet (or debug flag is present in URL).
  */
-export function checkSamsungForcedDarkMode(): boolean {
-  if (typeof window === "undefined" || !navigator.userAgent) return false;
-  const isSamsung = /SamsungBrowser/i.test(navigator.userAgent);
-  if (!isSamsung) return false;
+export function isSamsungBrowser(): boolean {
+  if (typeof window === "undefined") return false;
 
-  try {
-    const testEl = document.createElement("div");
-    testEl.style.cssText =
-      "position:absolute;left:-9999px;top:-9999px;width:10px;height:10px;background-color:#ffffff;color:#000000;opacity:0;pointer-events:none;";
-    document.body.appendChild(testEl);
-    const comp = window.getComputedStyle(testEl);
-    const bg = comp.backgroundColor;
-    document.body.removeChild(testEl);
+  // 1. URL override for easy testing on any device (?samsung=1 or ?banner=1)
+  if (
+    typeof window.location !== "undefined" &&
+    (window.location.search.includes("samsung") || window.location.search.includes("banner"))
+  ) {
+    return true;
+  }
 
-    // If Samsung Internet forced dark mode is active, pure #ffffff is rewritten to dark (rgb(18, 18, 18) etc.)
-    const match = bg.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
-    if (match) {
-      const r = parseInt(match[1], 10);
-      const g = parseInt(match[2], 10);
-      const b = parseInt(match[3], 10);
-      if (r < 180 && g < 180 && b < 180) {
-        return true;
-      }
+  // 2. Standard navigator.userAgent
+  const ua = navigator.userAgent || "";
+  if (/SamsungBrowser|SBrowser/i.test(ua)) {
+    return true;
+  }
+
+  // 3. Modern Client Hints (navigator.userAgentData)
+  const uaData = (navigator as any).userAgentData;
+  if (uaData && Array.isArray(uaData.brands)) {
+    if (uaData.brands.some((b: any) => /Samsung/i.test(b.brand))) {
+      return true;
     }
-  } catch {
-    // Ignore test errors
   }
 
   return false;
+}
+
+/**
+ * Checks if the user is running Samsung Internet.
+ */
+export function checkSamsungForcedDarkMode(): boolean {
+  return isSamsungBrowser();
 }
