@@ -5,7 +5,6 @@ import type { ArtworkItem, FocusedTarget } from "~/src/canvas/types";
 import { findClosestPlaneForArtwork } from "~/src/canvas/utils";
 import { getArtworks } from "~/src/data/index";
 import { EditorialView } from "~/src/editorial/EditorialView";
-import { BrowserWarningBanner } from "~/src/ui/BrowserWarningBanner";
 import { Header } from "~/src/ui/Header";
 import { PageLoader } from "~/src/ui/Loader";
 import { SearchModal } from "~/src/ui/SearchModal";
@@ -69,7 +68,6 @@ export function App() {
 
   return (
     <>
-      <BrowserWarningBanner />
       <PageLoader progress={textureProgress} />
 
       <Header

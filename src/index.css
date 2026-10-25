@@ -29,7 +29,8 @@
 }
 
 :root {
-  color-scheme: only light;
+  /* Declaring light dark tells Samsung Internet and Chromium that dark mode is handled by the site, deactivating brute-force heuristic auto-inversion */
+  color-scheme: light dark;
   forced-color-adjust: none;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -86,7 +87,16 @@ body,
 /* Guard against Samsung Internet and Chromium forced dark mode heuristics */
 @media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: only light;
+    color-scheme: light dark;
+    --paper: #fafafc !important;
+    --plate: #ffffff !important;
+    --ink: #16181f !important;
+    --ink-soft: #3b3e49 !important;
+    --muted: #6b6f7b !important;
+    --rule: #e2e3ea !important;
+    --fill: #ebecf4 !important;
+    --fill-accent: #e6e2f7 !important;
+    --accent: #5b3fd6 !important;
   }
   html,
   body,
@@ -102,10 +112,24 @@ img,
 svg,
 picture,
 video {
-  color-scheme: only light;
-  forced-color-adjust: none;
-  isolation: isolate;
+  color-scheme: light dark !important;
+  forced-color-adjust: none !important;
+  isolation: isolate !important;
   filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+/* Samsung Internet specific defensive overrides */
+.samsung-browser {
+  forced-color-adjust: none !important;
+}
+
+.samsung-browser canvas,
+.samsung-browser img,
+.samsung-browser svg {
+  filter: none !important;
+  backdrop-filter: none;
+  isolation: isolate !important;
 }
 
 :focus-visible {
