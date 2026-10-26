@@ -1,0 +1,29 @@
+{
+  "id": "obra-123",
+  "catalogCode": "RON-223",
+  "url": "/artworks/c22956aa-e8ae-4c12-bd29-e2299b572b43.webp",
+  "image": "/artworks/c22956aa-e8ae-4c12-bd29-e2299b572b43.webp",
+  "title": "El Latido de la Memoria Herida",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo y acrílico con técnica gestual sobre lienzo",
+  "dimensions": "57 × 76 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Energía",
+    "Movimiento",
+    "Contraste",
+    "Introspección"
+  ],
+  "tags": [
+    "abstracción",
+    "rojo vibrante",
+    "gestualidad",
+    "textura",
+    "pasión"
+  ],
+  "story": "Una explosión cromática donde el caos se rige por una danza visceral, capturando la intensidad de un sentimiento incontenible. La pincelada frenética invita a sumergirse en un paisaje emocional donde la luz parece emerger entre capas de pura pasión.",
+  "width": 1432,
+  "height": 1920
+}

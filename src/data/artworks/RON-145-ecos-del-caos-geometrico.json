@@ -1,0 +1,30 @@
+{
+  "id": "obra-45",
+  "catalogCode": "RON-145",
+  "url": "/artworks/1d244578-c854-4268-818f-1fbe5e7e9991.webp",
+  "image": "/artworks/1d244578-c854-4268-818f-1fbe5e7e9991.webp",
+  "title": "Ecos del Caos Geométrico",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo con empaste y técnica de relieve sobre lienzo",
+  "dimensions": "51 × 76 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Misterio",
+    "Contraste",
+    "Energía",
+    "Sombra"
+  ],
+  "tags": [
+    "abstracción",
+    "geometría",
+    "textura",
+    "rojo",
+    "negro",
+    "caos"
+  ],
+  "story": "La obra fragmenta la realidad a través de una estructura geométrica visceral donde la luz carmesí irrumpe desde el vacío absoluto. Es una invitación a explorar el desorden controlado, capturando la tensión entre la forma rígida y la fuerza bruta del material.",
+  "width": 1280,
+  "height": 1920
+}

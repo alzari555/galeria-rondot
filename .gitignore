@@ -3,3 +3,11 @@ dist
 dist-ssr
 *.local
 .DS_Store
+
+# Curator Studio standalone (ignored from git)
+curator-studio/
+tools/
+*.exe
+*.bat
+go.work*
+.importer-cache.json
