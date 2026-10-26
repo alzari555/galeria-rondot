@@ -25,6 +25,36 @@
     "height": 1116
   },
   {
+    "id": "obra-102",
+    "catalogCode": "RON-102",
+    "url": "/artworks/5a73e4f3-7113-4b27-9819-eb19392cc4d1.webp",
+    "image": "/artworks/5a73e4f3-7113-4b27-9819-eb19392cc4d1.webp",
+    "title": "Eferión del Caos Cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "64 × 44 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Texturas",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracción",
+      "vibración",
+      "pincelada gestual",
+      "multicolor",
+      "caos",
+      "vitalidad"
+    ],
+    "story": "Una explosión rítmica de trazos donde el color parece cobrar vida en una danza frenética y vital, capturando la esencia de una emoción desbordante que desafía los límites del lienzo.",
+    "width": 1600,
+    "height": 1116
+  },
+  {
     "id": "obra-03",
     "catalogCode": "RON-103",
     "url": "/artworks/78b5a4be-8d49-47b6-a377-f464ba57696f.webp",
@@ -50,11 +80,65 @@
     "height": 1600
   },
   {
+    "id": "obra-103",
+    "catalogCode": "RON-103",
+    "url": "/artworks/689f7985-9a06-443c-a918-5cc8098cf421.webp",
+    "image": "/artworks/689f7985-9a06-443c-a918-5cc8098cf421.webp",
+    "title": "El Despertar del Fuego Interno",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y técnica mixta sobre lienzo de formato díptico",
+    "dimensions": "64 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Misterio",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "fuego",
+      "geometría",
+      "dinamismo",
+      "cincidura"
+    ],
+    "story": "Una explosión cromática que fragmenta el espacio en trazos de luz y sombra, creando un portal visual donde la intensidad del fuego lucha contra el vacío del caos absoluto.",
+    "width": 1600,
+    "height": 1600
+  },
+  {
     "id": "obra-04",
     "catalogCode": "RON-104",
     "url": "/artworks/67ec14e4-e6cc-4424-9d54-0421ae43a8df.webp",
     "image": "/artworks/67ec14e4-e6cc-4424-9d54-0421ae43a8df.webp",
     "title": "11 (2).jpg",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo",
+    "dimensions": "31 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Calma",
+      "Introspección"
+    ],
+    "tags": [
+      "pintura",
+      "oleo",
+      "arte"
+    ],
+    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 794,
+    "height": 1600
+  },
+  {
+    "id": "obra-104",
+    "catalogCode": "RON-104",
+    "url": "/artworks/ebba93c0-0c72-4b5f-97d9-69015c0b959e.webp",
+    "image": "/artworks/ebba93c0-0c72-4b5f-97d9-69015c0b959e.webp",
+    "title": "11 (2)",
     "artist": "Miguel Rondot",
     "year": "2025",
     "technique": "Óleo sobre lienzo",
@@ -100,6 +184,36 @@
     "height": 1600
   },
   {
+    "id": "obra-105",
+    "catalogCode": "RON-105",
+    "url": "/artworks/9acf2980-38a0-4706-b0b8-adcf421cc96c.webp",
+    "image": "/artworks/9acf2980-38a0-4706-b0b8-adcf421cc96c.webp",
+    "title": "La Explosión del Caos Sagrado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y técnica mixta sobre lienzo con relieve de relieve",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Misterio",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "caos",
+      "neón",
+      "dinamismo",
+      "fractal"
+    ],
+    "story": "Una explosión visual donde la luz se fragmenta en líneas de energía pura que emergen de un abismo oscuro. La obra captura la tensión visceral entre el orden de la estructura geométrica y la fuerza indómita del espíritu en constante renacer.",
+    "width": 1586,
+    "height": 1600
+  },
+  {
     "id": "obra-06",
     "catalogCode": "RON-106",
     "url": "/artworks/68c7a1d9-09df-4503-aa11-896c4fe2be94.webp",
@@ -121,6 +235,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1318,
+    "height": 1600
+  },
+  {
+    "id": "obra-106",
+    "catalogCode": "RON-106",
+    "url": "/artworks/8a0c69b3-8243-4898-b864-f15cc9841688.webp",
+    "image": "/artworks/8a0c69b3-8243-4898-b864-f15cc9841688.webp",
+    "title": "El Eco de la Memoria Fragmentada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con técnica empasto y espátula sobre lienzo",
+    "dimensions": "52 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Texturas",
+      "Misterio",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "empasto",
+      "rojo carmesí",
+      "caos",
+      "gestual"
+    ],
+    "story": "Una explosión visceral de materia donde la luz lucha por emerger entre estructuras que parecen recuerdos del olvido. La obra captura un instante de intensidad visual que oscila entre la destrucción y la resistencia del tiempo.",
     "width": 1318,
     "height": 1600
   },
@@ -150,6 +293,36 @@
     "height": 1600
   },
   {
+    "id": "obra-107",
+    "catalogCode": "RON-107",
+    "url": "/artworks/b7e9b233-3be1-448b-b44d-066f40d74a0e.webp",
+    "image": "/artworks/b7e9b233-3be1-448b-b44d-066f40d74a0e.webp",
+    "title": "El Eco de la Memoria Fragmentada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico, grafito y transferencia sobre soporte texturado",
+    "dimensions": "31 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Misterio",
+      "Contraste",
+      "Efémero"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "figura orgánica",
+      "grafismo",
+      "cian",
+      "caos"
+    ],
+    "story": "La obra despliega una tensión fascinante entre el rigor geométrico y la fluidez de una figura etérea, sugiriendo un recuerdo que emerge de un caos estructurado de luz y olvido.",
+    "width": 792,
+    "height": 1600
+  },
+  {
     "id": "obra-08",
     "catalogCode": "RON-108",
     "url": "/artworks/84a53788-ebeb-46fa-9ed9-6ed1eb6cdcee.webp",
@@ -171,6 +344,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1334,
+    "height": 1600
+  },
+  {
+    "id": "obra-108",
+    "catalogCode": "RON-108",
+    "url": "/artworks/04ac3827-7a6b-4955-be2f-cdb0ac93937f.webp",
+    "image": "/artworks/04ac3827-7a6b-4955-be2f-cdb0ac93937f.webp",
+    "title": "El Eco Cromático de la Triunfo",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico con espátula sobre lienzo",
+    "dimensions": "53 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "multicolor",
+      "vibración",
+      "paris",
+      "ciudad"
+    ],
+    "story": "Una explosión de pinceladas frenéticas que fragmentan la arquitectura clásica en una danza vibrante de color y luz. La obra captura el pulso caótico de la ciudad, donde la estructura sólida se disuelve en una sinfonía de pura energía emocional y movimiento.",
     "width": 1334,
     "height": 1600
   },
@@ -200,6 +403,35 @@
     "height": 1600
   },
   {
+    "id": "obra-109",
+    "catalogCode": "RON-109",
+    "url": "/artworks/5a00be55-7d5d-4824-9eba-623bff6cdbd6.webp",
+    "image": "/artworks/5a00be55-7d5d-4824-9eba-623bff6cdbd6.webp",
+    "title": "Ecos de un Jardín Inolvidado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Naturaleza",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracción",
+      "policromo",
+      "pincelada vibrante",
+      "color",
+      "dinámico"
+    ],
+    "story": "Una explosión cromática donde la luz se fragmenta en una danza frenética, capturando la esencia vital de un paisaje interior. La pincelada gestual construye un ritmo visual que transforma el lienzo en una experiencia sensorial de pura energía y color desbordante.",
+    "width": 1130,
+    "height": 1600
+  },
+  {
     "id": "obra-10",
     "catalogCode": "RON-110",
     "url": "/artworks/d7792f97-ff71-41aa-9809-b708a8df164a.webp",
@@ -221,6 +453,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1142,
+    "height": 1600
+  },
+  {
+    "id": "obra-110",
+    "catalogCode": "RON-110",
+    "url": "/artworks/b63687a9-e989-4723-a79d-d71db098f042.webp",
+    "image": "/artworks/b63687a9-e989-4723-a79d-d71db098f042.webp",
+    "title": "Ecos de un Fuego Primordial",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico con empaste técnico sobre lienzo",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "abstracción",
+      "cromatismo",
+      "dinamismo",
+      "vibración",
+      "gestincualidad"
+    ],
+    "story": "Una explosión de energía pura donde la luz se fragmenta en una danza frenética, capturando la fuerza vital de un incendio indomable. La obra vibra con una intensidad rítmica que parece transformar el lienzo en un campo de pura emoción y color vibrante.",
     "width": 1142,
     "height": 1600
   },
@@ -250,6 +511,35 @@
     "height": 1600
   },
   {
+    "id": "obra-111",
+    "catalogCode": "RON-111",
+    "url": "/artworks/1d0266fb-78c7-48f6-a61c-bac8f5a9388c.webp",
+    "image": "/artworks/1d0266fb-78c7-48f6-a61c-bac8f5a9388c.webp",
+    "title": "Ecos de un Caos Cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo con empaste cargado",
+    "dimensions": "46 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "expresionismo",
+      "gestualidad",
+      "vibrante",
+      "multicolorismo"
+    ],
+    "story": "Una explosión vibrante de color donde la pincelada visceral danza sobre el lienzo capturando la frenesí de una emoción contenida. La obra parece un diálogo de luces y sombras geométricas que invita al espectador a descifrar un paisaje de energía pura.",
+    "width": 1154,
+    "height": 1600
+  },
+  {
     "id": "obra-12",
     "catalogCode": "RON-112",
     "url": "/artworks/aa5ffb62-d201-410c-b233-dbde8509cf42.webp",
@@ -271,6 +561,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1138,
+    "height": 1600
+  },
+  {
+    "id": "obra-112",
+    "catalogCode": "RON-112",
+    "url": "/artworks/aec25a6e-5830-4fca-a6a7-10e3d6a0112a.webp",
+    "image": "/artworks/aec25a6e-5830-4fca-a6a7-10e3d6a0112a.webp",
+    "title": "El Ecos de un Caos Cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo con técnica gestual",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "multicolorismo",
+      "pincelada rápida",
+      "vibración",
+      "caos"
+    ],
+    "story": "Una explosión vibrante de trazos enérgicos que convergen en una danza frenética, captura la vitalidad indomable del pensamiento. La obra invita al espectador a un laberinto de luz y color donde el desorden encuentra su propia armonía visual profunda.",
     "width": 1138,
     "height": 1600
   },
@@ -300,6 +619,35 @@
     "height": 1600
   },
   {
+    "id": "obra-113",
+    "catalogCode": "RON-113",
+    "url": "/artworks/a3f047eb-3795-47e9-b71c-c36603e10079.webp",
+    "image": "/artworks/a3f047eb-3795-47e9-b71c-c36603e10079.webp",
+    "title": "El Eco de un Jardín de Cristal",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo con empaste",
+    "dimensions": "46 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Luz",
+      "Naturaleza",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracto",
+      "vibrante",
+      "expresionista",
+      "paisaje urbano",
+      "impresionismo"
+    ],
+    "story": "Una explosión cromática donde la arquitectura se fragmenta en pinceladas frenéticas, capturando la danza vital entre lo urbano y lo orgánico. La obra invita a sumergirse en un caos de luz que transforma la realidad en un ensueño de pura emoción.",
+    "width": 1154,
+    "height": 1600
+  },
+  {
     "id": "obra-14",
     "catalogCode": "RON-114",
     "url": "/artworks/270094dd-90d0-47e5-9947-7ba16d4e042d.webp",
@@ -321,6 +669,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
+    "id": "obra-114",
+    "catalogCode": "RON-114",
+    "url": "/artworks/9cbd8269-eaa6-40c5-8d35-81dd04900a00.webp",
+    "image": "/artworks/9cbd8269-eaa6-40c5-8d35-81dd04900a00.webp",
+    "title": "El Susurro del Jardín de Cristal",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel cargado sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Introspección",
+      "Contraste",
+      "Energía"
+    ],
+    "tags": [
+      "abstracto",
+      "azules",
+      "pincelada vibrante",
+      "jardín",
+      "textura"
+    ],
+    "story": "Una danza frenética de pinceladas visibles donde la naturaleza se fragmenta en una sinfonía de azules cerúleo y ácidos. La obra invita a sumergirse en un paisaje onírico donde la luz emerge entre la densa textura de color y emoción.",
     "width": 1066,
     "height": 1600
   },
@@ -350,6 +727,35 @@
     "height": 1600
   },
   {
+    "id": "obra-115",
+    "catalogCode": "RON-115",
+    "url": "/artworks/942c285e-292b-41f6-87dc-068d9727e7c5.webp",
+    "image": "/artworks/942c285e-292b-41f6-87dc-068d9727e7c5.webp",
+    "title": "Ecos de una Ciudad de Fuego",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo con pincelada cargada",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "abstracto",
+      "expresionismo",
+      "urbano",
+      "pincelada vibrante",
+      "multicolor"
+    ],
+    "story": "Una explosión cromática donde la arquitectura urbana se fragmenta en una danza de luz y color, capturando la vibración eléctrica de una metrópolis viva. La composición sugiere el pulso frenético de un espacio que se transforma en pura emoción sobre el lienzo.",
+    "width": 1132,
+    "height": 1600
+  },
+  {
     "id": "obra-16",
     "catalogCode": "RON-116",
     "url": "/artworks/0f026464-0916-41e8-833d-098b71e37031.webp",
@@ -371,6 +777,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1132,
+    "height": 1600
+  },
+  {
+    "id": "obra-116",
+    "catalogCode": "RON-116",
+    "url": "/artworks/bd7e52e4-8daf-43da-840a-097ee25b18ef.webp",
+    "image": "/artworks/bd7e52e4-8daf-43da-840a-097ee25b18ef.webp",
+    "title": "Ecos de un Caos Vibrante",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico con espátula sobre lienzo",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracto",
+      "expresionismo",
+      "cromatismo intenso",
+      "pincelada gestual",
+      "caos visual"
+    ],
+    "story": "Una explosión cromática donde la pincelada frenética danza entre la saturación y la vitalidad que desborda el lienzo. La obra captura la fuerza visceral de un sentimiento inconmensurable, transformando el caos en un paisaje de luz pura y ritmo emocional.",
     "width": 1132,
     "height": 1600
   },
@@ -400,6 +835,36 @@
     "height": 1600
   },
   {
+    "id": "obra-117",
+    "catalogCode": "RON-117",
+    "url": "/artworks/76e7eae9-1a4f-4541-a11d-88e1adec58f2.webp",
+    "image": "/artworks/76e7eae9-1a4f-4541-a11d-88e1adec58f2.webp",
+    "title": "El Ecos del Atardecer Fragmentado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "abstracción",
+      "expresionista",
+      "vibrante",
+      "arquitectura",
+      "caos",
+      "fuego"
+    ],
+    "story": "Una explosión cromática donde la arquitectura se desvuelve en una danza frenética de luz y color. La pincelada vigorosa captura la intensidad emocional de un instante efímero, transformando el paisaje en una experiencia sensorial de pura vibración emocional.",
+    "width": 1140,
+    "height": 1600
+  },
+  {
     "id": "obra-18",
     "catalogCode": "RON-118",
     "url": "/artworks/937a0bfe-5c5b-4845-92a6-c912763f6b66.webp",
@@ -421,6 +886,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1192,
+    "height": 1600
+  },
+  {
+    "id": "obra-118",
+    "catalogCode": "RON-118",
+    "url": "/artworks/d3274aa3-d1bd-4cf7-ad74-541a89852d9c.webp",
+    "image": "/artworks/d3274aa3-d1bd-4cf7-ad74-541a89852d9c.webp",
+    "title": "El Estallido de la Memoria Roja",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico y óleo sobre lienzo",
+    "dimensions": "47 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Texturas",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "rojo",
+      "caos",
+      "gestual",
+      "fuego",
+      "pasión"
+    ],
+    "story": "Una explosión cromática donde el caos se organiza en una danza de trazos vitales, capturando la intensidad de una emoción visceral que desborda el lienzo. La luz parece vibrar bajo capas de pigmento que oscilan entre la destrucción y la creación del color.",
     "width": 1192,
     "height": 1600
   },
@@ -450,6 +945,35 @@
     "height": 1600
   },
   {
+    "id": "obra-119",
+    "catalogCode": "RON-119",
+    "url": "/artworks/c1744ca4-e93d-4e0e-bf72-fd8bae7cd359.webp",
+    "image": "/artworks/c1744ca4-e93d-4e0e-bf72-fd8bae7cd359.webp",
+    "title": "El Ecos de la Memoria Herida",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Tinta y acuarela sobre papel de soporte técnico",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Introspección",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "gestualidad",
+      "trazo lineal",
+      "rojo visceral",
+      "expresionista"
+    ],
+    "story": "Una explosión visceral donde el trazo gráfico se funde con la violencia del color carmesí, capturando la tensión entre el orden y el caos. La obra evoca un grito emocional que nace del vacío para transformarse en una estructura orgánica de energía pura.",
+    "width": 1132,
+    "height": 1600
+  },
+  {
     "id": "obra-20",
     "catalogCode": "RON-120",
     "url": "/artworks/480f355c-a946-42ed-9026-1250ae11baf0.webp",
@@ -471,6 +995,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1584
+  },
+  {
+    "id": "obra-120",
+    "catalogCode": "RON-120",
+    "url": "/artworks/81e55fe6-0038-481c-9f3e-e199c8f6287c.webp",
+    "image": "/artworks/81e55fe6-0038-481c-9f3e-e199c8f6287c.webp",
+    "title": "La Estructura del Caos Prisma",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "64 × 63 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "cromatismo vibrante",
+      "fragmentación",
+      "dinamismo"
+    ],
+    "story": "Una explosión de fragmentos cromáticos que emergen de un vacío absoluto, creando una danza visual donde la geometría se rinde ante la fuerza indomable del color.",
     "width": 1600,
     "height": 1584
   },
@@ -500,6 +1053,35 @@
     "height": 1600
   },
   {
+    "id": "obra-121",
+    "catalogCode": "RON-121",
+    "url": "/artworks/bc9d6b54-c6e3-451a-9725-8c659f565536.webp",
+    "image": "/artworks/bc9d6b54-c6e3-451a-9725-8c659f565536.webp",
+    "title": "La Explosión del Caos Ordenado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Acrílico sobre lienzo con técnica de grafismo",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "policromía",
+      "dinamismo",
+      "fragmentación"
+    ],
+    "story": "Una coreografía de fragmentos cromáticos que emergen con violencia desde el vacío de un negro absoluto, creando una tensión visual casi hipnótica. La obra captura el instante preciso de una implexplosión emocional donde la geometría se rinde ante el caos vibrante.",
+    "width": 1594,
+    "height": 1600
+  },
+  {
     "id": "obra-22",
     "catalogCode": "RON-122",
     "url": "/artworks/cebfda70-7dd4-4170-9729-fad3a46fad71.webp",
@@ -521,6 +1103,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1584,
+    "height": 1600
+  },
+  {
+    "id": "obra-122",
+    "catalogCode": "RON-122",
+    "url": "/artworks/e3597645-fbd5-4f0f-bbfd-ed7b6bb4e159.webp",
+    "image": "/artworks/e3597645-fbd5-4f0f-bbfd-ed7b6bb4e159.webp",
+    "title": "Explosión del Caos Cristalino",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Acrílico y grafito sobre lienzo con técnica de capas superpuestas",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Movimiento",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "multicolor",
+      "dinamismo",
+      "fragmentación"
+    ],
+    "story": "Un vibrante estallido de fragmentos cromáticos que emergen del vacío absoluto, creando una danza visual de formas angulares que desafían la quietud. La obra captura un instante de entropía pura donde la luz se convierte en un lenguaje geométrico y delirante.",
     "width": 1584,
     "height": 1600
   },
@@ -550,6 +1161,36 @@
     "height": 1586
   },
   {
+    "id": "obra-123",
+    "catalogCode": "RON-123",
+    "url": "/artworks/206a1d1b-cd60-4a13-ac5e-ad9b74a234d3.webp",
+    "image": "/artworks/206a1d1b-cd60-4a13-ac5e-ad9b74a234d3.webp",
+    "title": "La Explosión del Caos Primordial",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Acrílico y pigmentos sobre lienzo con técnica de capas superuestas",
+    "dimensions": "64 × 63 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Movimiento",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "policromía",
+      "fragmentación",
+      "dinamismo",
+      "vibración"
+    ],
+    "story": "Un estallido cromático visceral que emerge del vacío absoluto, creando una danza de formas geométricas que desafían la oscuridad del fondo. La obra captura el instante de una explosión vital donde el color se convierte en estructura y fuerza pura.",
+    "width": 1600,
+    "height": 1586
+  },
+  {
     "id": "obra-24",
     "catalogCode": "RON-124",
     "url": "/artworks/bff950ca-3936-4346-b8dd-89cd4d1d78b6.webp",
@@ -571,6 +1212,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1538
+  },
+  {
+    "id": "obra-124",
+    "catalogCode": "RON-124",
+    "url": "/artworks/3676308c-03f9-4451-bc3f-31a84c01ff47.webp",
+    "image": "/artworks/3676308c-03f9-4451-bc3f-31a84c01ff47.webp",
+    "title": "La Fragmentación del Silencio Blanco",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con técnica de capas precisas",
+    "dimensions": "64 × 61 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Misterio",
+      "Contraste",
+      "Introspección",
+      "Energía"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "monocromía",
+      "caos",
+      "dinamismo"
+    ],
+    "story": "Una explosión de formas angulares que emergen de un vacío absoluto, creando una danza visual entre el orden geométrico y el caos estructural. La obra captura el instante preciso en el que el pensamiento de luz se fragmenta en mil astillas sobre la sombra profunda.",
     "width": 1600,
     "height": 1538
   },
@@ -600,6 +1270,35 @@
     "height": 1600
   },
   {
+    "id": "obra-125",
+    "catalogCode": "RON-125",
+    "url": "/artworks/1f7fe032-e884-4a48-9efb-67c842c9615b.webp",
+    "image": "/artworks/1f7fe032-e884-4a48-9efb-67c842c9615b.webp",
+    "title": "Ecos de un Caos Cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo con pincelada expresiva y empaste",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "gestualidad",
+      "vibrante",
+      "multicromo",
+      "dinamismo"
+    ],
+    "story": "Una explosión frenética donde el trazo gestual se convierte en una coreografía de color, capturando la intensidad de un pensamiento en constante evolución. La superposición de capas invita al espectador a perderse en un laberinto visual de pura vitalidad emocional.",
+    "width": 1136,
+    "height": 1600
+  },
+  {
     "id": "obra-26",
     "catalogCode": "RON-126",
     "url": "/artworks/a2aed8f6-1a2b-4e55-888e-7f3533adea6a.webp",
@@ -621,6 +1320,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1566
+  },
+  {
+    "id": "obra-126",
+    "catalogCode": "RON-126",
+    "url": "/artworks/093785e8-8a1f-4f88-8944-f30785eea4c1.webp",
+    "image": "/artworks/093785e8-8a1f-4f88-8944-f30785eea4c1.webp",
+    "title": "La Arquitectura del Caos Silencioso",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Tinta y grafito sobre papel técnico",
+    "dimensions": "64 × 62 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Misterio",
+      "Introspección",
+      "Contraste",
+      "Energía"
+    ],
+    "tags": [
+      "abstracción",
+      "lineal",
+      "monocromo",
+      "geometría",
+      "caos"
+    ],
+    "story": "Un intrincado entramado de líneas que emergen del vacío, capturando la lucha entre el orden estructural y el desorden emocional. La tensión entre la oscuridad circundante y la claridad fragmentada crea un diálogo visual sobre la complejidad de la psique humana.",
     "width": 1600,
     "height": 1566
   },
@@ -650,6 +1378,35 @@
     "height": 1600
   },
   {
+    "id": "obra-127",
+    "catalogCode": "RON-127",
+    "url": "/artworks/8b70ad10-a31c-4e51-bd48-dfa81bfb638a.webp",
+    "image": "/artworks/8b70ad10-a31c-4e51-bd48-dfa81bfb638a.webp",
+    "title": "El Eco del Silencio Fragmentado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Tinta china y grafito sobre papel técnico",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Misterio",
+      "Sombra",
+      "Efémero"
+    ],
+    "tags": [
+      "abstracción",
+      "grafismo",
+      "monocromo",
+      "caos controlado",
+      "vacío"
+    ],
+    "story": "Un entramado de trazos erráticos que emerge de un vacío absoluto, sugiriendo la arquitectura interna de un pensamiento que lucha por no ser olvidado. La obra juega con la tensión entre la densidad del borde oscuro y la fragilidad del centro luminoso que se expande.",
+    "width": 1596,
+    "height": 1600
+  },
+  {
     "id": "obra-28",
     "catalogCode": "RON-128",
     "url": "/artworks/9f23fdcc-ba87-459a-a554-9e80554091aa.webp",
@@ -671,6 +1428,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1576,
+    "height": 1600
+  },
+  {
+    "id": "obra-128",
+    "catalogCode": "RON-128",
+    "url": "/artworks/9d9ddc26-a491-4710-90cf-e56777691ade.webp",
+    "image": "/artworks/9d9ddc26-a491-4710-90cf-e56777691ade.webp",
+    "title": "El Eco de la Memoria Olvidada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Grafito y tinta diluida sobre papel tratado",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Efémero",
+      "Bruma",
+      "Calma"
+    ],
+    "tags": [
+      "grafismo lineal",
+      "minimalismo",
+      "monocromo",
+      "trazo",
+      "etéreo"
+    ],
+    "story": "Una pieza que se despliega como un mapa de recuerdos suspendidos, donde la línea apenas roza la existencia de un paisaje que parece desvanecerse. Es una invitación a contemplar la fragilidad de la existencia y el silencio que queda tras el paso del tiempo.",
     "width": 1576,
     "height": 1600
   },
@@ -700,6 +1486,35 @@
     "height": 1600
   },
   {
+    "id": "obra-129",
+    "catalogCode": "RON-129",
+    "url": "/artworks/6a6af920-c040-4b58-a1ea-650050c4625a.webp",
+    "image": "/artworks/6a6af920-c040-4b58-a1ea-650050c4625a.webp",
+    "title": "El Eco de una Memoria Olvidada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Tinta y grafito sobre papel técnico",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Misterio",
+      "Efémero",
+      "Sombra"
+    ],
+    "tags": [
+      "abstracción",
+      "grafismo",
+      "monocromo",
+      "caos lineal",
+      "memoria"
+    ],
+    "story": "Un intrincado mapa de líneas nerviosas que emergen de un vacío central, capturando la fragilidad de un pensamiento que intenta no desvanarse. La tensión entre el borde abismal y la claridad interna evoca la lucha constante entre el recuerdo y el olvido absoluto.",
+    "width": 1594,
+    "height": 1600
+  },
+  {
     "id": "obra-30",
     "catalogCode": "RON-130",
     "url": "/artworks/a58c6df8-2832-4eb8-b772-9178c559eeb6.webp",
@@ -721,6 +1536,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1578
+  },
+  {
+    "id": "obra-130",
+    "catalogCode": "RON-130",
+    "url": "/artworks/eb973f74-c219-40f3-b597-3c2817f16a95.webp",
+    "image": "/artworks/eb973f74-c219-40f3-b597-3c2817f16a95.webp",
+    "title": "El Eco del Gesto Olvidado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con grafito y acrílico sobre soporte de papel tratado",
+    "dimensions": "64 × 63 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Energía",
+      "Movimiento",
+      "Efémero"
+    ],
+    "tags": [
+      "abstracción",
+      "grafismo",
+      "expresionismo",
+      "caos",
+      "color vibrante",
+      "trazo"
+    ],
+    "story": "La obra danza entre la fragilidad del trazo lineal y la violencia contenida del color, capturando un instante de catarsis emocional pura sobre el lienzo. Es una invitación a explorar el caos interno donde el orden nace de la pulsión de la pincelada.",
     "width": 1600,
     "height": 1578
   },
@@ -750,6 +1595,35 @@
     "height": 1600
   },
   {
+    "id": "obra-131",
+    "catalogCode": "RON-131",
+    "url": "/artworks/1975346a-c493-45d5-b6c7-6269aa579fd0.webp",
+    "image": "/artworks/1975346a-c493-45d5-b6c7-6269aa579fd0.webp",
+    "title": "La Arquitectura del Caos Latente",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Tinta y acrílico sobre lienzo",
+    "dimensions": "63 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Introspección",
+      "Misterio",
+      "Energía"
+    ],
+    "tags": [
+      "abstracción",
+      "geometría",
+      "monocromo",
+      "fragmentación",
+      "grafismo"
+    ],
+    "story": "Una explosión de líneas donde la forma se fragmenta contra el vacío absoluto, creando una tensión vibrante entre el orden estructural y la fuerza indómita. La obra invita a descifrar un laberinto emocional que emerge de la oscuridad con una claridad quirúrgica.",
+    "width": 1590,
+    "height": 1600
+  },
+  {
     "id": "obra-32",
     "catalogCode": "RON-132",
     "url": "/artworks/4bf57842-ba54-4f8d-95a8-23c137c6197e.webp",
@@ -771,6 +1645,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1558
+  },
+  {
+    "id": "obra-132",
+    "catalogCode": "RON-132",
+    "url": "/artworks/b9f6109f-6d12-433e-9601-30586b823de8.webp",
+    "image": "/artworks/b9f6109f-6d12-433e-9601-30586b823de8.webp",
+    "title": "El Núcleo del Silencio",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y técnica mixta sobre lienzo con alta carga de materia",
+    "dimensions": "64 × 62 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Luz",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "explosión cromática",
+      "textura",
+      "vibración",
+      "expresion"
+    ],
+    "story": "Una explosión de energía pura que converge hacia un centro de quietud absoluta, capturando la tensión entre el caos vital y la paz interior. La pincelada frenética crea una danza de luz que parece expandirse infinitamente más los límites del lienzo.",
     "width": 1600,
     "height": 1558
   },
@@ -800,11 +1703,65 @@
     "height": 1600
   },
   {
+    "id": "obra-133",
+    "catalogCode": "RON-133",
+    "url": "/artworks/05dcaa9e-b53a-47e8-b8b0-04d20be601bf.webp",
+    "image": "/artworks/05dcaa9e-b53a-47e8-b8b0-04d20be601bf.webp",
+    "title": "El Eco del Oleaje Olvidado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincelada cargada sobre lienzo",
+    "dimensions": "53 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracto",
+      "azul cobalto",
+      "ocre",
+      "pincelada gestual",
+      "dinamismo"
+    ],
+    "story": "Una explosión rítmica de color donde la luz se fragmenta en trazos de fuego y agua, creando un diálogo visual de una intensidad constante. La obra captura la esencia de un paisaje en perpetua transformación, donde el caos cromático se convierte en una armonía vibrante.",
+    "width": 1344,
+    "height": 1600
+  },
+  {
     "id": "obra-34",
     "catalogCode": "RON-134",
     "url": "/artworks/1efb6066-89da-4df5-b0c2-e35b31b25aad.webp",
     "image": "/artworks/1efb6066-89da-4df5-b0c2-e35b31b25aad.webp",
     "title": "1 (1).jpg",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Calma",
+      "Introspección"
+    ],
+    "tags": [
+      "pintura",
+      "oleo",
+      "arte"
+    ],
+    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1144,
+    "height": 1600
+  },
+  {
+    "id": "obra-134",
+    "catalogCode": "RON-134",
+    "url": "/artworks/094a72a7-2126-41b1-9d3b-95904e456ed0.webp",
+    "image": "/artworks/094a72a7-2126-41b1-9d3b-95904e456ed0.webp",
+    "title": "1 (1)",
     "artist": "Miguel Rondot",
     "year": "2025",
     "technique": "Óleo sobre lienzo",
@@ -850,6 +1807,35 @@
     "height": 1600
   },
   {
+    "id": "obra-135",
+    "catalogCode": "RON-135",
+    "url": "/artworks/b2c6c119-d400-4a70-8bdc-c35a39c65730.webp",
+    "image": "/artworks/b2c6c119-d400-4a70-8bdc-c35a39c65730.webp",
+    "title": "La Explosión del Caos Armónico",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "45 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "policromía",
+      "pincelada gestual",
+      "color",
+      "dinamismo"
+    ],
+    "story": "Una coreografía vibrante donde el color y el trazo convergen en una danza frenética de vitalidad pura. La obra captura un instante de pura liberación creativa, transformando el caos en una estructura emocional de profunda intensidad.",
+    "width": 1138,
+    "height": 1600
+  },
+  {
     "id": "obra-36",
     "catalogCode": "RON-136",
     "url": "/artworks/1842115a-d2d6-493f-b86a-450738b546af.webp",
@@ -871,6 +1857,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1506
+  },
+  {
+    "id": "obra-136",
+    "catalogCode": "RON-136",
+    "url": "/artworks/258a8a88-ca8d-4574-8b25-1394e115d059.webp",
+    "image": "/artworks/258a8a88-ca8d-4574-8b25-1394e115d059.webp",
+    "title": "Eclosión del Caos Primario",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico con técnica de goteo y pincelada cargada sobre lienzo",
+    "dimensions": "64 × 60 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "expresionismo",
+      "color vibrante",
+      "gestual",
+      "dinamismo"
+    ],
+    "story": "Una explosión de vitalidad cromática donde el trazo gestual lucha y se fund en una danza frenética, capturando la esencia misma de la creación que nace del desorden.",
     "width": 1600,
     "height": 1506
   },
@@ -900,6 +1915,36 @@
     "height": 1600
   },
   {
+    "id": "obra-137",
+    "catalogCode": "RON-137",
+    "url": "/artworks/3f245cf9-50e5-43a7-b60d-91ce02d55fba.webp",
+    "image": "/artworks/3f245cf9-50e5-43a7-b60d-91ce02d55fba.webp",
+    "title": "Ecos de un Caos Fragmentado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílicos y relieves de pasta sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Misterio",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "explosión cromática",
+      "geometría",
+      "relieve",
+      "dinamismo",
+      "caos"
+    ],
+    "story": "Una explosión de vibrante que emerge de una estructura de sombras geométricas, creando un diálogo visual entre el orden lineal y la libertad emocional del caos. La obra invita a una inmersión en la fuerza pura que lucha por la visibilidad sobre el lienzo saturado.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
     "id": "obra-38",
     "catalogCode": "RON-138",
     "url": "/artworks/db9f8e1e-2558-4fa0-b115-579c682b74a8.webp",
@@ -921,6 +1966,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1246
+  },
+  {
+    "id": "obra-138",
+    "catalogCode": "RON-138",
+    "url": "/artworks/7fc4375b-a6a1-4f47-9db9-95e7db17a02e.webp",
+    "image": "/artworks/7fc4375b-a6a1-4f47-9db9-95e7db17a02e.webp",
+    "title": "El Eco de una Herida Abierta",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico con técnica gestual sobre lienzo",
+    "dimensions": "64 × 49 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Energía",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracción",
+      "gestual",
+      "visceral",
+      "rojo",
+      "caos",
+      "materia"
+    ],
+    "story": "Una danza visceral donde la violencia del trazo negro coloca con la intensidad del carmesí, capturando un instante de catarsis contenida. La composición emerge del vacío blanco como un campo de batalla emocional donde el caos se convierte en pura expresión existencial.",
     "width": 1600,
     "height": 1246
   },
@@ -950,6 +2025,35 @@
     "height": 1600
   },
   {
+    "id": "obra-139",
+    "catalogCode": "RON-139",
+    "url": "/artworks/605d0680-b8ef-4fe3-a0e5-c2a71de6aca5.webp",
+    "image": "/artworks/605d0680-b8ef-4fe3-a0e5-c2a71de6aca5.webp",
+    "title": "La Fragmentación del Aliento Vital",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel cargado sobre lienzo",
+    "dimensions": "48 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "caos cromatismo",
+      "gestualidad",
+      "vibración",
+      "fragmentación"
+    ],
+    "story": "Una explosión rítmica de color fragmenta la realidad en una danza de pinceladas vigorosas que captura la esencia de un sentimiento en plena combustión. La obra vibra entre la intensidad del fuego y la profundidad del azul, creando un universo de energía emocional.",
+    "width": 1214,
+    "height": 1600
+  },
+  {
     "id": "obra-40",
     "catalogCode": "RON-140",
     "url": "/artworks/ca862b8a-58dc-4780-879b-797c7baf42d6.webp",
@@ -971,6 +2075,37 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1078,
+    "height": 1600
+  },
+  {
+    "id": "obra-140",
+    "catalogCode": "RON-140",
+    "url": "/artworks/3d27f6ff-ccc5-4e95-8272-9d442c6f7d65.webp",
+    "image": "/artworks/3d27f6ff-ccc5-4e95-8272-9d442c6f7d65.webp",
+    "title": "Laberinto de Pigmentos Vivos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico y técnica de dripping sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "expresionismo abstracto",
+      "goteo",
+      "color vibrante",
+      "trazos negros",
+      "caos",
+      "dinamismo",
+      "gesto artístico"
+    ],
+    "story": "Un torbellino de pigmentos puros se despliega en el lienzo como un mapa de una creatividad desbordada, donde el gesto del artista se hace tangible en cada capa de goteo y cada trazo de color intenso. La luz no se refleja, sino que emana de los contrastes cromáticos entre el naranja ardiente y los Lazos negros, generando una sensación de libertad absoluta y caos ordenado que invita a una introspección visceral.",
     "width": 1078,
     "height": 1600
   },
@@ -1000,6 +2135,36 @@
     "height": 1600
   },
   {
+    "id": "obra-141",
+    "catalogCode": "RON-141",
+    "url": "/artworks/a5d18a7b-f0f7-4b50-ad12-7242d8b3b944.webp",
+    "image": "/artworks/a5d18a7b-f0f7-4b50-ad12-7242d8b3b944.webp",
+    "title": "Sinfonía del Caos Contemplativo",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con óleo, acrílico y goteo sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "expressionismo",
+      "goteo",
+      "cromatismo",
+      "dinamismo",
+      "contraste",
+      "libertad"
+    ],
+    "story": "Un torbellino de pinceladas salvajes y gotas de pigmento tejen una danza caótica donde el azul profundo choca con el fuego naranja, creando un universo de puro dinamismo y liberación interna. La luz no se posa, sino que estalla en un constante júbilo cromático, invitando al espectador a perderse en el laberinto vibrante de la creación espontánea.",
+    "width": 1056,
+    "height": 1600
+  },
+  {
     "id": "obra-42",
     "catalogCode": "RON-142",
     "url": "/artworks/2cc162df-6e35-4035-8ba5-d968c27989b8.webp",
@@ -1021,6 +2186,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
+    "id": "obra-142",
+    "catalogCode": "RON-142",
+    "url": "/artworks/882f8961-88b4-48d5-bfb4-db6d9aa10809.webp",
+    "image": "/artworks/882f8961-88b4-48d5-bfb4-db6d9aa10809.webp",
+    "title": "Desbordamiento cósmico del color",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con salpicaduras de acrílico y óleo derramado sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracción",
+      "goteo",
+      "energía",
+      "color",
+      "movimiento",
+      "contraste",
+      "subconsciente"
+    ],
+    "story": "Un torbellino de vibrantes colores primarios se despliega en un caos armónico, donde las líneas negras trazan un mapa de energía cósmica y las salpicaduras de rojo y azul parecen capturar el latido de un universo en constante expansión. La luz parece nacer del propio conflicto cromático, regalando una sensación de libertad creativa absoluta y un impulso vital que trasciende lo puramente visual para convertirse en un grito de alma.",
     "width": 1066,
     "height": 1600
   },
@@ -1050,6 +2245,37 @@
     "height": 1600
   },
   {
+    "id": "obra-143",
+    "catalogCode": "RON-143",
+    "url": "/artworks/ec5731dd-a378-4aa3-abcf-b021ee74d3e0.webp",
+    "image": "/artworks/ec5731dd-a378-4aa3-abcf-b021ee74d3e0.webp",
+    "title": "Tejido de Fuerza Caótica",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico y óleo con goteo y espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "caos",
+      "pigmentos",
+      "contraste",
+      "energia",
+      "lineas",
+      "vibrante"
+    ],
+    "story": "Un torbellino de expresión pura se despliega sobre el lienzo, donde el caos ordenado por el gesto crea un universo de tensión dinámica. Los vibrantes tonos naranjas y amarillos se entretejen con una red de líneas negras y salpicaduras rojas que dan forma a una danza de luz y sombra, invitando a una introspección profunda sobre la energía creativa desbordada.",
+    "width": 1072,
+    "height": 1600
+  },
+  {
     "id": "obra-44",
     "catalogCode": "RON-144",
     "url": "/artworks/86b5e90a-99c3-4f8e-8492-b1f541e9e450.webp",
@@ -1071,6 +2297,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1068,
+    "height": 1600
+  },
+  {
+    "id": "obra-144",
+    "catalogCode": "RON-144",
+    "url": "/artworks/fa239b0c-2b1e-48be-8628-5b843fbba29b.webp",
+    "image": "/artworks/fa239b0c-2b1e-48be-8628-5b843fbba29b.webp",
+    "title": "Vórtice de Pigmentos Eternos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico y óleo con goteo, salpicados y espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracto",
+      "color",
+      "trazos",
+      "contraste",
+      "energía",
+      "libertad"
+    ],
+    "story": "Un cosmos de pura vibración cromática se despliega en superposiciones caóticas, donde la luz no se refleja, sino que nace del propio espesor del pigmento. Los audaces trazos de negro y blanco dibujan una danza de contraste absoluto, capturando un instante eterno de libertad creativa y energía desbordada.",
     "width": 1068,
     "height": 1600
   },
@@ -1100,6 +2355,37 @@
     "height": 1600
   },
   {
+    "id": "obra-145",
+    "catalogCode": "RON-145",
+    "url": "/artworks/8c87b9bb-dfe6-4fe7-ba1b-f880e941b4c6.webp",
+    "image": "/artworks/8c87b9bb-dfe6-4fe7-ba1b-f880e941b4c6.webp",
+    "title": "Sinfonía del Caos Vital",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta en óleo y acrílico, con goteo, salpicado y espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracto",
+      "color",
+      "movimiento",
+      "contraste",
+      "goteo",
+      "energía",
+      "expresión"
+    ],
+    "story": "Un torbellino de cromaticidad salvaje se despliega sobre un fondo blanco como la nieve, donde las gotas de rojo, negro y dorado se entrelazan en una danza de libertad absoluta. La luz parece atrapada en un remolino de pinceladas impulsivas, invitando al espectador a sumergirse en el caos ordenado de una emoción desbordada que palpita en cada salpicadura.",
+    "width": 1072,
+    "height": 1600
+  },
+  {
     "id": "obra-46",
     "catalogCode": "RON-146",
     "url": "/artworks/561c59b5-8f9a-4069-a4f8-f1fa94bf4126.webp",
@@ -1121,6 +2407,37 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1082,
+    "height": 1600
+  },
+  {
+    "id": "obra-146",
+    "catalogCode": "RON-146",
+    "url": "/artworks/adb4feb6-2ddb-4799-bba9-9794c60d78e3.webp",
+    "image": "/artworks/adb4feb6-2ddb-4799-bba9-9794c60d78e3.webp",
+    "title": "Catedral del Movimiento Perpetuo",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico líquido y óleo goteado sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "abstracción",
+      "movimiento",
+      "rojo",
+      "azul",
+      "energía",
+      "contraste",
+      "goteo"
+    ],
+    "story": "Un torbellino de puro vitalismo cromático se despliega en el lienzo como una coreografía caótica, donde el rojo pasional y el azul profundo se entrelazan bajo la telaraña negra de un instinto creator infinito. La luz no se posa, sino que vibra en cada salpicadura, convirtiendo el caos en una sinfonía de energía desbordada y pasión existencial.",
     "width": 1082,
     "height": 1600
   },
@@ -1150,6 +2467,37 @@
     "height": 1600
   },
   {
+    "id": "obra-147",
+    "catalogCode": "RON-147",
+    "url": "/artworks/66e223f7-0a26-40ae-890c-8fbc3f64150c.webp",
+    "image": "/artworks/66e223f7-0a26-40ae-890c-8fbc3f64150c.webp",
+    "title": "El círculo de sombra y el puente silente",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta de carbón y pigmento oscuro sobre fondo ocre texturizado, montado en marco octagonal de madera",
+    "dimensions": "64 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Nocturno",
+      "Sombra",
+      "Misterio"
+    ],
+    "tags": [
+      "paisaje",
+      "sombra",
+      "contraste",
+      "texturas",
+      "misterio",
+      "lineas expresivas",
+      "nocturno"
+    ],
+    "story": "Bajo un gigantesco círculo de luz difusa que actúa como un halo de misterio, el paisaje se retuerce en un torbellino de líneas densas y expressionistas que trazan un puente de alma y soledad. El contraste entre el fondo ocre, cálido y terrenal, y los vigorosos trazos de pigmento negro genera una atmósfera introspectiva y melancólica, donde la luz no desvela el paisaje, sino que profundiza en su sombra más íntima.",
+    "width": 1600,
+    "height": 1600
+  },
+  {
     "id": "obra-48",
     "catalogCode": "RON-148",
     "url": "/artworks/35d8ccec-24a5-4948-a1d0-331213b0ca84.webp",
@@ -1171,6 +2519,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1072,
+    "height": 1600
+  },
+  {
+    "id": "obra-148",
+    "catalogCode": "RON-148",
+    "url": "/artworks/f7890968-5280-4365-8319-f0f2cf4069d2.webp",
+    "image": "/artworks/f7890968-5280-4365-8319-f0f2cf4069d2.webp",
+    "title": "Coreografía del Caos Cósmico",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta de óleo y acrílico con goteo sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracción",
+      "colores",
+      "goteo",
+      "energía",
+      "movimiento",
+      "texturas"
+    ],
+    "story": "Un torbellino de puro impulso creativo se despliega en el lienzo, donde el goteo vibrante configura un paisaje de pura energía cinética. El contraste entre la negra densidad de las líneas y el resplandor de los colores primarios genera un universo visual en constante ebullición, capturando el instante efímero de la creación espontánea.",
     "width": 1072,
     "height": 1600
   },
@@ -1200,6 +2577,36 @@
     "height": 1600
   },
   {
+    "id": "obra-149",
+    "catalogCode": "RON-149",
+    "url": "/artworks/c0dad414-e969-4b44-94b3-c9b04c7a06d7.webp",
+    "image": "/artworks/c0dad414-e969-4b44-94b3-c9b04c7a06d7.webp",
+    "title": "Tormenta de pigmentos congelada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con goteo y aplicaciones de espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Efémero"
+    ],
+    "tags": [
+      "abstracción",
+      "goteo",
+      "contraste",
+      "cromatismo",
+      "expresión",
+      "dinamismo"
+    ],
+    "story": "Un torbellino de color puro y trazos decididos se despliega como un mapamundi de emoción cruda, donde el contraste entre el negro profundo y el blanco brillante teje una red de misterio y dinamismo sobre un fondo de caleidoscopio cromático. La luz parece capturada en un estallido efímero, transmitiendo una sensación de libertad absoluta y energía vital desbordada.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
     "id": "obra-50",
     "catalogCode": "RON-150",
     "url": "/artworks/d7bdda5a-8933-40cc-9db2-7bf5427e785b.webp",
@@ -1221,6 +2628,37 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1084,
+    "height": 1600
+  },
+  {
+    "id": "obra-150",
+    "catalogCode": "RON-150",
+    "url": "/artworks/3e7d1345-c1b9-47fe-9daa-7e1847e4fec9.webp",
+    "image": "/artworks/3e7d1345-c1b9-47fe-9daa-7e1847e4fec9.webp",
+    "title": "Sinfonía del caos cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico, tinta y técnica de dripping (goteo) sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "líneas entrelazadas",
+      "color vibrante",
+      "energía",
+      "contraste",
+      "movimiento",
+      "goteo"
+    ],
+    "story": "Un torbellino vibracional donde el caos se convierte en orden poético, tejiendo una red de líneas negras y blancas sobre un lecho de colores primarios que parecen vibrar en el lienzo. La luz se manifiesta en salpicaduras y flujos de tinta líquida, capturando la energía cruda del instante creativo y sumiendo al espectador en un paisaje sensorial de puro dinamismo y contraste.",
     "width": 1084,
     "height": 1600
   },
@@ -1250,6 +2688,35 @@
     "height": 1600
   },
   {
+    "id": "obra-151",
+    "catalogCode": "RON-151",
+    "url": "/artworks/02ec73a4-4274-46a3-9659-d6113f40af6c.webp",
+    "image": "/artworks/02ec73a4-4274-46a3-9659-d6113f40af6c.webp",
+    "title": "Laberinto de energía viva",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico, óleo y técnica de goteo sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracto",
+      "expressionismo",
+      "cromatismo",
+      "líneas",
+      "energía",
+      "contraste"
+    ],
+    "story": "Un torbellino de color vibrante se ve atrapado en una densa telaraña de líneas negras que danzan con una energía casi frenética, creando un contraste visual poderoso. Bajo esta red de expresión pura, el fondo cromático emerge como un fuego de emociones crudas, capturando un instante de creación infinita y libertad absoluta.",
+    "width": 1096,
+    "height": 1600
+  },
+  {
     "id": "obra-52",
     "catalogCode": "RON-152",
     "url": "/artworks/0916294b-ed42-40ab-b2f7-1acec00763a3.webp",
@@ -1271,6 +2738,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1068,
+    "height": 1600
+  },
+  {
+    "id": "obra-152",
+    "catalogCode": "RON-152",
+    "url": "/artworks/32195eae-d1fd-4147-83d6-dc26e5012e8b.webp",
+    "image": "/artworks/32195eae-d1fd-4147-83d6-dc26e5012e8b.webp",
+    "title": "Plegarias de Pigmento y Fuego",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico líquido, goteo y salpicaduras sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracto",
+      "movimiento",
+      "color",
+      "contraste",
+      "energia",
+      "expresion"
+    ],
+    "story": "Un torbellino de color puro se despliega en un diálogo caótico entre la ferocidad del naranja ardiente y la red tensa de líneas negras que cortan el espacio como cicatrices de energía vital. La luz no se refleja, sino que nace del propio pigmento, invitando al espectador a sumergirse en un paisaje interno de creación perpetua y pasión desbordada.",
     "width": 1068,
     "height": 1600
   },
@@ -1300,6 +2797,35 @@
     "height": 1600
   },
   {
+    "id": "obra-153",
+    "catalogCode": "RON-153",
+    "url": "/artworks/fc48164c-9f9d-42c2-a597-09fd77b50e35.webp",
+    "image": "/artworks/fc48164c-9f9d-42c2-a597-09fd77b50e35.webp",
+    "title": "Éxtasis del Fuego Primordial",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico y óleo sobre lienzo",
+    "dimensions": "41 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Movimiento"
+    ],
+    "tags": [
+      "abstracción",
+      "color",
+      "fuego",
+      "movimiento",
+      "pasión",
+      "contraste"
+    ],
+    "story": "Un torbellino de puro vitalismo cromático se despliega en el lienzo, donde el rojo ardiente actúa como un pulso vital que desgarra la quietud del azul y el negro, configurando una figura de fuego en constante metamorfosis. La luz no se contiene, se proyecta en salpicaduras salvajes que capturan un instante de éxtasis creativo absoluto, invitando al espectador a sumergirse en el caos ordenado del alma.",
+    "width": 1042,
+    "height": 1600
+  },
+  {
     "id": "obra-54",
     "catalogCode": "RON-154",
     "url": "/artworks/fa2818fd-8aed-4202-9b52-b84313c11a23.webp",
@@ -1321,6 +2847,37 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
+    "id": "obra-154",
+    "catalogCode": "RON-154",
+    "url": "/artworks/0095ea1c-bf5a-4db6-9a61-992899a6fd6a.webp",
+    "image": "/artworks/0095ea1c-bf5a-4db6-9a61-992899a6fd6a.webp",
+    "title": "Danza del Caos Vital",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico líquido y técnica de goteo sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "cromatismo",
+      "goteo",
+      "energía",
+      "contraste",
+      "movimiento",
+      "trazo"
+    ],
+    "story": "Un torbellino de colores ardientes y trazos negros se entrelazan en una danza caótica y liberadora, donde la luz no se refleja sino que emana de la propia materia en fusión constante. La obra captura la esencia del gesto puro, transmitiendo una energía visceral que invita a sumergirse en el flujo creativo del caos ordenado.",
     "width": 1066,
     "height": 1600
   },
@@ -1350,6 +2907,36 @@
     "height": 1600
   },
   {
+    "id": "obra-155",
+    "catalogCode": "RON-155",
+    "url": "/artworks/4b9c926a-c635-42c8-999b-6caca6d692ed.webp",
+    "image": "/artworks/4b9c926a-c635-42c8-999b-6caca6d692ed.webp",
+    "title": "La Danza del Gesto Libre",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con acrílico y óleo en técnica de goteo y salpicadura sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracto",
+      "contraste",
+      "movimiento",
+      "color",
+      "gotes",
+      "expresión",
+      "energía"
+    ],
+    "story": "Un torbellino de creatividad cruda donde las líneas negras y blancas se entrelazan como relámpagos de sombra y luz sobre un mar vibrante de emociones primarias. La obra captura el instante efímero del gesto libre, transmitiendo una energía visceral que invita a la introspección caótica y a la celebración del movimiento puro.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
     "id": "obra-56",
     "catalogCode": "RON-156",
     "url": "/artworks/d30b653c-05aa-46b8-a681-15dfd648f372.webp",
@@ -1371,6 +2958,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1078,
+    "height": 1600
+  },
+  {
+    "id": "obra-156",
+    "catalogCode": "RON-156",
+    "url": "/artworks/f7a5a861-10ea-462b-9420-da284602dfae.webp",
+    "image": "/artworks/f7a5a861-10ea-462b-9420-da284602dfae.webp",
+    "title": "Resonancia del Caos Vibrante",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta en óleo y acrílico con goteo y pinceladas de espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracción",
+      "expressionismo",
+      "goteo",
+      "contraste",
+      "cromatismo",
+      "energía"
+    ],
+    "story": "Un torbellino de color puro se despliega en un constante diálogo con la contundente red de líneas negras, creando un paisaje visual de una energía casi primordial. La luz no se posa, sino que vibra en cada salpicadura, invitando a una introspección profunda sobre el caos creativo que subyace en la ordenada estructura del alma.",
     "width": 1078,
     "height": 1600
   },
@@ -1400,6 +3017,37 @@
     "height": 1600
   },
   {
+    "id": "obra-157",
+    "catalogCode": "RON-157",
+    "url": "/artworks/6695aba5-3230-4922-a8e4-c537b791ff2c.webp",
+    "image": "/artworks/6695aba5-3230-4922-a8e4-c537b791ff2c.webp",
+    "title": "Caos cromático en danza",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico y óleo con técnicas de goteo y pincel sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracto",
+      "expresionismo",
+      "trazos",
+      "caos",
+      "color",
+      "contraste",
+      "intensidad"
+    ],
+    "story": "Un torbellino de puro instinto cobra vida en este lienzo, donde los trazos negros de contundente densidad se entrelazan con un caleidoscopio de pigmentos vibrantes. La luz se convierte en un jaleo cromático de alto contraste, evocando la turbulencia del pensamiento creativo y la energía liberadora del gesto absoluto.",
+    "width": 1056,
+    "height": 1600
+  },
+  {
     "id": "obra-58",
     "catalogCode": "RON-158",
     "url": "/artworks/3a2dbbc0-d51f-4df2-9104-41dde41cbb66.webp",
@@ -1421,6 +3069,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1048,
+    "height": 1600
+  },
+  {
+    "id": "obra-158",
+    "catalogCode": "RON-158",
+    "url": "/artworks/b56ba9a0-e974-4a3f-8391-2ecf5467b1ca.webp",
+    "image": "/artworks/b56ba9a0-e974-4a3f-8391-2ecf5467b1ca.webp",
+    "title": "Laberinto de sombras vivientes",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "41 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Sombra",
+      "Introspección",
+      "Energía",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracto",
+      "sombra",
+      "texturas",
+      "movimiento",
+      "contraste",
+      "intensidad"
+    ],
+    "story": "Esta pieza sumerge al espectador en un paisaje interior de cruda intensidad, donde las densas pinceladas negras se entrelazan como un torbellino de pensamientos ocultos. El juego de contrastes con sutiles destellos plateados y tonos azulados perfora la oscuridad, creando un dinamismo de luz que invita a la introspección y evoca una melancolía poderosa.",
     "width": 1048,
     "height": 1600
   },
@@ -1450,6 +3128,36 @@
     "height": 1600
   },
   {
+    "id": "obra-159",
+    "catalogCode": "RON-159",
+    "url": "/artworks/c474ab0b-892d-436e-9512-77da3a02c19e.webp",
+    "image": "/artworks/c474ab0b-892d-436e-9512-77da3a02c19e.webp",
+    "title": "Danza cromática del impulso",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con goteo, salpicaduras de acrílico sobre lienzo blanco",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Efémero"
+    ],
+    "tags": [
+      "abstracto",
+      "goteo",
+      "energía",
+      "color vibrante",
+      "movimiento",
+      "contraste"
+    ],
+    "story": "Un torrente de creatividad espontánea se despliega en un dialogue vibrante de colores puros sobre un fondo luminoso, donde las líneas negras trazan un mapa de fuerzas invisibles y los salpicaduras de rojo, azul y rosa estallan como un grito de libertad. La luz blanca del fondo irradia una brillantez que atravesa la capa caótica, capturando un instante efímero de puro flujo creativo y transmitiendo una energía vital incontenible.",
+    "width": 1056,
+    "height": 1600
+  },
+  {
     "id": "obra-60",
     "catalogCode": "RON-160",
     "url": "/artworks/91bb010d-3e71-4221-8278-b790487ab58f.webp",
@@ -1471,6 +3179,37 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
+    "id": "obra-160",
+    "catalogCode": "RON-160",
+    "url": "/artworks/7c3a20bb-6392-492c-a620-0477daf43b37.webp",
+    "image": "/artworks/7c3a20bb-6392-492c-a620-0477daf43b37.webp",
+    "title": "Vértice de Energía Pura",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con dripping de acrílico y óleo sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracto",
+      "caos",
+      "energía",
+      "cromatismo",
+      "dinamismo",
+      "contraste",
+      "textura"
+    ],
+    "story": "En esta obra, el caos se transforma en un lenguaje de libertad absoluta, tejiendo una red de líneas negras y blancas que parecen bailar bajo un sol de amarillo intenso. La luz no se representa, sino que irrumpe, atravesando la trama densa con un vigor que despierta la energía cruda del alma creativa, sumiendo al espectador en un vortex de emoción pura.",
     "width": 1066,
     "height": 1600
   },
@@ -1500,6 +3239,36 @@
     "height": 1600
   },
   {
+    "id": "obra-161",
+    "catalogCode": "RON-161",
+    "url": "/artworks/50b567dc-4ad0-4e05-b21b-617c6e38ef75.webp",
+    "image": "/artworks/50b567dc-4ad0-4e05-b21b-617c6e38ef75.webp",
+    "title": "Vórtice de Color y Gesto",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta con salpicados, goteos y pinceladas gestuales de acrílico y óleo sobre lienzo",
+    "dimensions": "41 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracto",
+      "gesto",
+      "color",
+      "pasión",
+      "dinamismo",
+      "pincelada"
+    ],
+    "story": "Un torbellino vibracional donde el pigmento puro toma el lienzo en una danza espontánea de energía cruda, donde rojos, morados y amarillos chocan en una sinfonía visual de libertad creativa. La luz no ilumina este espacio, sino que nace de la propia colisión de los colores, envolviendo al espectador en un estado de intensa emoción y excitación visual.",
+    "width": 1048,
+    "height": 1600
+  },
+  {
     "id": "obra-62",
     "catalogCode": "RON-162",
     "url": "/artworks/ae7ac96f-0613-46be-9185-cbd0bac0e19b.webp",
@@ -1521,6 +3290,35 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1208
+  },
+  {
+    "id": "obra-162",
+    "catalogCode": "RON-162",
+    "url": "/artworks/218d6c59-15ae-4a70-b862-2d9174eb92a7.webp",
+    "image": "/artworks/218d6c59-15ae-4a70-b862-2d9174eb92a7.webp",
+    "title": "Sinfonía de fuego y sombra",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Técnica mixta, acrílico y óleo sobre tabla",
+    "dimensions": "64 × 48 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracto",
+      "naranja",
+      "fuego",
+      "gesto",
+      "contraste",
+      "pasión"
+    ],
+    "story": "Un torbellino de puro fuego cromático se despliega en un silencioso dialogue entre la calidez del naranja vibrante y la contundencia de la sombra gestual. La luz aquí no es externa, sino que surge desde el interior de la tela como una erupción emocional, invitando al espectador a sumergirse en un paisaje de pasión, contraste y movimiento puro.",
     "width": 1600,
     "height": 1208
   },
@@ -1550,6 +3348,36 @@
     "height": 1600
   },
   {
+    "id": "obra-163",
+    "catalogCode": "RON-163",
+    "url": "/artworks/0df25da2-e86d-4af1-a97b-662f6b3f818c.webp",
+    "image": "/artworks/0df25da2-e86d-4af1-a97b-662f6b3f818c.webp",
+    "title": "Vórtice de Pigmentos Vivos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo, texturas densas",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "abstracción",
+      "cromatismo",
+      "movimiento",
+      "textura",
+      "pasión",
+      "rojo"
+    ],
+    "story": "Un torbellino de color puro y energía crua se despliega en un dialogue cromático de altísimos contrastes, donde los rojos ardientes y los azules eléctricos se entrelazan como raíces vivas de una naturaleza reimaginada. La luz no ilumina, sino que palpita desde el espesor de la pintura, invitando al espectador a sumergirse en un paisaje de pura emoción visceral y movimiento constante.",
+    "width": 1066,
+    "height": 1600
+  },
+  {
     "id": "obra-64",
     "catalogCode": "RON-164",
     "url": "/artworks/02c0ebd7-aa66-459c-b2d8-b61a6f914b79.webp",
@@ -1575,6 +3403,36 @@
     "height": 1320
   },
   {
+    "id": "obra-164",
+    "catalogCode": "RON-164",
+    "url": "/artworks/d507e485-7204-4dcf-a7cf-42d31575989e.webp",
+    "image": "/artworks/d507e485-7204-4dcf-a7cf-42d31575989e.webp",
+    "title": "Tejido del Alma Nocturna",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo de alta textura y gran carga matérica",
+    "dimensions": "64 × 52 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Energía",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "abstracto",
+      "nocturno",
+      "energia",
+      "contraste",
+      "texturas",
+      "introspeccion"
+    ],
+    "story": "La obra despliega un paisaje mental donde el caos se convierte en danza, tejiendo líneas de luz naranja y rosa sobre un océano de azules profundos y violetas densos. El tratamiento de la luz, vibrante y contrapuesta como descargas eléctricas, capta la esencia del pensamiento en constante ebullición, generando un dinamismo misterioso que invita a la introspección más profunda.",
+    "width": 1600,
+    "height": 1320
+  },
+  {
     "id": "obra-65",
     "catalogCode": "RON-165",
     "url": "/artworks/967e8ccd-3c71-457e-b92a-ad949d9cc275.webp",
@@ -1596,6 +3454,36 @@
       "arte"
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1600,
+    "height": 1356
+  },
+  {
+    "id": "obra-165",
+    "catalogCode": "RON-165",
+    "url": "/artworks/81e2f9fb-49ab-41ba-8d5c-7bf79463267d.webp",
+    "image": "/artworks/81e2f9fb-49ab-41ba-8d5c-7bf79463267d.webp",
+    "title": "Laberinto de la Vitalidad Verde",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con alta carga textural y espátula sobre lienzo",
+    "dimensions": "64 × 54 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Energía",
+      "Contraste",
+      "Dorados"
+    ],
+    "tags": [
+      "paisaje",
+      "follaje",
+      "energía",
+      "luz",
+      "contraste",
+      "texturas"
+    ],
+    "story": "Un paisaje abstracto que captura la esencia caótica y vibrante de la naturaleza en su máximo esplendor, donde el verde profundo se entrelaza con brotes de luz dorada y cálidos matices naranjas. El tratamiento de la luz, filtrada como un sol de mediodía que juega entre las sombras, genera un dinamismo casi orgánico, invitando al espectador a sumergirse en un sueño de texturas vivas y energía pura.",
     "width": 1600,
     "height": 1356
   }

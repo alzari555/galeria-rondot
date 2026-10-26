@@ -1,0 +1,30 @@
+{
+  "id": "obra-123",
+  "catalogCode": "RON-123",
+  "url": "/artworks/206a1d1b-cd60-4a13-ac5e-ad9b74a234d3.webp",
+  "image": "/artworks/206a1d1b-cd60-4a13-ac5e-ad9b74a234d3.webp",
+  "title": "La Explosión del Caos Primordial",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Acrílico y pigmentos sobre lienzo con técnica de capas superuestas",
+  "dimensions": "64 × 63 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Energía",
+    "Contraste",
+    "Movimiento",
+    "Misterio"
+  ],
+  "tags": [
+    "abstracción",
+    "geometría",
+    "policromía",
+    "fragmentación",
+    "dinamismo",
+    "vibración"
+  ],
+  "story": "Un estallido cromático visceral que emerge del vacío absoluto, creando una danza de formas geométricas que desafían la oscuridad del fondo. La obra captura el instante de una explosión vital donde el color se convierte en estructura y fuerza pura.",
+  "width": 1600,
+  "height": 1586
+}

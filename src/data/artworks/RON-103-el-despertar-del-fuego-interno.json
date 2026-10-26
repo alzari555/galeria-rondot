@@ -1,0 +1,29 @@
+{
+  "id": "obra-103",
+  "catalogCode": "RON-103",
+  "url": "/artworks/689f7985-9a06-443c-a918-5cc8098cf421.webp",
+  "image": "/artworks/689f7985-9a06-443c-a918-5cc8098cf421.webp",
+  "title": "El Despertar del Fuego Interno",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo y técnica mixta sobre lienzo de formato díptico",
+  "dimensions": "64 × 64 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Energía",
+    "Contraste",
+    "Misterio",
+    "Introspección"
+  ],
+  "tags": [
+    "abstracción",
+    "fuego",
+    "geometría",
+    "dinamismo",
+    "cincidura"
+  ],
+  "story": "Una explosión cromática que fragmenta el espacio en trazos de luz y sombra, creando un portal visual donde la intensidad del fuego lucha contra el vacío del caos absoluto.",
+  "width": 1600,
+  "height": 1600
+}
