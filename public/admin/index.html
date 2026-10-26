@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Galería Rondot — Panel de Curaduría (Sveltia CMS)</title>
-    <link rel="stylesheet" href="../assets/index-CAhryaNf.css" />
     <style>
+      @font-face {
+        font-family: "Geist";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url("../fonts/Geist-Variable.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Geist Mono";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url("../fonts/GeistMono-Variable.woff2") format("woff2");
+      }
+
       :root {
         --s-font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
         --s-font-family-mono: "Geist Mono", monospace !important;
@@ -67,6 +82,9 @@
       <span>Volver a la Galería 3D</span>
     </a>
 
+    <!-- Sveltia CMS Core Engine -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+    <!-- Galería Rondot: Custom Editorial Preview Template -->
+    <script src="./preview.js" type="module"></script>
   </body>
 </html>
