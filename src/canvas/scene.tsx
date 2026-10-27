@@ -17,17 +17,46 @@ import {
   INITIAL_CAMERA_Z,
   INVIS_THRESHOLD,
   KEYBOARD_SPEED,
+  LOD_DOWN_DISTANCES,
+  LOD_UP_DISTANCES,
   MAX_VELOCITY,
   RENDER_DISTANCE,
   VELOCITY_DECAY,
   VELOCITY_LERP,
 } from "./constants";
 import styles from "./style.module.css";
-import { getTexture } from "./texture-manager";
+import {
+  acquireTexture,
+  flushReadyTextures,
+  LOD_LEVELS,
+  type LodLevel,
+  type TextureHandle,
+} from "./texture-manager";
 import type { ArtworkItem, ChunkData, FocusedTarget, GazeStatus, InfiniteCanvasProps, PlaneData } from "./types";
 import { calculateDisplayScale, generateChunkPlanesCached, getChunkUpdateThrottleMs, shouldThrottleUpdate } from "./utils";
 
 const PLANE_GEOMETRY = new THREE.PlaneGeometry(1, 1);
+
+/**
+ * Elige el nivel de textura según la distancia a la cámara.
+ * Los umbrales para subir y bajar de nivel son distintos (histéresis) para evitar cambios de ida y vuelta.
+ */
+const pickLodLevel = (dist: number, current: LodLevel): LodLevel => {
+  const idx = LOD_LEVELS.indexOf(current);
+
+  // Subir de nivel (acercarse)
+  if (idx < 2 && dist < LOD_UP_DISTANCES[idx]!) {
+    // Si está muy cerca, salta directo al nivel que corresponde.
+    return dist < LOD_UP_DISTANCES[1]! ? LOD_LEVELS[2] : LOD_LEVELS[1];
+  }
+
+  // Bajar de nivel (alejarse)
+  if (idx > 0 && dist > LOD_DOWN_DISTANCES[idx - 1]!) {
+    return LOD_LEVELS[idx - 1]!;
+  }
+
+  return current;
+};
 
 const KEYBOARD_MAP = [
   { name: "forward", keys: ["w", "W", "ArrowUp"] },
@@ -92,7 +121,17 @@ function MediaPlane({
 }) {
   const meshRef = React.useRef<THREE.Mesh>(null);
   const materialRef = React.useRef<THREE.MeshBasicMaterial>(null);
-  const localState = React.useRef({ opacity: 0, frame: 0, ready: false, hovered: false });
+  const localState = React.useRef<{
+    opacity: number;
+    frame: number;
+    ready: boolean;
+    hovered: boolean;
+    level: LodLevel;
+  }>({ opacity: 0, frame: 0, ready: false, hovered: false, level: LOD_LEVELS[0] });
+  const lodRef = React.useRef<{ held: TextureHandle | null; pending: TextureHandle | null }>({
+    held: null,
+    pending: null,
+  });
   const pointerDownRef = React.useRef<{ x: number; y: number; time: number } | null>(null);
 
   const [texture, setTexture] = React.useState<THREE.Texture | null>(null);
@@ -102,7 +141,7 @@ function MediaPlane({
     return calculateDisplayScale(media, scale);
   }, [media, scale]);
 
-  useFrame(() => {
+  useFrame(({ camera }) => {
     const material = materialRef.current;
     const mesh = meshRef.current;
     const state = localState.current;
@@ -155,12 +194,33 @@ function MediaPlane({
     material.opacity = isFullyOpaque ? 1 : state.opacity;
     material.depthWrite = isFullyOpaque;
     mesh.visible = state.opacity > INVIS_THRESHOLD;
+
+    // LOD: la resolución de la textura depende de la distancia a la cámara.
+    if (mesh.visible && state.ready && !lodRef.current.pending) {
+      const dist = camera.position.distanceTo(mesh.position);
+      const wanted = pickLodLevel(dist, state.level);
+
+      if (wanted !== state.level) {
+        const handle: TextureHandle = acquireTexture(media, wanted, () => {
+          const lod = lodRef.current;
+          if (lod.pending !== handle) return;
+          const mat = materialRef.current;
+          if (mat) mat.map = handle.texture;
+          lod.held?.release();
+          lod.held = handle;
+          lod.pending = null;
+          localState.current.level = wanted;
+        });
+        lodRef.current.pending = handle;
+      }
+    }
   });
 
   React.useEffect(() => {
     const state = localState.current;
     state.ready = false;
     state.opacity = 0;
+    state.level = LOD_LEVELS[0];
     setIsReady(false);
 
     const material = materialRef.current;
@@ -171,12 +231,22 @@ function MediaPlane({
       material.map = null;
     }
 
-    const tex = getTexture(media, () => {
+    // Siempre se empieza por el nivel más liviano para que la obra aparezca rápido.
+    const handle = acquireTexture(media, LOD_LEVELS[0], () => {
       state.ready = true;
       setIsReady(true);
     });
+    const lod = lodRef.current;
+    lod.held = handle;
 
-    setTexture(tex);
+    setTexture(handle.texture);
+
+    return () => {
+      lod.held?.release();
+      lod.pending?.release();
+      lod.held = null;
+      lod.pending = null;
+    };
   }, [media]);
 
   React.useEffect(() => {
@@ -553,6 +623,8 @@ function SceneController({
     const s = state.current;
     const now = performance.now();
     const dt = Math.min(delta, 0.1);
+
+    flushReadyTextures();
 
     const keys = getKeys();
 

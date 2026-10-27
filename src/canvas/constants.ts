@@ -12,6 +12,11 @@ export const VELOCITY_LERP = 0.16;
 export const VELOCITY_DECAY = 0.9;
 export const INITIAL_CAMERA_Z = 50;
 
+// LOD de texturas: distancia (unidades del mundo) para subir de nivel 256→512 y 512→1024,
+// y distancia (algo mayor) para bajar de nivel, para evitar parpadeos entre niveles.
+export const LOD_UP_DISTANCES = [60, 25] as const;
+export const LOD_DOWN_DISTANCES = [68, 30] as const;
+
 // Gravitational Field parameters (Diegetic centering without UI)
 export const GRAVITY_NDC_RADIUS = 0.34;
 export const GRAVITY_MIN_DEPTH = 6;

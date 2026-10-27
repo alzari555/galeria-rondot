@@ -1,6 +1,9 @@
 node_modules
 dist
 dist-ssr
+
+# Versiones LOD de las obras (se generan con `npm run lod`)
+public/artworks/lod/
 *.local
 .DS_Store
 
