@@ -1,30 +1,5 @@
 [
   {
-    "id": "obra-02",
-    "catalogCode": "RON-102",
-    "url": "/artworks/9f1450d4-f668-4a57-8b86-30456b84f22a.webp",
-    "image": "/artworks/9f1450d4-f668-4a57-8b86-30456b84f22a.webp",
-    "title": "12 (1)",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 44 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1116
-  },
-  {
     "id": "obra-102",
     "catalogCode": "RON-102",
     "url": "/artworks/5a73e4f3-7113-4b27-9819-eb19392cc4d1.webp",
@@ -53,31 +28,6 @@
     "story": "Una explosión rítmica de trazos donde el color parece cobrar vida en una danza frenética y vital, capturando la esencia de una emoción desbordante que desafía los límites del lienzo.",
     "width": 1600,
     "height": 1116
-  },
-  {
-    "id": "obra-03",
-    "catalogCode": "RON-103",
-    "url": "/artworks/78b5a4be-8d49-47b6-a377-f464ba57696f.webp",
-    "image": "/artworks/78b5a4be-8d49-47b6-a377-f464ba57696f.webp",
-    "title": "10 11 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1600
   },
   {
     "id": "obra-103",
@@ -109,31 +59,6 @@
     "height": 1600
   },
   {
-    "id": "obra-04",
-    "catalogCode": "RON-104",
-    "url": "/artworks/67ec14e4-e6cc-4424-9d54-0421ae43a8df.webp",
-    "image": "/artworks/67ec14e4-e6cc-4424-9d54-0421ae43a8df.webp",
-    "title": "11 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "31 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 794,
-    "height": 1600
-  },
-  {
     "id": "obra-104",
     "catalogCode": "RON-104",
     "url": "/artworks/ebba93c0-0c72-4b5f-97d9-69015c0b959e.webp",
@@ -156,31 +81,6 @@
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
     "width": 794,
-    "height": 1600
-  },
-  {
-    "id": "obra-05",
-    "catalogCode": "RON-105",
-    "url": "/artworks/25584276-654f-48f3-8fc9-6472782da830.webp",
-    "image": "/artworks/25584276-654f-48f3-8fc9-6472782da830.webp",
-    "title": "13 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1586,
     "height": 1600
   },
   {
@@ -214,31 +114,6 @@
     "height": 1600
   },
   {
-    "id": "obra-06",
-    "catalogCode": "RON-106",
-    "url": "/artworks/68c7a1d9-09df-4503-aa11-896c4fe2be94.webp",
-    "image": "/artworks/68c7a1d9-09df-4503-aa11-896c4fe2be94.webp",
-    "title": "14 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "52 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1318,
-    "height": 1600
-  },
-  {
     "id": "obra-106",
     "catalogCode": "RON-106",
     "url": "/artworks/8a0c69b3-8243-4898-b864-f15cc9841688.webp",
@@ -265,31 +140,6 @@
     ],
     "story": "Una explosión visceral de materia donde la luz lucha por emerger entre estructuras que parecen recuerdos del olvido. La obra captura un instante de intensidad visual que oscila entre la destrucción y la resistencia del tiempo.",
     "width": 1318,
-    "height": 1600
-  },
-  {
-    "id": "obra-07",
-    "catalogCode": "RON-107",
-    "url": "/artworks/82f9919c-2446-4e35-a3c4-b42c99ff81c3.webp",
-    "image": "/artworks/82f9919c-2446-4e35-a3c4-b42c99ff81c3.webp",
-    "title": "11 (16)(1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "31 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 792,
     "height": 1600
   },
   {
@@ -323,31 +173,6 @@
     "height": 1600
   },
   {
-    "id": "obra-08",
-    "catalogCode": "RON-108",
-    "url": "/artworks/84a53788-ebeb-46fa-9ed9-6ed1eb6cdcee.webp",
-    "image": "/artworks/84a53788-ebeb-46fa-9ed9-6ed1eb6cdcee.webp",
-    "title": "15 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "53 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1334,
-    "height": 1600
-  },
-  {
     "id": "obra-108",
     "catalogCode": "RON-108",
     "url": "/artworks/04ac3827-7a6b-4955-be2f-cdb0ac93937f.webp",
@@ -375,31 +200,6 @@
     ],
     "story": "Una explosión de pinceladas frenéticas que fragmentan la arquitectura clásica en una danza vibrante de color y luz. La obra captura el pulso caótico de la ciudad, donde la estructura sólida se disuelve en una sinfonía de pura energía emocional y movimiento.",
     "width": 1334,
-    "height": 1600
-  },
-  {
-    "id": "obra-09",
-    "catalogCode": "RON-109",
-    "url": "/artworks/030c23a1-83e8-40e9-aec6-a53e2be80390.webp",
-    "image": "/artworks/030c23a1-83e8-40e9-aec6-a53e2be80390.webp",
-    "title": "16 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1130,
     "height": 1600
   },
   {
@@ -432,31 +232,6 @@
     "height": 1600
   },
   {
-    "id": "obra-10",
-    "catalogCode": "RON-110",
-    "url": "/artworks/d7792f97-ff71-41aa-9809-b708a8df164a.webp",
-    "image": "/artworks/d7792f97-ff71-41aa-9809-b708a8df164a.webp",
-    "title": "17 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1142,
-    "height": 1600
-  },
-  {
     "id": "obra-110",
     "catalogCode": "RON-110",
     "url": "/artworks/b63687a9-e989-4723-a79d-d71db098f042.webp",
@@ -483,31 +258,6 @@
     ],
     "story": "Una explosión de energía pura donde la luz se fragmenta en una danza frenética, capturando la fuerza vital de un incendio indomable. La obra vibra con una intensidad rítmica que parece transformar el lienzo en un campo de pura emoción y color vibrante.",
     "width": 1142,
-    "height": 1600
-  },
-  {
-    "id": "obra-11",
-    "catalogCode": "RON-111",
-    "url": "/artworks/907b1ead-c9df-4fa3-8c98-f4d035eb4cf0.webp",
-    "image": "/artworks/907b1ead-c9df-4fa3-8c98-f4d035eb4cf0.webp",
-    "title": "19 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "46 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1154,
     "height": 1600
   },
   {
@@ -540,31 +290,6 @@
     "height": 1600
   },
   {
-    "id": "obra-12",
-    "catalogCode": "RON-112",
-    "url": "/artworks/aa5ffb62-d201-410c-b233-dbde8509cf42.webp",
-    "image": "/artworks/aa5ffb62-d201-410c-b233-dbde8509cf42.webp",
-    "title": "2 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1138,
-    "height": 1600
-  },
-  {
     "id": "obra-112",
     "catalogCode": "RON-112",
     "url": "/artworks/aec25a6e-5830-4fca-a6a7-10e3d6a0112a.webp",
@@ -591,31 +316,6 @@
     ],
     "story": "Una explosión vibrante de trazos enérgicos que convergen en una danza frenética, captura la vitalidad indomable del pensamiento. La obra invita al espectador a un laberinto de luz y color donde el desorden encuentra su propia armonía visual profunda.",
     "width": 1138,
-    "height": 1600
-  },
-  {
-    "id": "obra-13",
-    "catalogCode": "RON-113",
-    "url": "/artworks/91ce6627-d8a3-43a2-8809-02729e0cbb3e.webp",
-    "image": "/artworks/91ce6627-d8a3-43a2-8809-02729e0cbb3e.webp",
-    "title": "20 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "46 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1154,
     "height": 1600
   },
   {
@@ -648,31 +348,6 @@
     "height": 1600
   },
   {
-    "id": "obra-14",
-    "catalogCode": "RON-114",
-    "url": "/artworks/270094dd-90d0-47e5-9947-7ba16d4e042d.webp",
-    "image": "/artworks/270094dd-90d0-47e5-9947-7ba16d4e042d.webp",
-    "title": "20 (4).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
-    "height": 1600
-  },
-  {
     "id": "obra-114",
     "catalogCode": "RON-114",
     "url": "/artworks/9cbd8269-eaa6-40c5-8d35-81dd04900a00.webp",
@@ -702,31 +377,6 @@
     "height": 1600
   },
   {
-    "id": "obra-15",
-    "catalogCode": "RON-115",
-    "url": "/artworks/99a1abf8-e472-4374-91f1-174960ae8e9e.webp",
-    "image": "/artworks/99a1abf8-e472-4374-91f1-174960ae8e9e.webp",
-    "title": "21 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1132,
-    "height": 1600
-  },
-  {
     "id": "obra-115",
     "catalogCode": "RON-115",
     "url": "/artworks/942c285e-292b-41f6-87dc-068d9727e7c5.webp",
@@ -752,31 +402,6 @@
       "multicolor"
     ],
     "story": "Una explosión cromática donde la arquitectura urbana se fragmenta en una danza de luz y color, capturando la vibración eléctrica de una metrópolis viva. La composición sugiere el pulso frenético de un espacio que se transforma en pura emoción sobre el lienzo.",
-    "width": 1132,
-    "height": 1600
-  },
-  {
-    "id": "obra-16",
-    "catalogCode": "RON-116",
-    "url": "/artworks/0f026464-0916-41e8-833d-098b71e37031.webp",
-    "image": "/artworks/0f026464-0916-41e8-833d-098b71e37031.webp",
-    "title": "22 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
     "width": 1132,
     "height": 1600
   },
@@ -810,31 +435,6 @@
     "height": 1600
   },
   {
-    "id": "obra-17",
-    "catalogCode": "RON-117",
-    "url": "/artworks/b3237b2d-c74b-489e-b832-f00a04f998d9.webp",
-    "image": "/artworks/b3237b2d-c74b-489e-b832-f00a04f998d9.webp",
-    "title": "23 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1140,
-    "height": 1600
-  },
-  {
     "id": "obra-117",
     "catalogCode": "RON-117",
     "url": "/artworks/76e7eae9-1a4f-4541-a11d-88e1adec58f2.webp",
@@ -862,31 +462,6 @@
     ],
     "story": "Una explosión cromática donde la arquitectura se desvuelve en una danza frenética de luz y color. La pincelada vigorosa captura la intensidad emocional de un instante efímero, transformando el paisaje en una experiencia sensorial de pura vibración emocional.",
     "width": 1140,
-    "height": 1600
-  },
-  {
-    "id": "obra-18",
-    "catalogCode": "RON-118",
-    "url": "/artworks/937a0bfe-5c5b-4845-92a6-c912763f6b66.webp",
-    "image": "/artworks/937a0bfe-5c5b-4845-92a6-c912763f6b66.webp",
-    "title": "24 (5).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "47 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1192,
     "height": 1600
   },
   {
@@ -920,31 +495,6 @@
     "height": 1600
   },
   {
-    "id": "obra-19",
-    "catalogCode": "RON-119",
-    "url": "/artworks/424fa3b6-f4c7-467a-b91a-7506907fd5e8.webp",
-    "image": "/artworks/424fa3b6-f4c7-467a-b91a-7506907fd5e8.webp",
-    "title": "25 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1132,
-    "height": 1600
-  },
-  {
     "id": "obra-119",
     "catalogCode": "RON-119",
     "url": "/artworks/c1744ca4-e93d-4e0e-bf72-fd8bae7cd359.webp",
@@ -972,31 +522,6 @@
     "story": "Una explosión visceral donde el trazo gráfico se funde con la violencia del color carmesí, capturando la tensión entre el orden y el caos. La obra evoca un grito emocional que nace del vacío para transformarse en una estructura orgánica de energía pura.",
     "width": 1132,
     "height": 1600
-  },
-  {
-    "id": "obra-20",
-    "catalogCode": "RON-120",
-    "url": "/artworks/480f355c-a946-42ed-9026-1250ae11baf0.webp",
-    "image": "/artworks/480f355c-a946-42ed-9026-1250ae11baf0.webp",
-    "title": "26 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 63 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1584
   },
   {
     "id": "obra-120",
@@ -1028,31 +553,6 @@
     "height": 1584
   },
   {
-    "id": "obra-21",
-    "catalogCode": "RON-121",
-    "url": "/artworks/36f1c13e-a320-4324-b597-6347dda97142.webp",
-    "image": "/artworks/36f1c13e-a320-4324-b597-6347dda97142.webp",
-    "title": "27 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1594,
-    "height": 1600
-  },
-  {
     "id": "obra-121",
     "catalogCode": "RON-121",
     "url": "/artworks/bc9d6b54-c6e3-451a-9725-8c659f565536.webp",
@@ -1079,31 +579,6 @@
     ],
     "story": "Una coreografía de fragmentos cromáticos que emergen con violencia desde el vacío de un negro absoluto, creando una tensión visual casi hipnótica. La obra captura el instante preciso de una implexplosión emocional donde la geometría se rinde ante el caos vibrante.",
     "width": 1594,
-    "height": 1600
-  },
-  {
-    "id": "obra-22",
-    "catalogCode": "RON-122",
-    "url": "/artworks/cebfda70-7dd4-4170-9729-fad3a46fad71.webp",
-    "image": "/artworks/cebfda70-7dd4-4170-9729-fad3a46fad71.webp",
-    "title": "28 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1584,
     "height": 1600
   },
   {
@@ -1136,31 +611,6 @@
     "height": 1600
   },
   {
-    "id": "obra-23",
-    "catalogCode": "RON-123",
-    "url": "/artworks/f217090f-2ea2-4775-bf01-fde792af9b30.webp",
-    "image": "/artworks/f217090f-2ea2-4775-bf01-fde792af9b30.webp",
-    "title": "29 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 63 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1586
-  },
-  {
     "id": "obra-123",
     "catalogCode": "RON-123",
     "url": "/artworks/206a1d1b-cd60-4a13-ac5e-ad9b74a234d3.webp",
@@ -1189,31 +639,6 @@
     "story": "Un estallido cromático visceral que emerge del vacío absoluto, creando una danza de formas geométricas que desafían la oscuridad del fondo. La obra captura el instante de una explosión vital donde el color se convierte en estructura y fuerza pura.",
     "width": 1600,
     "height": 1586
-  },
-  {
-    "id": "obra-24",
-    "catalogCode": "RON-124",
-    "url": "/artworks/bff950ca-3936-4346-b8dd-89cd4d1d78b6.webp",
-    "image": "/artworks/bff950ca-3936-4346-b8dd-89cd4d1d78b6.webp",
-    "title": "30 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 61 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1538
   },
   {
     "id": "obra-124",
@@ -1245,31 +670,6 @@
     "height": 1538
   },
   {
-    "id": "obra-25",
-    "catalogCode": "RON-125",
-    "url": "/artworks/1dd4911e-e6ef-4363-80ec-936b601b9d5f.webp",
-    "image": "/artworks/1dd4911e-e6ef-4363-80ec-936b601b9d5f.webp",
-    "title": "3 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1136,
-    "height": 1600
-  },
-  {
     "id": "obra-125",
     "catalogCode": "RON-125",
     "url": "/artworks/1f7fe032-e884-4a48-9efb-67c842c9615b.webp",
@@ -1297,31 +697,6 @@
     "story": "Una explosión frenética donde el trazo gestual se convierte en una coreografía de color, capturando la intensidad de un pensamiento en constante evolución. La superposición de capas invita al espectador a perderse en un laberinto visual de pura vitalidad emocional.",
     "width": 1136,
     "height": 1600
-  },
-  {
-    "id": "obra-26",
-    "catalogCode": "RON-126",
-    "url": "/artworks/a2aed8f6-1a2b-4e55-888e-7f3533adea6a.webp",
-    "image": "/artworks/a2aed8f6-1a2b-4e55-888e-7f3533adea6a.webp",
-    "title": "31 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 62 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1566
   },
   {
     "id": "obra-126",
@@ -1353,31 +728,6 @@
     "height": 1566
   },
   {
-    "id": "obra-27",
-    "catalogCode": "RON-127",
-    "url": "/artworks/067bdd2e-1f22-4ec0-bee5-1850bf46ad6e.webp",
-    "image": "/artworks/067bdd2e-1f22-4ec0-bee5-1850bf46ad6e.webp",
-    "title": "32 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1596,
-    "height": 1600
-  },
-  {
     "id": "obra-127",
     "catalogCode": "RON-127",
     "url": "/artworks/8b70ad10-a31c-4e51-bd48-dfa81bfb638a.webp",
@@ -1404,31 +754,6 @@
     ],
     "story": "Un entramado de trazos erráticos que emerge de un vacío absoluto, sugiriendo la arquitectura interna de un pensamiento que lucha por no ser olvidado. La obra juega con la tensión entre la densidad del borde oscuro y la fragilidad del centro luminoso que se expande.",
     "width": 1596,
-    "height": 1600
-  },
-  {
-    "id": "obra-28",
-    "catalogCode": "RON-128",
-    "url": "/artworks/9f23fdcc-ba87-459a-a554-9e80554091aa.webp",
-    "image": "/artworks/9f23fdcc-ba87-459a-a554-9e80554091aa.webp",
-    "title": "34 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1576,
     "height": 1600
   },
   {
@@ -1461,31 +786,6 @@
     "height": 1600
   },
   {
-    "id": "obra-29",
-    "catalogCode": "RON-129",
-    "url": "/artworks/d8842d47-cd8a-4022-985d-80c5b0f4b4b5.webp",
-    "image": "/artworks/d8842d47-cd8a-4022-985d-80c5b0f4b4b5.webp",
-    "title": "33 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1594,
-    "height": 1600
-  },
-  {
     "id": "obra-129",
     "catalogCode": "RON-129",
     "url": "/artworks/6a6af920-c040-4b58-a1ea-650050c4625a.webp",
@@ -1513,31 +813,6 @@
     "story": "Un intrincado mapa de líneas nerviosas que emergen de un vacío central, capturando la fragilidad de un pensamiento que intenta no desvanarse. La tensión entre el borde abismal y la claridad interna evoca la lucha constante entre el recuerdo y el olvido absoluto.",
     "width": 1594,
     "height": 1600
-  },
-  {
-    "id": "obra-30",
-    "catalogCode": "RON-130",
-    "url": "/artworks/a58c6df8-2832-4eb8-b772-9178c559eeb6.webp",
-    "image": "/artworks/a58c6df8-2832-4eb8-b772-9178c559eeb6.webp",
-    "title": "35 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 63 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1578
   },
   {
     "id": "obra-130",
@@ -1570,31 +845,6 @@
     "height": 1578
   },
   {
-    "id": "obra-31",
-    "catalogCode": "RON-131",
-    "url": "/artworks/2af93ea4-add1-41b0-a7ff-658c84184bab.webp",
-    "image": "/artworks/2af93ea4-add1-41b0-a7ff-658c84184bab.webp",
-    "title": "36 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "63 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1590,
-    "height": 1600
-  },
-  {
     "id": "obra-131",
     "catalogCode": "RON-131",
     "url": "/artworks/1975346a-c493-45d5-b6c7-6269aa579fd0.webp",
@@ -1622,31 +872,6 @@
     "story": "Una explosión de líneas donde la forma se fragmenta contra el vacío absoluto, creando una tensión vibrante entre el orden estructural y la fuerza indómita. La obra invita a descifrar un laberinto emocional que emerge de la oscuridad con una claridad quirúrgica.",
     "width": 1590,
     "height": 1600
-  },
-  {
-    "id": "obra-32",
-    "catalogCode": "RON-132",
-    "url": "/artworks/4bf57842-ba54-4f8d-95a8-23c137c6197e.webp",
-    "image": "/artworks/4bf57842-ba54-4f8d-95a8-23c137c6197e.webp",
-    "title": "37 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 62 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1558
   },
   {
     "id": "obra-132",
@@ -1678,31 +903,6 @@
     "height": 1558
   },
   {
-    "id": "obra-33",
-    "catalogCode": "RON-133",
-    "url": "/artworks/57b3b56d-4d8e-4776-9c4e-60279d1753f9.webp",
-    "image": "/artworks/57b3b56d-4d8e-4776-9c4e-60279d1753f9.webp",
-    "title": "39 (3)",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "53 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1344,
-    "height": 1600
-  },
-  {
     "id": "obra-133",
     "catalogCode": "RON-133",
     "url": "/artworks/05dcaa9e-b53a-47e8-b8b0-04d20be601bf.webp",
@@ -1732,31 +932,6 @@
     "height": 1600
   },
   {
-    "id": "obra-34",
-    "catalogCode": "RON-134",
-    "url": "/artworks/1efb6066-89da-4df5-b0c2-e35b31b25aad.webp",
-    "image": "/artworks/1efb6066-89da-4df5-b0c2-e35b31b25aad.webp",
-    "title": "1 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1144,
-    "height": 1600
-  },
-  {
     "id": "obra-134",
     "catalogCode": "RON-134",
     "url": "/artworks/094a72a7-2126-41b1-9d3b-95904e456ed0.webp",
@@ -1779,31 +954,6 @@
     ],
     "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
     "width": 1144,
-    "height": 1600
-  },
-  {
-    "id": "obra-35",
-    "catalogCode": "RON-135",
-    "url": "/artworks/47657339-2544-4ebd-a743-c01189d900cc.webp",
-    "image": "/artworks/47657339-2544-4ebd-a743-c01189d900cc.webp",
-    "title": "4 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "45 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1138,
     "height": 1600
   },
   {
@@ -1836,31 +986,6 @@
     "height": 1600
   },
   {
-    "id": "obra-36",
-    "catalogCode": "RON-136",
-    "url": "/artworks/1842115a-d2d6-493f-b86a-450738b546af.webp",
-    "image": "/artworks/1842115a-d2d6-493f-b86a-450738b546af.webp",
-    "title": "38 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 60 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1506
-  },
-  {
     "id": "obra-136",
     "catalogCode": "RON-136",
     "url": "/artworks/258a8a88-ca8d-4574-8b25-1394e115d059.webp",
@@ -1888,31 +1013,6 @@
     "story": "Una explosión de vitalidad cromática donde el trazo gestual lucha y se fund en una danza frenética, capturando la esencia misma de la creación que nace del desorden.",
     "width": 1600,
     "height": 1506
-  },
-  {
-    "id": "obra-37",
-    "catalogCode": "RON-137",
-    "url": "/artworks/1dbc9511-9ead-4ad1-86cc-d330d3f34639.webp",
-    "image": "/artworks/1dbc9511-9ead-4ad1-86cc-d330d3f34639.webp",
-    "title": "40 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
-    "height": 1600
   },
   {
     "id": "obra-137",
@@ -1945,31 +1045,6 @@
     "height": 1600
   },
   {
-    "id": "obra-38",
-    "catalogCode": "RON-138",
-    "url": "/artworks/db9f8e1e-2558-4fa0-b115-579c682b74a8.webp",
-    "image": "/artworks/db9f8e1e-2558-4fa0-b115-579c682b74a8.webp",
-    "title": "41 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 49 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1246
-  },
-  {
     "id": "obra-138",
     "catalogCode": "RON-138",
     "url": "/artworks/7fc4375b-a6a1-4f47-9db9-95e7db17a02e.webp",
@@ -2000,31 +1075,6 @@
     "height": 1246
   },
   {
-    "id": "obra-39",
-    "catalogCode": "RON-139",
-    "url": "/artworks/05feceaa-5cc4-453c-8648-2af15f395b6f.webp",
-    "image": "/artworks/05feceaa-5cc4-453c-8648-2af15f395b6f.webp",
-    "title": "43 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "48 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1214,
-    "height": 1600
-  },
-  {
     "id": "obra-139",
     "catalogCode": "RON-139",
     "url": "/artworks/605d0680-b8ef-4fe3-a0e5-c2a71de6aca5.webp",
@@ -2051,31 +1101,6 @@
     ],
     "story": "Una explosión rítmica de color fragmenta la realidad en una danza de pinceladas vigorosas que captura la esencia de un sentimiento en plena combustión. La obra vibra entre la intensidad del fuego y la profundidad del azul, creando un universo de energía emocional.",
     "width": 1214,
-    "height": 1600
-  },
-  {
-    "id": "obra-40",
-    "catalogCode": "RON-140",
-    "url": "/artworks/ca862b8a-58dc-4780-879b-797c7baf42d6.webp",
-    "image": "/artworks/ca862b8a-58dc-4780-879b-797c7baf42d6.webp",
-    "title": "44 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "43 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1078,
     "height": 1600
   },
   {
@@ -2110,31 +1135,6 @@
     "height": 1600
   },
   {
-    "id": "obra-41",
-    "catalogCode": "RON-141",
-    "url": "/artworks/06ae3eca-8c9d-4742-89b3-fe65d2c2446e.webp",
-    "image": "/artworks/06ae3eca-8c9d-4742-89b3-fe65d2c2446e.webp",
-    "title": "45 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1056,
-    "height": 1600
-  },
-  {
     "id": "obra-141",
     "catalogCode": "RON-141",
     "url": "/artworks/a5d18a7b-f0f7-4b50-ad12-7242d8b3b944.webp",
@@ -2165,31 +1165,6 @@
     "height": 1600
   },
   {
-    "id": "obra-42",
-    "catalogCode": "RON-142",
-    "url": "/artworks/2cc162df-6e35-4035-8ba5-d968c27989b8.webp",
-    "image": "/artworks/2cc162df-6e35-4035-8ba5-d968c27989b8.webp",
-    "title": "45 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
-    "height": 1600
-  },
-  {
     "id": "obra-142",
     "catalogCode": "RON-142",
     "url": "/artworks/882f8961-88b4-48d5-bfb4-db6d9aa10809.webp",
@@ -2217,31 +1192,6 @@
     ],
     "story": "Un torbellino de vibrantes colores primarios se despliega en un caos armónico, donde las líneas negras trazan un mapa de energía cósmica y las salpicaduras de rojo y azul parecen capturar el latido de un universo en constante expansión. La luz parece nacer del propio conflicto cromático, regalando una sensación de libertad creativa absoluta y un impulso vital que trasciende lo puramente visual para convertirse en un grito de alma.",
     "width": 1066,
-    "height": 1600
-  },
-  {
-    "id": "obra-43",
-    "catalogCode": "RON-143",
-    "url": "/artworks/36ea1d96-944b-4435-8454-aa32ff0d398b.webp",
-    "image": "/artworks/36ea1d96-944b-4435-8454-aa32ff0d398b.webp",
-    "title": "46 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1072,
     "height": 1600
   },
   {
@@ -2276,31 +1226,6 @@
     "height": 1600
   },
   {
-    "id": "obra-44",
-    "catalogCode": "RON-144",
-    "url": "/artworks/86b5e90a-99c3-4f8e-8492-b1f541e9e450.webp",
-    "image": "/artworks/86b5e90a-99c3-4f8e-8492-b1f541e9e450.webp",
-    "title": "47 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1068,
-    "height": 1600
-  },
-  {
     "id": "obra-144",
     "catalogCode": "RON-144",
     "url": "/artworks/fa239b0c-2b1e-48be-8628-5b843fbba29b.webp",
@@ -2327,31 +1252,6 @@
     ],
     "story": "Un cosmos de pura vibración cromática se despliega en superposiciones caóticas, donde la luz no se refleja, sino que nace del propio espesor del pigmento. Los audaces trazos de negro y blanco dibujan una danza de contraste absoluto, capturando un instante eterno de libertad creativa y energía desbordada.",
     "width": 1068,
-    "height": 1600
-  },
-  {
-    "id": "obra-45",
-    "catalogCode": "RON-145",
-    "url": "/artworks/8a20a488-b51e-4c98-83f8-2b271f9ef1ae.webp",
-    "image": "/artworks/8a20a488-b51e-4c98-83f8-2b271f9ef1ae.webp",
-    "title": "48 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1072,
     "height": 1600
   },
   {
@@ -2386,31 +1286,6 @@
     "height": 1600
   },
   {
-    "id": "obra-46",
-    "catalogCode": "RON-146",
-    "url": "/artworks/561c59b5-8f9a-4069-a4f8-f1fa94bf4126.webp",
-    "image": "/artworks/561c59b5-8f9a-4069-a4f8-f1fa94bf4126.webp",
-    "title": "49 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "43 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1082,
-    "height": 1600
-  },
-  {
     "id": "obra-146",
     "catalogCode": "RON-146",
     "url": "/artworks/adb4feb6-2ddb-4799-bba9-9794c60d78e3.webp",
@@ -2439,31 +1314,6 @@
     ],
     "story": "Un torbellino de puro vitalismo cromático se despliega en el lienzo como una coreografía caótica, donde el rojo pasional y el azul profundo se entrelazan bajo la telaraña negra de un instinto creator infinito. La luz no se posa, sino que vibra en cada salpicadura, convirtiendo el caos en una sinfonía de energía desbordada y pasión existencial.",
     "width": 1082,
-    "height": 1600
-  },
-  {
-    "id": "obra-47",
-    "catalogCode": "RON-147",
-    "url": "/artworks/2d947ca5-f04a-4085-b962-40060e2ae387.webp",
-    "image": "/artworks/2d947ca5-f04a-4085-b962-40060e2ae387.webp",
-    "title": "5 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
     "height": 1600
   },
   {
@@ -2498,31 +1348,6 @@
     "height": 1600
   },
   {
-    "id": "obra-48",
-    "catalogCode": "RON-148",
-    "url": "/artworks/35d8ccec-24a5-4948-a1d0-331213b0ca84.webp",
-    "image": "/artworks/35d8ccec-24a5-4948-a1d0-331213b0ca84.webp",
-    "title": "50 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1072,
-    "height": 1600
-  },
-  {
     "id": "obra-148",
     "catalogCode": "RON-148",
     "url": "/artworks/f7890968-5280-4365-8319-f0f2cf4069d2.webp",
@@ -2549,31 +1374,6 @@
     ],
     "story": "Un torbellino de puro impulso creativo se despliega en el lienzo, donde el goteo vibrante configura un paisaje de pura energía cinética. El contraste entre la negra densidad de las líneas y el resplandor de los colores primarios genera un universo visual en constante ebullición, capturando el instante efímero de la creación espontánea.",
     "width": 1072,
-    "height": 1600
-  },
-  {
-    "id": "obra-49",
-    "catalogCode": "RON-149",
-    "url": "/artworks/ec550bc3-db6b-44fa-af00-a53b3eeb48cc.webp",
-    "image": "/artworks/ec550bc3-db6b-44fa-af00-a53b3eeb48cc.webp",
-    "title": "51 (4).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
     "height": 1600
   },
   {
@@ -2604,31 +1404,6 @@
     ],
     "story": "Un torbellino de color puro y trazos decididos se despliega como un mapamundi de emoción cruda, donde el contraste entre el negro profundo y el blanco brillante teje una red de misterio y dinamismo sobre un fondo de caleidoscopio cromático. La luz parece capturada en un estallido efímero, transmitiendo una sensación de libertad absoluta y energía vital desbordada.",
     "width": 1066,
-    "height": 1600
-  },
-  {
-    "id": "obra-50",
-    "catalogCode": "RON-150",
-    "url": "/artworks/d7bdda5a-8933-40cc-9db2-7bf5427e785b.webp",
-    "image": "/artworks/d7bdda5a-8933-40cc-9db2-7bf5427e785b.webp",
-    "title": "51 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "43 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1084,
     "height": 1600
   },
   {
@@ -2663,31 +1438,6 @@
     "height": 1600
   },
   {
-    "id": "obra-51",
-    "catalogCode": "RON-151",
-    "url": "/artworks/fdcd1295-9555-463c-a5e7-b50291c0cd22.webp",
-    "image": "/artworks/fdcd1295-9555-463c-a5e7-b50291c0cd22.webp",
-    "title": "52 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "43 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1096,
-    "height": 1600
-  },
-  {
     "id": "obra-151",
     "catalogCode": "RON-151",
     "url": "/artworks/02ec73a4-4274-46a3-9659-d6113f40af6c.webp",
@@ -2714,31 +1464,6 @@
     ],
     "story": "Un torbellino de color vibrante se ve atrapado en una densa telaraña de líneas negras que danzan con una energía casi frenética, creando un contraste visual poderoso. Bajo esta red de expresión pura, el fondo cromático emerge como un fuego de emociones crudas, capturando un instante de creación infinita y libertad absoluta.",
     "width": 1096,
-    "height": 1600
-  },
-  {
-    "id": "obra-52",
-    "catalogCode": "RON-152",
-    "url": "/artworks/0916294b-ed42-40ab-b2f7-1acec00763a3.webp",
-    "image": "/artworks/0916294b-ed42-40ab-b2f7-1acec00763a3.webp",
-    "title": "53 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1068,
     "height": 1600
   },
   {
@@ -2772,31 +1497,6 @@
     "height": 1600
   },
   {
-    "id": "obra-53",
-    "catalogCode": "RON-153",
-    "url": "/artworks/515306f8-c312-4be2-bec8-25003a21deae.webp",
-    "image": "/artworks/515306f8-c312-4be2-bec8-25003a21deae.webp",
-    "title": "54 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "41 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1042,
-    "height": 1600
-  },
-  {
     "id": "obra-153",
     "catalogCode": "RON-153",
     "url": "/artworks/fc48164c-9f9d-42c2-a597-09fd77b50e35.webp",
@@ -2823,31 +1523,6 @@
     ],
     "story": "Un torbellino de puro vitalismo cromático se despliega en el lienzo, donde el rojo ardiente actúa como un pulso vital que desgarra la quietud del azul y el negro, configurando una figura de fuego en constante metamorfosis. La luz no se contiene, se proyecta en salpicaduras salvajes que capturan un instante de éxtasis creativo absoluto, invitando al espectador a sumergirse en el caos ordenado del alma.",
     "width": 1042,
-    "height": 1600
-  },
-  {
-    "id": "obra-54",
-    "catalogCode": "RON-154",
-    "url": "/artworks/fa2818fd-8aed-4202-9b52-b84313c11a23.webp",
-    "image": "/artworks/fa2818fd-8aed-4202-9b52-b84313c11a23.webp",
-    "title": "55 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
     "height": 1600
   },
   {
@@ -2882,31 +1557,6 @@
     "height": 1600
   },
   {
-    "id": "obra-55",
-    "catalogCode": "RON-155",
-    "url": "/artworks/6f68fe21-8020-43b9-9f47-2d9c992b0ef0.webp",
-    "image": "/artworks/6f68fe21-8020-43b9-9f47-2d9c992b0ef0.webp",
-    "title": "56 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
-    "height": 1600
-  },
-  {
     "id": "obra-155",
     "catalogCode": "RON-155",
     "url": "/artworks/4b9c926a-c635-42c8-999b-6caca6d692ed.webp",
@@ -2937,31 +1587,6 @@
     "height": 1600
   },
   {
-    "id": "obra-56",
-    "catalogCode": "RON-156",
-    "url": "/artworks/d30b653c-05aa-46b8-a681-15dfd648f372.webp",
-    "image": "/artworks/d30b653c-05aa-46b8-a681-15dfd648f372.webp",
-    "title": "58 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "43 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1078,
-    "height": 1600
-  },
-  {
     "id": "obra-156",
     "catalogCode": "RON-156",
     "url": "/artworks/f7a5a861-10ea-462b-9420-da284602dfae.webp",
@@ -2989,31 +1614,6 @@
     ],
     "story": "Un torbellino de color puro se despliega en un constante diálogo con la contundente red de líneas negras, creando un paisaje visual de una energía casi primordial. La luz no se posa, sino que vibra en cada salpicadura, invitando a una introspección profunda sobre el caos creativo que subyace en la ordenada estructura del alma.",
     "width": 1078,
-    "height": 1600
-  },
-  {
-    "id": "obra-57",
-    "catalogCode": "RON-157",
-    "url": "/artworks/14e152bb-4da0-44e0-931d-87f756953e8d.webp",
-    "image": "/artworks/14e152bb-4da0-44e0-931d-87f756953e8d.webp",
-    "title": "57 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1056,
     "height": 1600
   },
   {
@@ -3048,31 +1648,6 @@
     "height": 1600
   },
   {
-    "id": "obra-58",
-    "catalogCode": "RON-158",
-    "url": "/artworks/3a2dbbc0-d51f-4df2-9104-41dde41cbb66.webp",
-    "image": "/artworks/3a2dbbc0-d51f-4df2-9104-41dde41cbb66.webp",
-    "title": "6 (4).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "41 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1048,
-    "height": 1600
-  },
-  {
     "id": "obra-158",
     "catalogCode": "RON-158",
     "url": "/artworks/b56ba9a0-e974-4a3f-8391-2ecf5467b1ca.webp",
@@ -3103,31 +1678,6 @@
     "height": 1600
   },
   {
-    "id": "obra-59",
-    "catalogCode": "RON-159",
-    "url": "/artworks/e65e0778-4490-4548-96e8-e068026ed852.webp",
-    "image": "/artworks/e65e0778-4490-4548-96e8-e068026ed852.webp",
-    "title": "59 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1056,
-    "height": 1600
-  },
-  {
     "id": "obra-159",
     "catalogCode": "RON-159",
     "url": "/artworks/c474ab0b-892d-436e-9512-77da3a02c19e.webp",
@@ -3155,31 +1705,6 @@
     ],
     "story": "Un torrente de creatividad espontánea se despliega en un dialogue vibrante de colores puros sobre un fondo luminoso, donde las líneas negras trazan un mapa de fuerzas invisibles y los salpicaduras de rojo, azul y rosa estallan como un grito de libertad. La luz blanca del fondo irradia una brillantez que atravesa la capa caótica, capturando un instante efímero de puro flujo creativo y transmitiendo una energía vital incontenible.",
     "width": 1056,
-    "height": 1600
-  },
-  {
-    "id": "obra-60",
-    "catalogCode": "RON-160",
-    "url": "/artworks/91bb010d-3e71-4221-8278-b790487ab58f.webp",
-    "image": "/artworks/91bb010d-3e71-4221-8278-b790487ab58f.webp",
-    "title": "60 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
     "height": 1600
   },
   {
@@ -3214,31 +1739,6 @@
     "height": 1600
   },
   {
-    "id": "obra-61",
-    "catalogCode": "RON-161",
-    "url": "/artworks/c365f483-2f04-4fec-b6c8-97a37283e5b7.webp",
-    "image": "/artworks/c365f483-2f04-4fec-b6c8-97a37283e5b7.webp",
-    "title": "61 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "41 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1048,
-    "height": 1600
-  },
-  {
     "id": "obra-161",
     "catalogCode": "RON-161",
     "url": "/artworks/50b567dc-4ad0-4e05-b21b-617c6e38ef75.webp",
@@ -3269,31 +1769,6 @@
     "height": 1600
   },
   {
-    "id": "obra-62",
-    "catalogCode": "RON-162",
-    "url": "/artworks/ae7ac96f-0613-46be-9185-cbd0bac0e19b.webp",
-    "image": "/artworks/ae7ac96f-0613-46be-9185-cbd0bac0e19b.webp",
-    "title": "62 (7).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 48 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1208
-  },
-  {
     "id": "obra-162",
     "catalogCode": "RON-162",
     "url": "/artworks/218d6c59-15ae-4a70-b862-2d9174eb92a7.webp",
@@ -3321,31 +1796,6 @@
     "story": "Un torbellino de puro fuego cromático se despliega en un silencioso dialogue entre la calidez del naranja vibrante y la contundencia de la sombra gestual. La luz aquí no es externa, sino que surge desde el interior de la tela como una erupción emocional, invitando al espectador a sumergirse en un paisaje de pasión, contraste y movimiento puro.",
     "width": 1600,
     "height": 1208
-  },
-  {
-    "id": "obra-63",
-    "catalogCode": "RON-163",
-    "url": "/artworks/59912beb-613e-4e1c-a19c-8235e0abe9d9.webp",
-    "image": "/artworks/59912beb-613e-4e1c-a19c-8235e0abe9d9.webp",
-    "title": "7 (3).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "42 × 64 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1066,
-    "height": 1600
   },
   {
     "id": "obra-163",
@@ -3378,31 +1828,6 @@
     "height": 1600
   },
   {
-    "id": "obra-64",
-    "catalogCode": "RON-164",
-    "url": "/artworks/02c0ebd7-aa66-459c-b2d8-b61a6f914b79.webp",
-    "image": "/artworks/02c0ebd7-aa66-459c-b2d8-b61a6f914b79.webp",
-    "title": "8 (2).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 52 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1320
-  },
-  {
     "id": "obra-164",
     "catalogCode": "RON-164",
     "url": "/artworks/d507e485-7204-4dcf-a7cf-42d31575989e.webp",
@@ -3433,31 +1858,6 @@
     "height": 1320
   },
   {
-    "id": "obra-65",
-    "catalogCode": "RON-165",
-    "url": "/artworks/967e8ccd-3c71-457e-b92a-ad949d9cc275.webp",
-    "image": "/artworks/967e8ccd-3c71-457e-b92a-ad949d9cc275.webp",
-    "title": "9 (1).jpg",
-    "artist": "Miguel Rondot",
-    "year": "2025",
-    "technique": "Óleo sobre lienzo",
-    "dimensions": "64 × 54 cm",
-    "status": "disponible",
-    "price": "Consultar",
-    "vibes": [
-      "Calma",
-      "Introspección"
-    ],
-    "tags": [
-      "pintura",
-      "oleo",
-      "arte"
-    ],
-    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
-    "width": 1600,
-    "height": 1356
-  },
-  {
     "id": "obra-165",
     "catalogCode": "RON-165",
     "url": "/artworks/81e2f9fb-49ab-41ba-8d5c-7bf79463267d.webp",
@@ -3486,5 +1886,2398 @@
     "story": "Un paisaje abstracto que captura la esencia caótica y vibrante de la naturaleza en su máximo esplendor, donde el verde profundo se entrelaza con brotes de luz dorada y cálidos matices naranjas. El tratamiento de la luz, filtrada como un sol de mediodía que juega entre las sombras, genera un dinamismo casi orgánico, invitando al espectador a sumergirse en un sueño de texturas vivas y energía pura.",
     "width": 1600,
     "height": 1356
+  },
+  {
+    "id": "obra-166",
+    "catalogCode": "RON-166",
+    "url": "/artworks/a08eb8de-a42a-4df1-aad3-fcbef9912196.webp",
+    "image": "/artworks/a08eb8de-a42a-4df1-aad3-fcbef9912196.webp",
+    "title": "El eco de los tejados bajo el sol",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada empastada y expresiva",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Luz",
+      "Contraste",
+      "Energía"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "expresionismo",
+      "arquitectura",
+      "tonos cálidos",
+      "textura"
+    ],
+    "story": "Una vibrante perspectiva urbana donde la arquitectura se fragmenta en pinceladas energéticas, capturando la vitalidad de una ciudad que respira. La luz invade las superficies geométricas evocando la nostalgia de una tarde suspendida en el danza de color y dinamismo.",
+    "width": 1058,
+    "height": 1600
+  },
+  {
+    "id": "obra-167",
+    "catalogCode": "RON-167",
+    "url": "/artworks/a528fbd7-e097-4648-b8e4-117f3b46df79.webp",
+    "image": "/artworks/a528fbd7-e097-4648-b8e4-117f3b46df79.webp",
+    "title": "El Eco del Crepúsculo de Hier",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con empaste y espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Contraste",
+      "Energía",
+      "Misterio"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "azul cobalto",
+      "atardecer",
+      "pincelada"
+    ],
+    "story": "Una explosión cromática donde la arquitectura gótica se desintegra bajo un cielo de fuego carmesí, creando un diálogo visceral entre la frialdad de la sombra azul y la furia del ocaso.",
+    "width": 1600,
+    "height": 1056
+  },
+  {
+    "id": "obra-168",
+    "catalogCode": "RON-168",
+    "url": "/artworks/9229fe9a-e5a0-4188-a49d-e7cd195c0d55.webp",
+    "image": "/artworks/9229fe9a-e5a0-4188-a49d-e7cd195c0d55.webp",
+    "title": "El Eco de un Sueño Púrpura",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Luz",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "arquitectura",
+      "empasto",
+      "expresionismo",
+      "atardecer",
+      "fantasía"
+    ],
+    "story": "Una vibrante danza cromática donde la arquitectura gótica se funde con un cielo de fuego eléctrico, capturando el instante efímero donde la realidad se disuelve en pinceladas de pura emoción.",
+    "width": 1600,
+    "height": 1094
+  },
+  {
+    "id": "obra-169",
+    "catalogCode": "RON-169",
+    "url": "/artworks/ea88502a-d8d3-4c44-9a2d-d613eff0d3cc.webp",
+    "image": "/artworks/ea88502a-d8d3-4c44-9a2d-d613eff0d3cc.webp",
+    "title": "El Eco de un Sueño Purpura",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con empaste técnico y espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Luz",
+      "Misterio",
+      "Movimiento"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "púrpura",
+      "atardecer",
+      "imaginación"
+    ],
+    "story": "Una explosión cromática donde la arquitectura gótica se funde con un cielo vibrante, capturando el instante exacto en que la realidad se transforma en fantasía onírica.",
+    "width": 1600,
+    "height": 1064
+  },
+  {
+    "id": "obra-170",
+    "catalogCode": "RON-170",
+    "url": "/artworks/c331b2a0-fa81-482c-9476-e774ff63d349.webp",
+    "image": "/artworks/c331b2a0-fa81-482c-9476-e774ff63d349.webp",
+    "title": "El jardín del silencio de piedra",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta textura con espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Contraste",
+      "Texturas",
+      "Misterio"
+    ],
+    "tags": [
+      "paisaje",
+      "jardín",
+      "azules",
+      "verdes",
+      "estatua",
+      "texturas"
+    ],
+    "story": "La obra captura la esencia vibrante de un jardín donde la luz se filtra entre un prisma de azules intensos y verdes vibrantes, tejiendo una atmósfera onírica de profundo misterio. Frente a la solitaria estatua de piedra, el paisaje cobra vida a través de pinceladas densas, invitando al espectador a la introspección en un mundo de silencios y contrastes cromáticos.",
+    "width": 1600,
+    "height": 1054
+  },
+  {
+    "id": "obra-171",
+    "catalogCode": "RON-171",
+    "url": "/artworks/ec8e03a0-262e-47de-8ff6-0020eca9e081.webp",
+    "image": "/artworks/ec8e03a0-262e-47de-8ff6-0020eca9e081.webp",
+    "title": "1",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Calma",
+      "Introspección"
+    ],
+    "tags": [
+      "pintura",
+      "oleo",
+      "arte"
+    ],
+    "story": "Una exploración matérica de tensiones visuales y texturas orgánicas sobre lienzo.",
+    "width": 1072,
+    "height": 1600
+  },
+  {
+    "id": "obra-172",
+    "catalogCode": "RON-172",
+    "url": "/artworks/5e51cfcd-ec66-4122-9d79-c89afb885092.webp",
+    "image": "/artworks/5e51cfcd-ec66-4122-9d79-c89afb885092.webp",
+    "title": "La Perspectiva del Susurro Áureo",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de trazo expresivo y texturado con espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Dorados",
+      "Calma",
+      "Misterio"
+    ],
+    "tags": [
+      "perspectiva",
+      "arcos",
+      "contraste",
+      "dorados",
+      "arquitectura"
+    ],
+    "story": "La obra despliega un corredor arquitectónico que se pierde en una perspectiva hipnótica, invitando a un silencioso viaje introspectivo. Bajo un cielo de azul vibrante, el contraste con el fuego dorado del otoño y la pureza de las columnas pálidas crea una atmósfera de cálida serenidad y misteriosa eternidad, donde la luz se convierte en el único testigo de un sueño quietamente corporizado.",
+    "width": 1076,
+    "height": 1600
+  },
+  {
+    "id": "obra-173",
+    "catalogCode": "RON-173",
+    "url": "/artworks/01fd479d-85a3-434f-9495-426f82aa0009.webp",
+    "image": "/artworks/01fd479d-85a3-434f-9495-426f82aa0009.webp",
+    "title": "Éxtasis en arcos de fucsia",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de pincelada gestual y espátula sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Luz",
+      "Misterio",
+      "Movimiento"
+    ],
+    "tags": [
+      "arquitectura",
+      "fucsia",
+      "expressionismo",
+      "sueño",
+      "pincelada",
+      "contraste"
+    ],
+    "story": "La obra retrata un espacio arquitectónico transformado en un templo del sueño, donde el rosa fucsia dominante irradia una luz casi mística y cargada de una energía visceral. A través de pinceladas audaces y un cromatismo contrastado, el artista invita a una introspección vibrante, capturando la esencia efímera de un mundo interno en constante ebullición creativa.",
+    "width": 1600,
+    "height": 1086
+  },
+  {
+    "id": "obra-174",
+    "catalogCode": "RON-174",
+    "url": "/artworks/521c2b53-23b6-4351-bec2-2d822e0e2380.webp",
+    "image": "/artworks/521c2b53-23b6-4351-bec2-2d822e0e2380.webp",
+    "title": "Silencios de espiras bajo tejas de fuego",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincelada de textura densa sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Energía",
+      "Cielo",
+      "Introspección"
+    ],
+    "tags": [
+      "paisaje",
+      "cielo",
+      "tejas",
+      "contraste",
+      "pincelada",
+      "color",
+      "nostalgia"
+    ],
+    "story": "Bajo un cielo de zafiro puro, la ciudad se despliega en un vibrante concierto de techos rojos y sombras púrpuras, donde la fuerza del golpe de espátula transmite una energía casi telúrica. El contraste cromático caleidoscópico envuelve al espectador en una atmósfera de introspección nostálgica, como un eco de cielos soñados y arquitecturas que tocan el infinito.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-175",
+    "catalogCode": "RON-175",
+    "url": "/artworks/c4ffa4bb-d6eb-4733-abb2-2f784f185111.webp",
+    "image": "/artworks/c4ffa4bb-d6eb-4733-abb2-2f784f185111.webp",
+    "title": "Tejados de fuego y torres de oro",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta pigmentación con pinceladas de espátula y texturas densas sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Luz",
+      "Contraste",
+      "Energía",
+      "Dorados"
+    ],
+    "tags": [
+      "paisaje",
+      "ciudad",
+      "tejados",
+      "colores",
+      "cielo",
+      "luz",
+      "energía"
+    ],
+    "story": "La obra despliega un paisaje urbano cargado de una vitalidad casi palpable, donde el calor de los tejados rojos y el brillo dorado de las torres se confrontan con la frescura del cielo azul en un diálogo de contrastes vibrantes. A través de pinceladas densas y un cromatismo audaz, la pieza transmite una sensación de alegría desbordada y un paisaje soñado, donde la luz se convierte en el alma principal de la arquitectura.",
+    "width": 1600,
+    "height": 1088
+  },
+  {
+    "id": "obra-176",
+    "catalogCode": "RON-176",
+    "url": "/artworks/d001d777-19b1-4480-b0a6-0674a2887486.webp",
+    "image": "/artworks/d001d777-19b1-4480-b0a6-0674a2887486.webp",
+    "title": "Canto de luz desde el umbral de Bohemia",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de trazo expresivo y texturas con espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Luz",
+      "Movimiento",
+      "Texturas"
+    ],
+    "tags": [
+      "paisaje",
+      "arquitectura",
+      "color",
+      "texturas",
+      "luz"
+    ],
+    "story": "Bajo un cielo de pinceladas audaces, la obra despliega un paisaje urbano vibrante donde el dorado de los tejados se entrelaza con el azul intenso del firmamento, creando un contraste cromático cargado de energía. Un jarrón de cerámica, situado en primer plano, actúa como ancla visual y testigo silencioso de un instante de pura contemplación, invitando al espectador a perdarse en la calidez y la nostalgia de un sueño europeo.",
+    "width": 1076,
+    "height": 1600
+  },
+  {
+    "id": "obra-177",
+    "catalogCode": "RON-177",
+    "url": "/artworks/bee8862c-d624-4bdf-a5d5-8f81ac17f6e8.webp",
+    "image": "/artworks/bee8862c-d624-4bdf-a5d5-8f81ac17f6e8.webp",
+    "title": "El eco cromático de la torre dorada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta textura con espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Energía",
+      "Dorados",
+      "Misterio"
+    ],
+    "tags": [
+      "paisaje",
+      "colores",
+      "contraste",
+      "torre",
+      "atardecer",
+      "oleo"
+    ],
+    "story": "La obra captura la esencia vibracional de un paisaje urbano transformado en un caleidoscopio de emociones cromáticas, donde el contraste entre los cálidos tonos naranjas y los fríos azules turqueses genera una atmósfera onírica y cargada de misterio. El camino estrecho guía la mirada hacia la torre centinela, bañada por una luz difusa que parece detener el tiempo, invitando a una introspección profunda sobre los espacios que habitamos y los sueños que proyectamos sobre ellos.",
+    "width": 1084,
+    "height": 1600
+  },
+  {
+    "id": "obra-178",
+    "catalogCode": "RON-178",
+    "url": "/artworks/74a53176-b734-488b-8100-0eda9f9ce02e.webp",
+    "image": "/artworks/74a53176-b734-488b-8100-0eda9f9ce02e.webp",
+    "title": "Plaza Nocturna de Trazos Vivientes",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel sobre lienzo",
+    "dimensions": "44 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Energía",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "ciudad",
+      "nocturno",
+      "columna",
+      "trazos",
+      "color",
+      "contraste"
+    ],
+    "story": "Bajo un cielo azul de puro éxtasis, la gran columna se alza como un faro de luz blanca y misterio, atravesando la quietud de una ciudad pintada con la pasión del alma. Los edificios, vestidos de verdes y rosas vibrantes, parecen danzar en un contraste cromático que habla de la energía latente de la noche urbana.",
+    "width": 1104,
+    "height": 1600
+  },
+  {
+    "id": "obra-179",
+    "catalogCode": "RON-179",
+    "url": "/artworks/70111170-d28b-444e-9c52-503381b6a25d.webp",
+    "image": "/artworks/70111170-d28b-444e-9c52-503381b6a25d.webp",
+    "title": "Collage de luz y sueño en la colina",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincelada cargada sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje",
+      "color",
+      "expressionismo",
+      "alegria",
+      "pincelada"
+    ],
+    "story": "Bajo un cielo de intenso azul, la ciudad se eleva como un sueño expressionista tejido con pinceladas de pura vitalidad, donde cada tono rosado, amarillo y verde susurra una oda a la alegría y al calor del vivir. La luz no se representa, sino que irradia desde el lienzo, creando un paisaje de contraste y emoción que invita a la introspección viajera.",
+    "width": 1600,
+    "height": 1076
+  },
+  {
+    "id": "obra-180",
+    "catalogCode": "RON-180",
+    "url": "/artworks/4ac4bf1b-7f0e-4bde-be9a-9341ad43b125.webp",
+    "image": "/artworks/4ac4bf1b-7f0e-4bde-be9a-9341ad43b125.webp",
+    "title": "Sinfonía cromática sobre el puente de los susurros",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista con espátula sobre lienzo, de textura espesa y trazo audaz",
+    "dimensions": "44 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Texturas",
+      "Luz"
+    ],
+    "tags": [
+      "puente",
+      "torre",
+      "azul",
+      "carmesí",
+      "expresión",
+      "vitalidad"
+    ],
+    "story": "La pintura despliega un paisaje de ensueño donde el contraste entre el azul profundo del cielo y el agua y el fuego de los tonos cálidos de la arquitectura crea una atmósfera de pasión vibrante. A través de trazos de gran textura, la luz se convierte en un lenguaje de pura emoción, evocando la nostalgia de un momento eterno capturado en el puente de las almas.",
+    "width": 1102,
+    "height": 1600
+  },
+  {
+    "id": "obra-181",
+    "catalogCode": "RON-181",
+    "url": "/artworks/65db428c-394d-4f20-a039-1566ddb37e20.webp",
+    "image": "/artworks/65db428c-394d-4f20-a039-1566ddb37e20.webp",
+    "title": "Sinfonía del puente de arcos dorados",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista de alta textura, con pincelada cargada y uso de espátula sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Texturas",
+      "Energía",
+      "Dorados"
+    ],
+    "tags": [
+      "paisaje",
+      "puente",
+      "pincelada",
+      "contraste",
+      "vibración"
+    ],
+    "story": "La obra captura la esencia vibrante de una ciudad icónica bajo un cielo de pinceladas audaces, donde el contraste entre el azul profundo del agua y el dorado cálido de los arcos del puente narra un poema visual de nostalgia y vitalidad. La luz no se describe, sino que se respira, tejiendo un sueño de color puro que invita a la contemplación del paisaje como un espacio de recuerdos eternos.",
+    "width": 1600,
+    "height": 1078
+  },
+  {
+    "id": "obra-182",
+    "catalogCode": "RON-182",
+    "url": "/artworks/052c0b85-4a44-4751-9de9-8381dc2cffd3.webp",
+    "image": "/artworks/052c0b85-4a44-4751-9de9-8381dc2cffd3.webp",
+    "title": "El jardín de los contrastes eternos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta expresividad con pincelada espesa y técnicas de espátula sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Melancolía",
+      "Dorados",
+      "Energía"
+    ],
+    "tags": [
+      "paisaje",
+      "arbol",
+      "arquitectura",
+      "contraste",
+      "cromatismo",
+      "otoño"
+    ],
+    "story": "Bajo un cielo de intensa vibración azul, el árbol desnudo y melancólico se contrapone al esplendor ardiente del otoño dorado, custodiando la mansión de arcos que yace como un secreto de tiempos pasados. El uso audaz del color y la pincelada expresiva generan una atmósfera de profunda nostalgia, donde el contraste cromático habla de la eterna danza entre la sombra y la luz, invitando a la introspección.",
+    "width": 1600,
+    "height": 1080
+  },
+  {
+    "id": "obra-183",
+    "catalogCode": "RON-183",
+    "url": "/artworks/88a57ba6-b295-41f2-a800-89cc986b538c.webp",
+    "image": "/artworks/88a57ba6-b295-41f2-a800-89cc986b538c.webp",
+    "title": "La cuesta de los suspiros cromáticos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista con uso de espátula y pinceladas libres sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje",
+      "ciudad",
+      "coloresvibrantes",
+      "expressionismo",
+      "movimiento",
+      "luz"
+    ],
+    "story": "La obra captura la esencia vibracional de un paisaje urbano transformado en un caleidoscopio de emoción pura, donde la luz dorada se funde con sombras de rosa y azul profundo en un baile de contrastes audaces. El dinamismo de la perspectiva inclinada sugiere un descenso continuo hacia un mundo onírico, cargado de la nostalgia cálida de los recuerdos que resplandecen bajo un cielo de pasión.",
+    "width": 1076,
+    "height": 1600
+  },
+  {
+    "id": "obra-184",
+    "catalogCode": "RON-184",
+    "url": "/artworks/53700382-1a44-45ab-9daa-83c96c5a65a7.webp",
+    "image": "/artworks/53700382-1a44-45ab-9daa-83c96c5a65a7.webp",
+    "title": "Las agujas del alma en fuego eterno",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo, de alta carga cromática y texturas marcadas",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Energía",
+      "Misterio",
+      "Introspección"
+    ],
+    "tags": [
+      "arquitectura",
+      "contraste",
+      "texturas",
+      "misticismo",
+      "expressionismo"
+    ],
+    "story": "Bajo un cielo de fuego naranja, las agujas de una catedral onírica se elevan como silenciosos gritos de piedra, tejiendo un diálogo de sombras y luz entre el frío del azul y el calor del alma. La textura densa y el trazo expresivo capturan una luz mística que transforma lo sagrado en una experiencia de pura energía visual, invitando a una profunda introspección en un universo donde lo divino y lo pasional se funden en un eterno, vibrante contraste.",
+    "width": 1088,
+    "height": 1600
+  },
+  {
+    "id": "obra-185",
+    "catalogCode": "RON-185",
+    "url": "/artworks/bff1966d-94dd-484b-a268-3abc9b75785b.webp",
+    "image": "/artworks/bff1966d-94dd-484b-a268-3abc9b75785b.webp",
+    "title": "Catedral del Silencio en Llamas",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Texturas",
+      "Misterio",
+      "Energía"
+    ],
+    "tags": [
+      "catedral",
+      "contraste",
+      "azul",
+      "rojo",
+      "texturas",
+      "misterio"
+    ],
+    "story": "Bajo un cielo de fuego intenso, la catedral se erige como un monolito de azul vibratorio, donde el contraste cromático genera una danza de energías opuestas que desafía el tiempo. La luz es herejía y misterio, construida con texturas densas que convierten la piedra en un ser vivo que susurra una melancolía eterna y un anhelo de lo trascendental.",
+    "width": 1078,
+    "height": 1600
+  },
+  {
+    "id": "obra-186",
+    "catalogCode": "RON-186",
+    "url": "/artworks/e5031343-70e9-4a70-97cb-677acebc6649.webp",
+    "image": "/artworks/e5031343-70e9-4a70-97cb-677acebc6649.webp",
+    "title": "Puente de Sinfonías Doradas",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Dorados",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "puente",
+      "dorados",
+      "contraste",
+      "expressionismo",
+      "crepúsculo"
+    ],
+    "story": "La obra despliega un paisaje vibrante donde el oro candente del cielo se entrelaza con la intensidad del azul profundo, creando un contraste cromático que evoca la calidez de un recuerdo soñado. El puente, trazado con pinceladas decididas, se convierte en un símbolo de tránsito y descubrimiento, guiando la mirada hacia un horizonte cargado de misterio y emoción silenciosa.",
+    "width": 1600,
+    "height": 1060
+  },
+  {
+    "id": "obra-187",
+    "catalogCode": "RON-187",
+    "url": "/artworks/ed03d262-6e49-453b-a309-860ccc810bee.webp",
+    "image": "/artworks/ed03d262-6e49-453b-a309-860ccc810bee.webp",
+    "title": "La Torre del Susurro Cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "48 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje",
+      "torre",
+      "puente",
+      "colores vibrantes",
+      "texturas",
+      "movimiento"
+    ],
+    "story": "La obra captura la esencia vibrante de un paisaje urbano transformado en un caleidoscopio de sensaciones, donde la luz se desborda en pinceladas de azul turquesa y rosa fucsia para teñir el cielo de un sueño colectivo. La torre se yergue majestuosa como un silencio de piedra y color, atravesando la bruma de un recuerdo vivo cargado de texturas audaces y un latido de pura energía creativa.",
+    "width": 1206,
+    "height": 1600
+  },
+  {
+    "id": "obra-188",
+    "catalogCode": "RON-188",
+    "url": "/artworks/d12becde-c9d0-4a16-ace7-6f49ae0e8fc3.webp",
+    "image": "/artworks/d12becde-c9d0-4a16-ace7-6f49ae0e8fc3.webp",
+    "title": "Calle de fuego y sombras de lapislázuli",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista con trazo audaz y empaste de colores puros sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje",
+      "calle",
+      "colores vibrantes",
+      "expressionismo",
+      "farol",
+      "contraste"
+    ],
+    "story": "Un paisaje urbano desbordado de una vitalidad cromática casi mística, donde el trazo audaz y los colores complementarios se entrelazan en un diálogo apasionado. La luz, filtrada desde un cielo de puro resplandor, baña la calle de un aura onírica, y el farol se alza como un faro de silencio en un mundo de pura energía visual.",
+    "width": 1082,
+    "height": 1600
+  },
+  {
+    "id": "obra-189",
+    "catalogCode": "RON-189",
+    "url": "/artworks/9bddc7e7-043f-4904-9103-0cba825ed104.webp",
+    "image": "/artworks/9bddc7e7-043f-4904-9103-0cba825ed104.webp",
+    "title": "El Eco de la Medianoche en Bohemia",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada empastada y expresiva",
+    "dimensions": "46 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Misterio",
+      "Contraste",
+      "Energía"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "azul cobalto",
+      "luces",
+      "ciudad",
+      "gótico"
+    ],
+    "story": "Una danza vibrante de luces y sombras donde la arquitectura clásica parece cobrar vida, fundiendo la nostalgia gótica bajo un cielo de cobalto profundo. La pincelada cargada captura la esencia emocional de una ciudad que duerme pero late con un dinamismo onírico.",
+    "width": 1174,
+    "height": 1600
+  },
+  {
+    "id": "obra-190",
+    "catalogCode": "RON-190",
+    "url": "/artworks/76c7efba-0dcb-4f1a-bc23-8fb759ad041e.webp",
+    "image": "/artworks/76c7efba-0dcb-4f1a-bc23-8fb759ad041e.webp",
+    "title": "El Eco de la Ciudad sobre el Muelle",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con pincelada cargada y espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Luz",
+      "Contraste",
+      "Movimiento"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "impresionismo",
+      "azul cobalto",
+      "reflejos",
+      "empaste emocional"
+    ],
+    "story": "Una vibrante danza de luces donde la arquitectura se funde con el reflejo del agua, capturando la esencia efímera de una ciudad que despierta bajo la noche.",
+    "width": 1060,
+    "height": 1600
+  },
+  {
+    "id": "obra-191",
+    "catalogCode": "RON-191",
+    "url": "/artworks/5a205ed5-05ce-4dea-95b3-4cfc13a19339.webp",
+    "image": "/artworks/5a205ed5-05ce-4dea-95b3-4cfc13a19339.webp",
+    "title": "El Eco del Cobalto en la Memoria",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con empaste cargado y espátula",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "expresionismo",
+      "pincelada técnica",
+      "cromatismo vibrante",
+      "arquitectura"
+    ],
+    "story": "Una explosión de color que fragmenta la arquitectura urbana en una danza vibrante, donde la luz parece cobrar vida sobre cada pincelada técnica. La obra captura la esencia frenética de una ciudad que respira a través de una textura densa y profundamente emocional.",
+    "width": 1600,
+    "height": 1072
+  },
+  {
+    "id": "obra-192",
+    "catalogCode": "RON-192",
+    "url": "/artworks/21ad6f4a-ba21-4b3d-a116-938825f47cc4.webp",
+    "image": "/artworks/21ad6f4a-ba21-4b3d-a116-938825f47cc4.webp",
+    "title": "El Eco del Umbral Olvidado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada empastada",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Naturaleza",
+      "Luz"
+    ],
+    "tags": [
+      "arquitectura",
+      "pueblo",
+      "pincelada vibrante",
+      "ardecer",
+      "color"
+    ],
+    "story": "La obra captura un rincón suspendido donde la arquitectura clásica se funde con la majestuosidad de la montaña bajo una luz vibrante. La pincelada expresiva invita a transitar un camino de nostalgia donde el tiempo parece haberse detenido entre arcos y color.",
+    "width": 1080,
+    "height": 1600
+  },
+  {
+    "id": "obra-193",
+    "catalogCode": "RON-193",
+    "url": "/artworks/4550c174-962d-4b2c-a150-c205dc73cce7.webp",
+    "image": "/artworks/4550c174-962d-4b2c-a150-c205dc73cce7.webp",
+    "title": "El Eco del Atardecer en el Callej",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada empastada y expresiva",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Misterio",
+      "Introspección"
+    ],
+    "tags": [
+      "urbano",
+      "expresionismo",
+      "pincelada vibrante",
+      "colores cálidos",
+      "arquitectura"
+    ],
+    "story": "Una explosión cromática donde la arquitectura se desintegra bajo una luz frenética, capturando el alma vibrante de una ciudad que nunca duerme. La obra invita al espectador a perderse en un laberinto de sombras y destellos de nostalgia góticaica.",
+    "width": 1076,
+    "height": 1600
+  },
+  {
+    "id": "obra-194",
+    "catalogCode": "RON-194",
+    "url": "/artworks/670e7d32-bed6-44f0-ba3d-cb584902e37a.webp",
+    "image": "/artworks/670e7d32-bed6-44f0-ba3d-cb584902e37a.webp",
+    "title": "El Eco del Atardecer Eterno",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada expresiva",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Misterio",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "arquitectura",
+      "catedral",
+      "expresionismo",
+      "monocromo",
+      "urbano"
+    ],
+    "story": "La obra captura la esencia arquitectónica bajo un cielo carmesí visceral, donde la pincelada gestual crea un diálogo vibrante entre la estructura pétrea y la intensidad emocional del color.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-195",
+    "catalogCode": "RON-195",
+    "url": "/artworks/370682d3-2420-4df4-bf02-d99aaa747dc1.webp",
+    "image": "/artworks/370682d3-2420-4df4-bf02-d99aaa747dc1.webp",
+    "title": "El Eco del Gótico de Oro",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada cargada y espátula",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Misterio",
+      "Introspección",
+      "Energía"
+    ],
+    "tags": [
+      "arquitectura",
+      "gótico",
+      "expresionismo",
+      "monocromo",
+      "ámbar",
+      "ciudad"
+    ],
+    "story": "La obra fragmenta la arquitectura gótica bajo un cielo de ámbar vibrante, creando un diálogo visual entre la solidez de la piedra y la intensidad de una luz atemporal.",
+    "width": 1078,
+    "height": 1600
+  },
+  {
+    "id": "obra-196",
+    "catalogCode": "RON-196",
+    "url": "/artworks/4a4336ef-ed94-423d-a598-4caf20feff1b.webp",
+    "image": "/artworks/4a4336ef-ed94-423d-a598-4caf20feff1b.webp",
+    "title": "Silencio bajo el cielo de jade",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Misterio",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "cielo verde",
+      "estatuas",
+      "sombra",
+      "nocturno",
+      "contraste",
+      "melancolía"
+    ],
+    "story": "Bajo un cielo de jade de tono surreal, las siluetas de las estatuas se convierten en guardianes de un silencio profundo, atravesadas por un juego de luces y sombras que evoca un nocturno de gran carga introspectiva. El fuerte contraste cromático entre el negro denso y el blanco vibrante despierta una melancolía gótica, invitando al espectador a la contemplación de lo efímero y lo eterno.",
+    "width": 1058,
+    "height": 1600
+  },
+  {
+    "id": "obra-197",
+    "catalogCode": "RON-197",
+    "url": "/artworks/b36d5910-8a75-4180-851e-5de2e88b38aa.webp",
+    "image": "/artworks/b36d5910-8a75-4180-851e-5de2e88b38aa.webp",
+    "title": "Horizontes de tinta y esmeralda",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista de fuerte pincelada y contraste cromático sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Melancolía",
+      "Misterio"
+    ],
+    "tags": [
+      "paisaje",
+      "contraste",
+      "gris",
+      "verde",
+      "pincelada",
+      "misterio",
+      "arquitectura"
+    ],
+    "story": "Bajo un cielo de esmeralda vibrante, la arquitectura gris se sumerge en un silencio misterioso, donde el contraste cromático genera una atmósfera onírica y introspectiva. El tratamiento de la luz, tan surreal como poético, baña una escena melancólica despertando una energía que invita a la contemplación profunda del paisaje del alma.",
+    "width": 1084,
+    "height": 1600
+  },
+  {
+    "id": "obra-198",
+    "catalogCode": "RON-198",
+    "url": "/artworks/85febfe9-df7c-4cf0-9d9a-054bf559b16c.webp",
+    "image": "/artworks/85febfe9-df7c-4cf0-9d9a-054bf559b16c.webp",
+    "title": "La canción del canal en colores vibrantes",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta textura, aplicado con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Luz",
+      "Movimiento",
+      "Texturas",
+      "Introspección"
+    ],
+    "tags": [
+      "paisaje",
+      "canal",
+      "reflejos",
+      "colorido",
+      "pincelada",
+      "barcas"
+    ],
+    "story": "La luz se desfragmenta en pinceladas densas y vibrantes, tejiendo un paisaje acuático de intenso cromatismo donde el agua y el cielo dialogan en un eterno fluir de sombras y colores. Este espacio visual transmite una serena calma cargada de un dinamismo casi musical, invitando al espectador a detenerse en un instante efímero de pura introspección.",
+    "width": 1070,
+    "height": 1600
+  },
+  {
+    "id": "obra-199",
+    "catalogCode": "RON-199",
+    "url": "/artworks/f9741c77-af34-4cbe-b625-1168b9d9d18f.webp",
+    "image": "/artworks/f9741c77-af34-4cbe-b625-1168b9d9d18f.webp",
+    "title": "La vigilia del rosa gótico",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta textura con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Misterio",
+      "Nocturno"
+    ],
+    "tags": [
+      "ciudad",
+      "gótico",
+      "rosa",
+      "contraste",
+      "estatua",
+      "sombra",
+      "texturas"
+    ],
+    "story": "Un cielo de rosa vibratorio contrasta con la rigidez monocromática de una ciudad gótica donde las sombras susurran secretos de siglos pasados. El tratamiento de la luz, atrapada entre la tinta densa y el rosa intenso, genera una atmósfera de sueño despertado, donde la estatua se erige como un guardián solitario de un misterio eterno.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-200",
+    "catalogCode": "RON-200",
+    "url": "/artworks/cd362907-211b-48af-a778-e7836fa0d3e4.webp",
+    "image": "/artworks/cd362907-211b-48af-a778-e7836fa0d3e4.webp",
+    "title": "La ciudad púrpura bajo el cielo verde",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista sobre lienzo con trazos vibrantes y de gran intensidad cromática",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Contraste",
+      "Misterio",
+      "Introspección"
+    ],
+    "tags": [
+      "paisaje",
+      "arco",
+      "violeta",
+      "contraste",
+      "nocturno",
+      "surrealismo",
+      "cielo"
+    ],
+    "story": "La obra invita a un viaje introspectivo a través del marco imponente de un arco dorado, que custodia un paisaje urbano de cromatismo surreal y cargado de misterio. El contraste entre el cielo verde y la ciudad de sombras violetas crea una atmósfera onírica y melancólica, donde la luz difusa se convierte en un lenguaje de silencios y sueños suspendidos en el tiempo.",
+    "width": 1054,
+    "height": 1600
+  },
+  {
+    "id": "obra-201",
+    "catalogCode": "RON-201",
+    "url": "/artworks/4b777f1e-e8e0-4a6c-a395-3f4e3602dbbb.webp",
+    "image": "/artworks/4b777f1e-e8e0-4a6c-a395-3f4e3602dbbb.webp",
+    "title": "Ciudad de torres y sueños cromáticos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de pincelada espesa y texturas sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Movimiento",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje",
+      "expressionismo",
+      "cielo",
+      "torres",
+      "color vibrante",
+      "tejas"
+    ],
+    "story": "La pintura capta la energía vibrante de una ciudad que se eleva hacia un cielo de azul intenso, usando un cromatismo ardiente donde las tejas rojizas y las torres esbeltas dialogan en un contraste apasionado. La pincelada decidida y las texturas densas transmiten un sentimiento de vitalidad y movimiento, como si el paisaje urbano respirara una canción de luz y sombra.",
+    "width": 1076,
+    "height": 1600
+  },
+  {
+    "id": "obra-202",
+    "catalogCode": "RON-202",
+    "url": "/artworks/0f5fef89-f496-4fb3-b9cb-71dbfa535d1d.webp",
+    "image": "/artworks/0f5fef89-f496-4fb3-b9cb-71dbfa535d1d.webp",
+    "title": "El jardín donde el azul toca la rosa",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincelada expresiva sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Luz",
+      "Naturaleza",
+      "Energía"
+    ],
+    "tags": [
+      "paisaje",
+      "jardin",
+      "cielo",
+      "domo",
+      "rama",
+      "contraste",
+      "color"
+    ],
+    "story": "Bajo un cielo de azul vibrante, la escena se presenta como un jardín de sueños despiertos, donde la sombra de la rama en primer plano enmarca un paisaje de luz cálida y arquitectura serena. El uso de pinceladas densas y el contraste cromático transmiten una energía casi vital, invitando a una introspección profunda sobre la belleza efímera de los momentos de plenitud.",
+    "width": 1084,
+    "height": 1600
+  },
+  {
+    "id": "obra-203",
+    "catalogCode": "RON-203",
+    "url": "/artworks/d45de5ab-5ec7-4bd9-a5d3-5082931f91d9.webp",
+    "image": "/artworks/d45de5ab-5ec7-4bd9-a5d3-5082931f91d9.webp",
+    "title": "Nocturno de fuego y zafiro sobre la catedral",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de pincelada densa y técnica con espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Nocturno",
+      "Texturas"
+    ],
+    "tags": [
+      "catedral",
+      "expressionismo",
+      "colores vibrantes",
+      "pincelada",
+      "contraste",
+      "nocturno"
+    ],
+    "story": "Bajo un cielo de azul intenso que casi pesa sobre la tierra, la catedral se eleva como un himno de fuego y luz, pintado con pinceladas libres y apasionadas. El contraste cromático entre los calores terrenos y el frío misterio del azul genera una atmósfera de éxtasis visual, donde la arquitectura se desmaterializa en un baile de sombras y colores vivos que conmueven el alma.",
+    "width": 1090,
+    "height": 1600
+  },
+  {
+    "id": "obra-204",
+    "catalogCode": "RON-204",
+    "url": "/artworks/0e9e117f-415e-480b-83b2-37a085891fc7.webp",
+    "image": "/artworks/0e9e117f-415e-480b-83b2-37a085891fc7.webp",
+    "title": "Sinfonía cromática del puente y la torre",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de pincelada densa y uso de espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste"
+    ],
+    "tags": [
+      "paisajeurbano",
+      "expressionismo",
+      "cromatismo",
+      "torre",
+      "puente",
+      "pincelada"
+    ],
+    "story": "La obra despliega un paisaje urbano de una vitalidad casi frenética, donde los colores puros se entrelazan en un baile de luz y sombra que captura la esencia del expressionismo más audaz. La torre rosada se alza como un símbolo de pasión y misterio, mientras el puente guía la mirada por un sendero de vibrantes cromatismos que despiertan un sentimiento de libertad y descubrimiento.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-205",
+    "catalogCode": "RON-205",
+    "url": "/artworks/e76da688-671d-425a-becc-137fb77485b4.webp",
+    "image": "/artworks/e76da688-671d-425a-becc-137fb77485b4.webp",
+    "title": "Avenida de Ensueños Cromáticos",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Energía",
+      "Contraste",
+      "Misterio"
+    ],
+    "tags": [
+      "paisaje",
+      "ciudad",
+      "nocturno",
+      "vibración",
+      "contraste",
+      "figuras"
+    ],
+    "story": "Bajo un cielo de azul turquesa y púrpura, la avenida se despliega como un tapiz de energía cruda donde el color puro contrasta con la sombra de los paseantes. La luz hereje, aplicada con pinceladas audaces, transforma la noche urbana en un escenario de ensueños vibrantes y una celebración visual de la vida cotidiana convertida en mito.",
+    "width": 1600,
+    "height": 1052
+  },
+  {
+    "id": "obra-206",
+    "catalogCode": "RON-206",
+    "url": "/artworks/710f91bb-a4b5-45ad-89e2-fc92cbf7cadb.webp",
+    "image": "/artworks/710f91bb-a4b5-45ad-89e2-fc92cbf7cadb.webp",
+    "title": "El Eco de la Cúpula de Seda",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel carg sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Texturas",
+      "Efémero",
+      "Luz"
+    ],
+    "tags": [
+      "arquitectura",
+      "rosa",
+      "expresionismo",
+      "cúpula",
+      "contemporáneo"
+    ],
+    "story": "La arquitectura monumental se disuelve en un sueño de tonos rosáceos, donde la pincelada vigorosa captura la memoria de un instante bajo un cielo efímero.",
+    "width": 1054,
+    "height": 1600
+  },
+  {
+    "id": "obra-207",
+    "catalogCode": "RON-207",
+    "url": "/artworks/99b86a7c-9eb8-4b8e-ba7d-87971e6bcc14.webp",
+    "image": "/artworks/99b86a7c-9eb8-4b8e-ba7d-87971e6bcc14.webp",
+    "title": "La danza del árbol y el río de fuego",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta densidad, con espátula y pincelada gestual sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Luz"
+    ],
+    "tags": [
+      "paisaje",
+      "expresionismo",
+      "contraste",
+      "reflejos",
+      "emoción",
+      "árboles",
+      "cielo"
+    ],
+    "story": "Bajo un cielo que arde en un apasionado ocaso naranja, el árbol de sombras purpúreas traza un ballet gestual que dialoga con la calidez dorada del muro y el río. El treatment de la luz es pura pasión cromática, desbordándose sobre el agua en un caleidoscopio de reflejos vibrantes que despierta un profundo sentimiento de nostalgia creativa y alma viva.",
+    "width": 1600,
+    "height": 1078
+  },
+  {
+    "id": "obra-208",
+    "catalogCode": "RON-208",
+    "url": "/artworks/70d55d4f-99b2-4aac-b94b-7f9910abfab1.webp",
+    "image": "/artworks/70d55d4f-99b2-4aac-b94b-7f9910abfab1.webp",
+    "title": "La torre del sueño vibrante",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo expressionista con espátula y pincelada densa sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Energía",
+      "Luz",
+      "Introspección"
+    ],
+    "tags": [
+      "paisaje",
+      "expressionismo",
+      "verde",
+      "azul",
+      "torre",
+      "pincelada",
+      "vibración"
+    ],
+    "story": "Entre un bosque de pinceladas enérgicas, la torre blanca se erige como un misterioso santuario que atrapa la luz en tonos verdes y azul turquesa. La obra transmite una energía vital casi mística, donde el contraste cromático genera un sentimiento de alegría introspectiva y un profundo vínculo con la naturaleza en su estado más puro y salvaje.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-209",
+    "catalogCode": "RON-209",
+    "url": "/artworks/bad982e0-c13d-414e-bdde-f87f6635c8b7.webp",
+    "image": "/artworks/bad982e0-c13d-414e-bdde-f87f6635c8b7.webp",
+    "title": "Pabellón de Índigo en la Noche",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Misterio",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "paisaje",
+      "nocturno",
+      "arquitectura",
+      "azul",
+      "violáceo",
+      "espátula",
+      "reflejo"
+    ],
+    "story": "El pabellón se disuelve en una noche de índigo y violeta donde la luz se filtra en arcos como agua contenida. La pincelada espesa y vibrante transforma la escalinata en un recorrido íntimo, entre sombra palpable y un azul que respira melancolía.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-210",
+    "catalogCode": "RON-210",
+    "url": "/artworks/1e4591bf-abb6-4691-94fc-52369a8ade21.webp",
+    "image": "/artworks/1e4591bf-abb6-4691-94fc-52369a8ade21.webp",
+    "title": "Catedral de fuego bajo el cielo de jade",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Energía",
+      "Misterio",
+      "Movimiento"
+    ],
+    "tags": [
+      "arquitectura",
+      "expressionismo",
+      "contraste",
+      "texturas",
+      "color vibrante",
+      "emoción"
+    ],
+    "story": "La obra captura la esencia vibracional de una arquitectura monumental que se disuelve en un delirio de color puro, donde el cielo de jade choca con el fuego dorado de la fachada para crear un paisaje de contraste casi telúrico. A través de pinceladas densas y texturadas, la luz no se muestra sino que se siente, envolviendo el espectador en una atmósfera misteriosa y cargada de una energía casi espiritual.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-211",
+    "catalogCode": "RON-211",
+    "url": "/artworks/5c20447e-d349-4189-a383-13be861b9ec4.webp",
+    "image": "/artworks/5c20447e-d349-4189-a383-13be861b9ec4.webp",
+    "title": "El templo del fuego y la sombra",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de gran carga y técnica de espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Misterio",
+      "Naturaleza"
+    ],
+    "tags": [
+      "paisaje",
+      "templo",
+      "bosque",
+      "colores vibrantes",
+      "trazo expresivo",
+      "misticismo"
+    ],
+    "story": "Bajo un abrasador cielo carmesí, el templo verde se pierde en la selva caleidoscópica de un bosque que palpita con vida, donde la luz se makeifica en pinceladas de oro y sombras de zafiro. Esta obra capta un momento de puro éxtasis visual, donde la furia del color y la textura espesa elevan el paisaje a un plano de sagrada y danzante introspección.",
+    "width": 1060,
+    "height": 1600
+  },
+  {
+    "id": "obra-212",
+    "catalogCode": "RON-212",
+    "url": "/artworks/1dfa9691-73f5-4a65-bf66-e388784e756f.webp",
+    "image": "/artworks/1dfa9691-73f5-4a65-bf66-e388784e756f.webp",
+    "title": "Bóveda de fuego y sombra",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de alta textura con espátula y pincel sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Introspección",
+      "Movimiento"
+    ],
+    "tags": [
+      "arquitectura",
+      "perspectiva",
+      "rojo",
+      "azul",
+      "energía",
+      "pincelada",
+      "misterio"
+    ],
+    "story": "La obra capta una perspectiva arquitectónica sumergida en un torbellino de color puro, donde el contraste entre el rojo cálido y el azul profundo genera una atmósfera casi mística y cargada de pasión. A través de gestos pictóricos de gran fuerza y textura, la luz se convierte en un camino de introspección, guiando la mirada hacia un misterioso horizonte que evoca un viaje del alma.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-213",
+    "catalogCode": "RON-213",
+    "url": "/artworks/b6d0f66b-4d2a-4e1d-b48a-013521ae2d1b.webp",
+    "image": "/artworks/b6d0f66b-4d2a-4e1d-b48a-013521ae2d1b.webp",
+    "title": "Tormenta de pigmentos sobre el templo verde",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo de textura densa con espátula sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Texturas",
+      "Misterio"
+    ],
+    "tags": [
+      "paisaje",
+      "arquitectura",
+      "expressionismo",
+      "impasto",
+      "contraste",
+      "jardín",
+      "cromatismo"
+    ],
+    "story": "Entre la furia expressionista de un jardín de pigmentos calientes, el templo de tonos verdes y morados se alza como un misterioso faro de quietud ante el caos. La luz no se muestra, sino que se vibra a través de pinceladas densas y espesa materia, convirtiendo el paisaje en un mapa de sensaciones puras donde lo arquitectónico y lo natural se fusionan en un delirio de color vibrante y salvaje.",
+    "width": 1084,
+    "height": 1600
+  },
+  {
+    "id": "obra-214",
+    "catalogCode": "RON-214",
+    "url": "/artworks/7a08cb08-fc49-4643-a600-8361cfc7b134.webp",
+    "image": "/artworks/7a08cb08-fc49-4643-a600-8361cfc7b134.webp",
+    "title": "El Eco de la Catedral Esmeralda",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada expresionista y empaste",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Introspección",
+      "Sombra",
+      "Contraste"
+    ],
+    "tags": [
+      "arquitectura",
+      "gótico",
+      "monocromo",
+      "expresionismo",
+      "urbano"
+    ],
+    "story": "La obra captura la silueta monumental de una arquitectura gótica bajo un firmamento esmeralda, creando una tensión entre la piedra eterna y el vacío etéreo. La pincelada gestual y visceral transmite el peso de una estructura que parece desvanecerse en la memoria visual.",
+    "width": 1082,
+    "height": 1600
+  },
+  {
+    "id": "obra-215",
+    "catalogCode": "RON-215",
+    "url": "/artworks/c2ad9817-1dc2-40ab-85c7-45ff6c78e414.webp",
+    "image": "/artworks/c2ad9817-1dc2-40ab-85c7-45ff6c78e414.webp",
+    "title": "El Eco de la Catedral Púrpura",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada cargada",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Misterio",
+      "Contraste",
+      "Introspección"
+    ],
+    "tags": [
+      "arquitectura gótica",
+      "púrpura",
+      "expresionismo",
+      "ciudad",
+      "vertical"
+    ],
+    "story": "Una visión monumental que emerge bajo un arco de luz vibrante, donde la arquitectura gótica se disuelve en un sueño onírico. La pincelada gestual captura la tensión entre la solidez de la piedra y la etereidad de la noche.",
+    "width": 1068,
+    "height": 1600
+  },
+  {
+    "id": "obra-216",
+    "catalogCode": "RON-216",
+    "url": "/artworks/b58fc49c-7138-45e9-967f-a5dadc05f48f.webp",
+    "image": "/artworks/b58fc49c-7138-45e9-967f-a5dadc05f48f.webp",
+    "title": "El Eco del Agua Olvidada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada cargada",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Introspección",
+      "Movimiento",
+      "Efémero"
+    ],
+    "tags": [
+      "paisaje",
+      "acuarela",
+      "verde",
+      "pincelada libre",
+      "impresionismo"
+    ],
+    "story": "La obra captura la esencia efímera de un paisaje fluvial donde la pincelada gestual fragmenta la realidad entre la arquitectura y el reflejo. Es una invitación a la contemplación de un instante donde la persistencia del pueblo se disuelve en el constante movimiento del agua.",
+    "width": 1600,
+    "height": 1090
+  },
+  {
+    "id": "obra-217",
+    "catalogCode": "RON-217",
+    "url": "/artworks/9ccff6a0-38e9-4c4e-9125-4bc4c4bf1836.webp",
+    "image": "/artworks/9ccff6a0-38e9-4c4e-9125-4bc4c4bf1836.webp",
+    "title": "Ecos de un Atardecer de Vidrio",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada empastada y expresionista",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Nocturno",
+      "Luz",
+      "Contraste",
+      "Efémero"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "violeta",
+      "azul",
+      "urbano",
+      "luz"
+    ],
+    "story": "La obra captura la vibración urbana a través de una pincelada frenética, donde la arquitectura clásicaás se funde con un cielo de matices eléctricos. Es una invitación a habitar la nostalgia de un instante donde la luz técnica se disuelve en un sueño de color onírico.",
+    "width": 1600,
+    "height": 1076
+  },
+  {
+    "id": "obra-218",
+    "catalogCode": "RON-218",
+    "url": "/artworks/f8e719ef-fe86-44a2-b540-ddffce698f36.webp",
+    "image": "/artworks/f8e719ef-fe86-44a2-b540-ddffce698f36.webp",
+    "title": "El Eco del Guardián Cromático",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con técnica de empaste y espátula",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Misterio",
+      "Contraste",
+      "Movimiento"
+    ],
+    "tags": [
+      "arquitectura clásica",
+      "expresionismo",
+      "pincelada enérgica",
+      "atardecer",
+      "color"
+    ],
+    "story": "La obra captura un diálogo vibrante entre la arquitectura monumental y la silueta mística de un caballo, envueltos en una cromática que desafía la realidad. La luz se fragmenta sobre los arcos, creando una atmósfera donde el tiempo parece detenerse en una danza visual.",
+    "width": 1600,
+    "height": 1092
+  },
+  {
+    "id": "obra-219",
+    "catalogCode": "RON-219",
+    "url": "/artworks/0ad2a7c4-e483-47d8-a8f2-208db240efbd.webp",
+    "image": "/artworks/0ad2a7c4-e483-47d8-a8f2-208db240efbd.webp",
+    "title": "El Ascenso al Umbral del Horizonte",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con técnica expresionista y gestual",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Movimiento",
+      "Luz",
+      "Contraste"
+    ],
+    "tags": [
+      "abstracto",
+      "escalera",
+      "pincelada gestual",
+      "atméreo",
+      "trascend"
+    ],
+    "story": "Una composición vibrante que invita a un tránsito espiritual, donde la pincelada enérgica traza un camino entre la estructura y el vacío infinito. La obra captura la tensión de un instante de revelación a través de una luz fragmentada que desafía la gravedad.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-220",
+    "catalogCode": "RON-220",
+    "url": "/artworks/cd227c86-667d-4628-9493-bcaf9c1cbf4a.webp",
+    "image": "/artworks/cd227c86-667d-4628-9493-bcaf9c1cbf4a.webp",
+    "title": "Ardiente Amarra al Crepúsculo",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Cielo",
+      "Energía"
+    ],
+    "tags": [
+      "puerto",
+      "velero",
+      "atardecer",
+      "rojo intenso",
+      "impasto",
+      "espátula",
+      "mar"
+    ],
+    "story": "El cielo en llamas se derrama sobre un agua turquesa que contiene la quietud del muelle, mientras las embarcaciones se alzan como siluetas suspendidas entre el fuego y el azul. La materia pictórica, gestual y vibrante, convierte la luz en cuerpo y el horizonte en respiración.",
+    "width": 1070,
+    "height": 1600
+  },
+  {
+    "id": "obra-221",
+    "catalogCode": "RON-221",
+    "url": "/artworks/2ac526e3-e9ac-47e2-9c18-f3b647eef97c.webp",
+    "image": "/artworks/2ac526e3-e9ac-47e2-9c18-f3b647eef97c.webp",
+    "title": "El último suspiro del incendio carmesí",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincelel sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Energía",
+      "Contraste",
+      "Naturaleza",
+      "Movimiento"
+    ],
+    "tags": [
+      "paisaje abstracto",
+      "rojo vibrante",
+      "pincelada gestual",
+      "horizonte ardiente"
+    ],
+    "story": "Una explosión cromática donde la intensidad del cielo fuego devora el paisaje en una danza de tensión visual y vitalidad. El vigor de las pinceladas cargadas captura la fuerza bruta de una naturaleza que parece transformarse bajo una luz deandescente y eterna.",
+    "width": 1600,
+    "height": 1076
+  },
+  {
+    "id": "obra-222",
+    "catalogCode": "RON-222",
+    "url": "/artworks/5d8d1d4f-19b5-4b50-9d67-2f3a6cab16a5.webp",
+    "image": "/artworks/5d8d1d4f-19b5-4b50-9d67-2f3a6cab16a5.webp",
+    "title": "Ecos de Luz sobre el Puente Celeste",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo",
+    "dimensions": "64 × 43 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Movimiento",
+      "Luz",
+      "Energía"
+    ],
+    "tags": [
+      "puente",
+      "expresionismo",
+      "rio",
+      "botes",
+      "pincelada",
+      "turquesa"
+    ],
+    "story": "Con una pincelada febril y llena de ritmo, esta composición transforma un apacible paisaje fluvial en una vibrante danza cromática de turquesas y amarillos. La solidez del puente contrasta con la fluidez del agua y las nubes arremolinadas, evocando una profunda y luminosa nostalgia fauvista.",
+    "width": 1600,
+    "height": 1086
+  },
+  {
+    "id": "obra-223",
+    "catalogCode": "RON-223",
+    "url": "/artworks/bb1d48c1-733a-481f-a532-d1a3a869fe4e.webp",
+    "image": "/artworks/bb1d48c1-733a-481f-a532-d1a3a869fe4e.webp",
+    "title": "Senderos de Esmeralda y Luz",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Luz",
+      "Introspección",
+      "Dorados"
+    ],
+    "tags": [
+      "alameda",
+      "arboleda",
+      "luz solar",
+      "paisaje",
+      "expresionismo",
+      "turquesa"
+    ],
+    "story": "Una arboleda de pincelada vibrante y gestual enmarca un sendero que avanza decididamente hacia un resplandor lleno de lirismo. La paleta en tonos esmeralda, turquesa y amarillo vivo evoca un instante suspendido entre el ensueño y la memoria viva del entorno.",
+    "width": 1074,
+    "height": 1600
+  },
+  {
+    "id": "obra-224",
+    "catalogCode": "RON-224",
+    "url": "/artworks/57e6d646-a8f9-4e39-9856-47e34fc7268c.webp",
+    "image": "/artworks/57e6d646-a8f9-4e39-9856-47e34fc7268c.webp",
+    "title": "Memoria de Jardín y Mármol",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "44 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Misterio",
+      "Efémero",
+      "Luz"
+    ],
+    "tags": [
+      "jardín",
+      "estatuas",
+      "expresionismo",
+      "verde",
+      "rosado",
+      "arquitectura"
+    ],
+    "story": "Trazos gestuales y vibrantes entrelazan la energía de la vegetación frondosa con la silenciosa permanencia del mármol clásico. La luz rosada que emerge entre las copas evoca la fugacidad del crepúsculo, transformando el paisaje en un santuario poético de contemplación.",
+    "width": 1112,
+    "height": 1600
+  },
+  {
+    "id": "obra-225",
+    "catalogCode": "RON-225",
+    "url": "/artworks/5e0b463d-d9cd-47b4-9642-48e69901df3b.webp",
+    "image": "/artworks/5e0b463d-d9cd-47b4-9642-48e69901df3b.webp",
+    "title": "Refugio entre hiedras de oro",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con técnica de empasto",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Texturas",
+      "Dorados",
+      "Introspección"
+    ],
+    "tags": [
+      "arquitectura",
+      "hiedra",
+      "empasto",
+      "impresionismo",
+      "jardín",
+      "luz solar"
+    ],
+    "story": "Con pinceladas enérgicas y un impasto de rica textura, la obra captura el diálogo silencioso entre la arquitectura añeja y la naturaleza que la abraza. Una luz dorada y vibrante envuelve la escena en una serena contemplación del tiempo y la memoria.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-226",
+    "catalogCode": "RON-226",
+    "url": "/artworks/3672d79b-f19c-4b98-8f38-24017c82626a.webp",
+    "image": "/artworks/3672d79b-f19c-4b98-8f38-24017c82626a.webp",
+    "title": "El Canto Violeta del Tiempo",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo en impasto sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Texturas",
+      "Energía",
+      "Cielo",
+      "Misterio"
+    ],
+    "tags": [
+      "arquitectura",
+      "impresionismo",
+      "impasto",
+      "turquesa",
+      "torre",
+      "nostalgia"
+    ],
+    "story": "Con pinceladas gestuales que evocan un vibrante torbellino de memoria, la obra transforma la sobriedad gótica en un poema cromático teñido de turquesa y violeta. La luz late entre las siluetas históricas, envolviendo al espectador en una atmósfera onírica donde la arquitectura parece disolverse en puro sentimiento.",
+    "width": 1074,
+    "height": 1600
+  },
+  {
+    "id": "obra-227",
+    "catalogCode": "RON-227",
+    "url": "/artworks/f25b8438-dc1a-4f7f-9c69-15f663f50a8c.webp",
+    "image": "/artworks/f25b8438-dc1a-4f7f-9c69-15f663f50a8c.webp",
+    "title": "El rumor del viento dorado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con pincelada expresionista sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Dorados",
+      "Energía",
+      "Naturaleza"
+    ],
+    "tags": [
+      "paisaje",
+      "fauvismo",
+      "pincelada",
+      "otoño",
+      "cielo",
+      "arquitectura"
+    ],
+    "story": "A través de pinceladas vibrantes e inquietas, la obra captura la pulsación viva de un paisaje donde la calidez dorada de la tierra contrasta con la turbulencia poética de un cielo turquesa. La arquitectura y la vegetación se funden en una sinfonía expresionista que evoca la ligereza y el movimiento del viento al caer la tarde.",
+    "width": 1064,
+    "height": 1600
+  },
+  {
+    "id": "obra-228",
+    "catalogCode": "RON-228",
+    "url": "/artworks/209aa2fa-0138-4482-94eb-d46a963ad99d.webp",
+    "image": "/artworks/209aa2fa-0138-4482-94eb-d46a963ad99d.webp",
+    "title": "Ecos de Cantería bajo el Cielo Cobalto",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con pincelada gestual sobre lienzo",
+    "dimensions": "43 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Dorados",
+      "Cielo",
+      "Contraste",
+      "Energía"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "pincelada",
+      "luz dorada",
+      "torres"
+    ],
+    "story": "Pinceladas enérgicas y gestuales recortan la majestuosidad de la piedra histórica contra un cielo cerúleo de vibrante intensidad. La composición contrapone la calidez solar de las agujas y capiteles con el trazo orgánico del primer plano, capturando la resonancia viva de la memoria urbana.",
+    "width": 1096,
+    "height": 1600
+  },
+  {
+    "id": "obra-229",
+    "catalogCode": "RON-229",
+    "url": "/artworks/5ef97300-4f75-474a-9a55-57020b03772f.webp",
+    "image": "/artworks/5ef97300-4f75-474a-9a55-57020b03772f.webp",
+    "title": "Ecos de una Seducción Críptica",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Energía",
+      "Misterio"
+    ],
+    "tags": [
+      "arquitectura",
+      "expresionismo",
+      "contraste",
+      "color",
+      "gestual"
+    ],
+    "story": "Una obra vibrante que desafía las formas convencionales mediante pinceladas audaces y un dinámico contraste entre tonos fríos y cálidos. La atmósfera evoca una arquitectura onírica bañada por una luz espectral que palpita con intensidad emocional.",
+    "width": 1072,
+    "height": 1600
+  },
+  {
+    "id": "obra-230",
+    "catalogCode": "RON-230",
+    "url": "/artworks/c86e2cdd-135c-4c31-a574-f8eeb5a5118b.webp",
+    "image": "/artworks/c86e2cdd-135c-4c31-a574-f8eeb5a5118b.webp",
+    "title": "Canto de la tarde en la llanura",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "64 × 41 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Luz",
+      "Movimiento",
+      "Texturas"
+    ],
+    "tags": [
+      "paisaje",
+      "impasto",
+      "espátula",
+      "cromático",
+      "atardecer",
+      "textura"
+    ],
+    "story": "La luz se derrama en pinceladas de oro y turquesa sobre un valle que respira en colores vivos, donde la materia pictórica construye la tierra como un campo ondulante de memoria. Entre la bruma cálida y la silueta del árbol desnudo, el pueblo se vuelve recuerdo, vibrante y efímero al borde del cielo.",
+    "width": 1600,
+    "height": 1048
+  },
+  {
+    "id": "obra-231",
+    "catalogCode": "RON-231",
+    "url": "/artworks/3b85dce5-e7de-4136-b85d-baf39f3897de.webp",
+    "image": "/artworks/3b85dce5-e7de-4136-b85d-baf39f3897de.webp",
+    "title": "Murmullos sobre la Ciudad de Arcilla",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con denso empaste sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Texturas",
+      "Energía",
+      "Cielo",
+      "Tierra"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "empaste",
+      "óleo",
+      "terracota",
+      "vibración",
+      "expresionismo",
+      "cielo azul"
+    ],
+    "story": "Trazos gesticulares y un denso empaste de matices terracota y rosa reinterpretan la fisonomía urbana como un tejido orgánico en constante movimiento. Bajo la vasta serenidad del cielo turquesa, la luz se fragmenta en ritmos cromáticos que capturan el eco palpitante de una ciudad sumergida en la memoria.",
+    "width": 1600,
+    "height": 1054
+  },
+  {
+    "id": "obra-232",
+    "catalogCode": "RON-232",
+    "url": "/artworks/9f35370f-c9b7-48f3-b56b-626b657db547.webp",
+    "image": "/artworks/9f35370f-c9b7-48f3-b56b-626b657db547.webp",
+    "title": "Ecos de Plata y Ocre",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con pincelada gestual e impasto sobre lienzo",
+    "dimensions": "41 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Texturas",
+      "Movimiento",
+      "Misterio",
+      "Bruma"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "expresionismo",
+      "impasto",
+      "cúpulas",
+      "óleo",
+      "cromatismo"
+    ],
+    "story": "Bajo la turbulencia de un cielo plomizo cargado de gesto, la silueta urbana despierta en vibrantes empastes de ocre, turquesa y azul. La obra captura la memoria viva de la arquitectura disuelta en una atmósfera de dinamismo puro y lírica contemplación.",
+    "width": 1042,
+    "height": 1600
+  },
+  {
+    "id": "obra-233",
+    "catalogCode": "RON-233",
+    "url": "/artworks/9c940bba-aa9e-4bc0-ad8f-475780c5b75c.webp",
+    "image": "/artworks/9c940bba-aa9e-4bc0-ad8f-475780c5b75c.webp",
+    "title": "Ecos en la Claridad del Follaje",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con pincelada empastada sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Texturas",
+      "Luz",
+      "Energía"
+    ],
+    "tags": [
+      "botánica",
+      "impasto",
+      "follaje",
+      "verde",
+      "abstracción",
+      "expresionismo",
+      "jardín"
+    ],
+    "story": "Pinceladas enérgicas y empastadas entrelazan la frescura del verde con destellos cálidos de luz filtrada, evocando la vitalidad de un jardín en constante metamorfosis. La composición vibra en un dinamismo gestual donde la materia pictórica captura la pulsación viva de la naturaleza silvestre.",
+    "width": 1060,
+    "height": 1600
+  },
+  {
+    "id": "obra-234",
+    "catalogCode": "RON-234",
+    "url": "/artworks/9e6764bf-4a52-4748-bd2b-e0a5c32533c3.webp",
+    "image": "/artworks/9e6764bf-4a52-4748-bd2b-e0a5c32533c3.webp",
+    "title": "La Glorieta del Tiempo Suspendido",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con impasto y espátula sobre lienzo",
+    "dimensions": "48 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Texturas",
+      "Energía",
+      "Introspección"
+    ],
+    "tags": [
+      "glorieta",
+      "jardín",
+      "impasto",
+      "expresionismo",
+      "verde",
+      "luz"
+    ],
+    "story": "Entre pinceladas enérgicas y una materia pictórica vibrante, la estructura emerge como un santuario atemporal donde la vegetación abraza la calidez del domo carmín. La obra evoca una comunión secreta entre la intervención humana y el bosque, capturando un instante de serena contemplación.",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "id": "obra-235",
+    "catalogCode": "RON-235",
+    "url": "/artworks/3ed4774d-6000-46c7-b4e6-7657282dc3b3.webp",
+    "image": "/artworks/3ed4774d-6000-46c7-b4e6-7657282dc3b3.webp",
+    "title": "Crepúsculo sobre la Arcada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo impasto y espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Dorados",
+      "Contraste",
+      "Introspección",
+      "Texturas"
+    ],
+    "tags": [
+      "arquitectura",
+      "ocre",
+      "azules",
+      "impasto",
+      "crepúsculo",
+      "nostalgia"
+    ],
+    "story": "Bajo un cielo esculpido en densas pinceladas de ocre y ámbar, la solemnidad de la arcada se envuelve en profundos tonos azulados para erigir un refugio de serena contemplación. La materia pictórica vibrante inmortaliza el instante exacto en que la última luz cálida del día abraza la penumbra de la estructura.",
+    "width": 1600,
+    "height": 1074
+  },
+  {
+    "id": "obra-236",
+    "catalogCode": "RON-236",
+    "url": "/artworks/f97421bb-d44f-4d19-ae2c-7fd48ec57baf.webp",
+    "image": "/artworks/f97421bb-d44f-4d19-ae2c-7fd48ec57baf.webp",
+    "title": "Ecos de la Catedral Dorada",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Dorados",
+      "Energía",
+      "Contraste"
+    ],
+    "tags": [
+      "arquitectura",
+      "catedral",
+      "expresionismo",
+      "luz",
+      "ciudades"
+    ],
+    "story": "Una vibrante sinfonía cromática donde la arquitectura sagrada se dissolve en trazos enérgicos bajo un cielo de ámbar. La obra captura la monumentalidad urbana a través de un juego audaz de contrastes y una atmósfera vibrante.",
+    "width": 1058,
+    "height": 1600
+  },
+  {
+    "id": "obra-237",
+    "catalogCode": "RON-237",
+    "url": "/artworks/0466dc49-7409-41b6-b0ff-02450a51d332.webp",
+    "image": "/artworks/0466dc49-7409-41b6-b0ff-02450a51d332.webp",
+    "title": "Sinfonía bajo el Crepúsculo Violeta",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con pincelada empastada",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Misterio",
+      "Energía",
+      "Contraste",
+      "Naturaleza"
+    ],
+    "tags": [
+      "expresionismo",
+      "crepúsculo",
+      "violeta",
+      "pincelada",
+      "arboleda",
+      "fauvismo"
+    ],
+    "story": "A través de trazos gestuales y una paleta empapada en matices fauvistas, la obra captura el umbral líquido donde la luz del atardecer disuelve las fronteras entre la naturaleza y el espacio construido. La vibración de los púrpuras y verdes intensos evoca un estado de introspección profunda, donde la materia pictórica respira con ímpetu propio.",
+    "width": 1600,
+    "height": 1072
+  },
+  {
+    "id": "obra-238",
+    "catalogCode": "RON-238",
+    "url": "/artworks/d3457212-b3e4-4c42-ac4e-fa2067ed6893.webp",
+    "image": "/artworks/d3457212-b3e4-4c42-ac4e-fa2067ed6893.webp",
+    "title": "Ecos del Tiempo en Azul",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Introspección",
+      "Texturas"
+    ],
+    "tags": [
+      "reloj",
+      "gestual",
+      "azul",
+      "tiempo",
+      "óleo"
+    ],
+    "story": "Una sinfonía de pinceladas gestuales que disuelven la rigidez del tiempo en una marea de azules profundos y destellos cálidos. La obra evoca la memoria en constante movimiento, donde la estructura del reloj se desvanece en pura emoción abstracta.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-239",
+    "catalogCode": "RON-239",
+    "url": "/artworks/2b4a117f-b039-4e8f-99f5-2d464d9f8f2c.webp",
+    "image": "/artworks/2b4a117f-b039-4e8f-99f5-2d464d9f8f2c.webp",
+    "title": "Sinfonía Urbana bajo un Cielo de Cobalto",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Energía",
+      "Contraste"
+    ],
+    "tags": [
+      "ciudad",
+      "arquitectura",
+      "cúpulas",
+      "expresionismo",
+      "pincelada",
+      "cromatismo"
+    ],
+    "story": "Una vibrante panorámica arquitectónica donde la pincelada enérgica y los tonos eléctricos recrean la pulsación viva de una metrópoli histórica. La luz fragmentada sobre las cúpulas y tejados evoca un paisaje urbano en constante transformación poética.",
+    "width": 1600,
+    "height": 1054
+  },
+  {
+    "id": "obra-240",
+    "catalogCode": "RON-240",
+    "url": "/artworks/b451faef-e9b9-4b4b-a18c-7b994d678637.webp",
+    "image": "/artworks/b451faef-e9b9-4b4b-a18c-7b994d678637.webp",
+    "title": "El Eco del Invierno Olvidado",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con empaste carga y espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Melancolía",
+      "Introspección",
+      "Texturas",
+      "Sombra"
+    ],
+    "tags": [
+      "árboles",
+      "abstracto",
+      "óxido",
+      "ocre",
+      "inierno",
+      "gestual"
+    ],
+    "story": "La obra captura la desnudez de la naturaleza bajo una pincelada visceral y matérica, donde los tonos cálidos de las ramas luchan contra la frialdad del fondo gris. Es una invitación al silencio contemplativo y a la resistencia de la vida ante el paso del tiempo.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-241",
+    "catalogCode": "RON-241",
+    "url": "/artworks/707d342f-ec13-413b-9aa4-120eca8b0aa1.webp",
+    "image": "/artworks/707d342f-ec13-413b-9aa4-120eca8b0aa1.webp",
+    "title": "Portal de ámbar turquesa",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Contraste",
+      "Luz",
+      "Dorados",
+      "Texturas"
+    ],
+    "tags": [
+      "puerta",
+      "arquitectura",
+      "cielo anaranjado",
+      "impasto",
+      "expresionismo",
+      "colorido"
+    ],
+    "story": "El arco se alza como un sueño de cerámica contra un cielo en combustión, donde el azul frío del portal dialoga con el oro vibrante del crepúsculo. La materia espesa y gestual convierte la arquitectura en emoción pura, dejando traslucir una calidez melancólica y luminosa.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-242",
+    "catalogCode": "RON-242",
+    "url": "/artworks/a2693122-b3e0-4637-a282-55245fac8381.webp",
+    "image": "/artworks/a2693122-b3e0-4637-a282-55245fac8381.webp",
+    "title": "Ecos de un Callejón Estival",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Luz",
+      "Color",
+      "Energía"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "arquitectura",
+      "expresionismo",
+      "colorido",
+      "calle"
+    ],
+    "story": "Una vibrante sinfonía cromática donde las fachadas en tonos pastel y coral ascienden serpenteantes hacia un horizonte iluminado por el sol. La pincelada enérgica captura la atmósfera viva y pintoresca de un rincón urbano bañado por una luz cálida y envolvente.",
+    "width": 1052,
+    "height": 1600
+  },
+  {
+    "id": "obra-243",
+    "catalogCode": "RON-243",
+    "url": "/artworks/b585a412-d0e2-4040-bd27-d1c9d51b9cea.webp",
+    "image": "/artworks/b585a412-d0e2-4040-bd27-d1c9d51b9cea.webp",
+    "title": "Sinfonía en el Salón de Coral",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo y acrílico sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Introspección",
+      "Misterio",
+      "Contraste"
+    ],
+    "tags": [
+      "interiores",
+      "arquitectura",
+      "fauvismo",
+      "rosa",
+      "bóveda",
+      "oleo"
+    ],
+    "story": "Bajo una envolvente luz rosada y magenta, la pintura reinterpreta la majestuosidad de la arquitectura clásica a través de trazos gestuales rebosantes de emotividad. La composición evoca un espacio monumental transfigurado por el filtro de la memoria, donde los tonos fríos y las estructuras abovedadas dialogan con la calidez del entorno.",
+    "width": 1600,
+    "height": 1052
+  },
+  {
+    "id": "obra-244",
+    "catalogCode": "RON-244",
+    "url": "/artworks/3ef70318-c0e0-4e22-9e8b-cff813243352.webp",
+    "image": "/artworks/3ef70318-c0e0-4e22-9e8b-cff813243352.webp",
+    "title": "Ecos de un jardín secreto",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula y pincel sobre lienzo",
+    "dimensions": "42 × 64 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Naturaleza",
+      "Movimiento",
+      "Contraste",
+      "Texturas"
+    ],
+    "tags": [
+      "jardín",
+      "escalera",
+      "expresionismo",
+      "vegetación",
+      "color",
+      "pincelada"
+    ],
+    "story": "Una sinfonía visual donde la exuberancia vegetal y los tonos vibrantes descienden por una escalinata en un fluir gestual. La obra evoca el recuerdo efímero de un refugio secreto bañado por una luz sugerente y dinámica.",
+    "width": 1058,
+    "height": 1600
+  },
+  {
+    "id": "obra-245",
+    "catalogCode": "RON-245",
+    "url": "/artworks/d7e98fc5-2c86-4b26-9088-cef1b03439e4.webp",
+    "image": "/artworks/d7e98fc5-2c86-4b26-9088-cef1b03439e4.webp",
+    "title": "Sinfonía Azul sobre Cúpulas de Terracota",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo con espátula sobre lienzo",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Cielo",
+      "Energía",
+      "Texturas"
+    ],
+    "tags": [
+      "paisaje urbano",
+      "cielo",
+      "impasto",
+      "expresionismo",
+      "arquitectura",
+      "pincelada"
+    ],
+    "story": "Una vibrante danza de trazos densos y texturas palpables que evoca la brisa suspendida sobre tejados antiguos y cúpulas doradas. La obra captura con fuerza gestual la luz viva del mediodía y el pulso dinámico de una ciudad atrapada en el tiempo.",
+    "width": 1600,
+    "height": 1070
+  },
+  {
+    "id": "obra-246",
+    "catalogCode": "RON-246",
+    "url": "/artworks/7d5d7abd-68d3-46be-a08d-4fbdd21bbaf2.webp",
+    "image": "/artworks/7d5d7abd-68d3-46be-a08d-4fbdd21bbaf2.webp",
+    "title": "El Eco de la Ciudad en Ámbar",
+    "artist": "Miguel Rondot",
+    "year": "2025",
+    "technique": "Óleo sobre lienzo con técnica de empaste gestual",
+    "dimensions": "64 × 42 cm",
+    "status": "disponible",
+    "price": "Consultar",
+    "vibes": [
+      "Movimiento",
+      "Contraste",
+      "Energía",
+      "Introspección"
+    ],
+    "tags": [
+      "urbano",
+      "expresionismo",
+      "atardecer",
+      "pincelada gestual",
+      "arquitectura"
+    ],
+    "story": "Una danza cromática donde la arquitectura urbana se disuelve en pinceladas frenéticas, capturando el pulso emocional de un atardecer vibrante. La luz parece filtrarse entre estructuras densas, creando un diálogo entre la solidez de la piedra y el recuerdo.",
+    "width": 1600,
+    "height": 1052
   }
 ]

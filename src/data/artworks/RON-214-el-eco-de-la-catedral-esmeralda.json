@@ -1,0 +1,29 @@
+{
+  "id": "obra-214",
+  "catalogCode": "RON-214",
+  "url": "/artworks/7a08cb08-fc49-4643-a600-8361cfc7b134.webp",
+  "image": "/artworks/7a08cb08-fc49-4643-a600-8361cfc7b134.webp",
+  "title": "El Eco de la Catedral Esmeralda",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo sobre lienzo con pincelada expresionista y empaste",
+  "dimensions": "43 × 64 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Nocturno",
+    "Introspección",
+    "Sombra",
+    "Contraste"
+  ],
+  "tags": [
+    "arquitectura",
+    "gótico",
+    "monocromo",
+    "expresionismo",
+    "urbano"
+  ],
+  "story": "La obra captura la silueta monumental de una arquitectura gótica bajo un firmamento esmeralda, creando una tensión entre la piedra eterna y el vacío etéreo. La pincelada gestual y visceral transmite el peso de una estructura que parece desvanecerse en la memoria visual.",
+  "width": 1082,
+  "height": 1600
+}

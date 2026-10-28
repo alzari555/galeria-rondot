@@ -1,0 +1,31 @@
+{
+  "id": "obra-200",
+  "catalogCode": "RON-200",
+  "url": "/artworks/cd362907-211b-48af-a778-e7836fa0d3e4.webp",
+  "image": "/artworks/cd362907-211b-48af-a778-e7836fa0d3e4.webp",
+  "title": "La ciudad púrpura bajo el cielo verde",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo expressionista sobre lienzo con trazos vibrantes y de gran intensidad cromática",
+  "dimensions": "42 × 64 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Nocturno",
+    "Contraste",
+    "Misterio",
+    "Introspección"
+  ],
+  "tags": [
+    "paisaje",
+    "arco",
+    "violeta",
+    "contraste",
+    "nocturno",
+    "surrealismo",
+    "cielo"
+  ],
+  "story": "La obra invita a un viaje introspectivo a través del marco imponente de un arco dorado, que custodia un paisaje urbano de cromatismo surreal y cargado de misterio. El contraste entre el cielo verde y la ciudad de sombras violetas crea una atmósfera onírica y melancólica, donde la luz difusa se convierte en un lenguaje de silencios y sueños suspendidos en el tiempo.",
+  "width": 1054,
+  "height": 1600
+}

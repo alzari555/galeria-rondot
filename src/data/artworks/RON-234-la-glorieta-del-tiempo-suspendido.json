@@ -1,0 +1,30 @@
+{
+  "id": "obra-234",
+  "catalogCode": "RON-234",
+  "url": "/artworks/9e6764bf-4a52-4748-bd2b-e0a5c32533c3.webp",
+  "image": "/artworks/9e6764bf-4a52-4748-bd2b-e0a5c32533c3.webp",
+  "title": "La Glorieta del Tiempo Suspendido",
+  "artist": "Miguel Rondot",
+  "year": "2025",
+  "technique": "Óleo con impasto y espátula sobre lienzo",
+  "dimensions": "48 × 64 cm",
+  "status": "disponible",
+  "price": "Consultar",
+  "vibes": [
+    "Naturaleza",
+    "Texturas",
+    "Energía",
+    "Introspección"
+  ],
+  "tags": [
+    "glorieta",
+    "jardín",
+    "impasto",
+    "expresionismo",
+    "verde",
+    "luz"
+  ],
+  "story": "Entre pinceladas enérgicas y una materia pictórica vibrante, la estructura emerge como un santuario atemporal donde la vegetación abraza la calidez del domo carmín. La obra evoca una comunión secreta entre la intervención humana y el bosque, capturando un instante de serena contemplación.",
+  "width": 1200,
+  "height": 1600
+}
