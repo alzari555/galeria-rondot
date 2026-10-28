@@ -14,3 +14,10 @@ tools/
 *.bat
 go.work*
 .importer-cache.json
+
+# AI Agent skills & editor configs (ignored from git)
+.agents/
+skills-lock.json
+.cursor/
+.vscode/
+
